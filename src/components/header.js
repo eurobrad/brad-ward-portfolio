@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <nav
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -24,10 +24,32 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Brad Ward Design
         </Link>
       </h1>
-    </div>
+      <h1 style={{ margin: 0, display: `inline`, }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Home
+        </Link>
+      </h1>
+      <h1 style={{ margin: 0, display: `inline`, paddingLeft: 19.575, }}>
+        <Link
+          to="/about"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          About
+        </Link>
+      </h1>
+    </nav>
   </div>
 )
 
