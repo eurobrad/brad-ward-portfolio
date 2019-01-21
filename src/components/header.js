@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: `0 0 20px 0` }}>
         <Link
           to="/"
           style={{
@@ -27,28 +27,30 @@ const Header = ({ siteTitle }) => (
           Brad Ward Design
         </Link>
       </h1>
-      <h1 style={{ margin: 0, display: `inline`, }}>
+      <h2 style={{ margin: 0, display: `inline`, border: `3px solid white`, borderRadius: `5px`,}}>
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
+            padding: `10px`,
           }}
         >
           Home
         </Link>
-      </h1>
-      <h1 style={{ margin: 0, display: `inline`, paddingLeft: 19.575, }}>
+      </h2>
+      <h2 style={{ margin: 0, display: `inline`, marginLeft: 19.575, border: `3px solid white`, borderRadius: `5px`,}}>
         <Link
           to="/about"
           style={{
             color: `white`,
             textDecoration: `none`,
+            padding: `10px`,
           }}
         >
           About
         </Link>
-      </h1>
+      </h2>
     </nav>
   </div>
 )
