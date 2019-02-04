@@ -1,14 +1,22 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import styled from 'styled-components'
+
+const HeaderMain = styled.header`
+  background: rebeccapurple;
+  margin-bottom: 1.45em;
+`;
+
+const NavButton = styled.h2`
+  margin: 0;
+  display: inline;
+  border: 3px solid white;
+  border-radius: 5px;
+`;
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <HeaderMain>
     <nav
       style={{
         margin: `0 auto`,
@@ -27,32 +35,30 @@ const Header = ({ siteTitle }) => (
           Brad Ward Design
         </Link>
       </h1>
-      <h2 style={{ margin: 0, display: `inline`, border: `3px solid white`, borderRadius: `5px`,}}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            padding: `10px`,
-          }}
-        >
-          Home
-        </Link>
-      </h2>
-      <h2 style={{ margin: 0, display: `inline`, marginLeft: 19.575, border: `3px solid white`, borderRadius: `5px`,}}>
-        <Link
-          to="/about"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            padding: `10px`,
-          }}
-        >
-          About
-        </Link>
-      </h2>
+      <NavButton>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              padding: `10px`,
+          }}>
+            Home
+          </Link>
+      </NavButton>
+      <NavButton style={{ marginLeft: 19.575,}}>
+          <Link
+            to="/about"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              padding: `10px`
+          }}>
+            About
+          </Link>
+      </NavButton>
     </nav>
-  </div>
+  </HeaderMain>
 )
 
 Header.propTypes = {
