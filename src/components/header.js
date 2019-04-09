@@ -5,26 +5,27 @@ import styled from 'styled-components'
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
-  margin-bottom: 1.45em;
+  margin: 0 0 1.45em 0;
+  padding-top: 1em;
+  text-align: center;
+`;
+
+const NavButtonWrapper = styled.div`
+  display: inline-block;
 `;
 
 const NavButton = styled.h2`
-  margin: 0;
-  display: inline;
-  border: 3px solid white;
-  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  :hover {
+    border-bottom: 3px solid white;
+  }
 `;
 
 const Header = ({ siteTitle }) => (
   <HeaderMain>
-    <nav
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1260,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: `0 0 20px 0` }}>
+    <nav>
+      <h1 style={{ display: `inline-block`, marginRight: `1.45em` }}>
         <Link
           to="/"
           style={{
@@ -35,28 +36,28 @@ const Header = ({ siteTitle }) => (
           Brad Ward Design
         </Link>
       </h1>
+      <NavButtonWrapper>
       <NavButton>
           <Link
             to="/"
             style={{
               color: `white`,
               textDecoration: `none`,
-              padding: `10px`,
-          }}>
+            }}>
             Home
           </Link>
       </NavButton>
-      <NavButton style={{ marginLeft: 19.575,}}>
+      <NavButton style={{ }}>
           <Link
             to="/about"
             style={{
               color: `white`,
               textDecoration: `none`,
-              padding: `10px`
-          }}>
+            }}>
             About
           </Link>
       </NavButton>
+      </NavButtonWrapper>
     </nav>
   </HeaderMain>
 )
