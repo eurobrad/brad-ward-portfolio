@@ -10,7 +10,7 @@ const HeaderMain = styled.header`
   text-align: center;
 `;
 
-const NavButtonWrapper = styled.div`
+const NavWrapper = styled.div`
   display: inline-block;
   @media (min-width: 611px) {
     margin-left: 4em;
@@ -74,17 +74,17 @@ const Header = ({ siteTitle }) => (
           Brad Ward Design
         </Link>
       </h1>
-      <NavButtonWrapper>
-      <NavButton>
+      <NavWrapper>
+        <NavButton>
           <StyledLink to="/">Home</StyledLink>
-      </NavButton>
-      <NavButton>
+        </NavButton>
+        <NavButton>
           <StyledLink to="/about">About</StyledLink>
-      </NavButton>
+        </NavButton>
         <ContactButton>
           <a href="mailto:info@bradward.net" target="_blank" rel="noopener">Say hi</a>
         </ContactButton>
-      </NavButtonWrapper>
+      </NavWrapper>
     </nav>
   </HeaderMain>
 )
