@@ -12,20 +12,17 @@ const HeaderMain = styled.header`
 
 const NavWrapper = styled.div`
   display: inline-block;
-  @media (min-width: 611px) {
-    margin-left: 4em;
+  @media (max-width: 810px) {
+    display: block;
   }
-  @media (min-width: 700px) {
+  @media (min-width: 811px) {
     margin-left: 6em;
   }
-  @media (min-width: 800px) {
-    margin-left: 12em;
-  }
   @media (min-width: 1000px) {
-    margin-left: 22em;
+    margin-left: 16em;
   }
   @media (min-width: 1199px) {
-    margin-left: 32em;
+    margin-left: 26em;
   }
 `;
 
@@ -36,7 +33,7 @@ const NavButton = styled.h2`
   :hover {
     border-bottom: 3px solid white;
   }
-  @media (max-width: 610px) {
+  @media (max-width: 810px) {
     margin-bottom: 20px;
   }
 `;
