@@ -51,12 +51,9 @@ const ContactButton = styled.h2`
   margin: 0 10px;
   padding: 4px 8px;
   background: white;
-  color: rebeccapurple;
   border-radius: 8px;
   a {
-    :active {
-      color: rebeccapurple;
-    }
+    color: rebeccapurple;
   }
 `;
 
