@@ -8,6 +8,9 @@ const HeaderMain = styled.header`
   margin: 0 0 1.45em 0;
   padding-top: 1em;
   text-align: center;
+  @media (min-width: 1200px) {
+    padding-right: 2em;
+  }
 `;
 
 const NavWrapper = styled.div`
@@ -21,8 +24,8 @@ const NavWrapper = styled.div`
   @media (min-width: 1000px) {
     margin-left: 16em;
   }
-  @media (min-width: 1199px) {
-    margin-left: 26em;
+  @media (min-width: 1200px) {
+    margin-left: 28em;
   }
 `;
 
