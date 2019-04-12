@@ -41,6 +41,25 @@ const NavButton = styled.h2`
   }
 `;
 
+const StyledLink = styled(Link)`
+  color: white;
+  text-decoration: none;
+`;
+
+const ContactButton = styled.h2`
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4px 8px;
+  background: white;
+  color: rebeccapurple;
+  border-radius: 8px;
+  a {
+    :active {
+      color: rebeccapurple;
+    }
+  }
+`;
+
 const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
@@ -57,25 +76,14 @@ const Header = ({ siteTitle }) => (
       </h1>
       <NavButtonWrapper>
       <NavButton>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}>
-            Home
-          </Link>
+          <StyledLink to="/">Home</StyledLink>
       </NavButton>
       <NavButton>
-          <Link
-            to="/about"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}>
-            About
-          </Link>
+          <StyledLink to="/about">About</StyledLink>
       </NavButton>
+        <ContactButton>
+          <a href="mailto:info@bradward.net" target="_blank" rel="noopener">Say hi</a>
+        </ContactButton>
       </NavButtonWrapper>
     </nav>
   </HeaderMain>
