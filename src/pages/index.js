@@ -37,7 +37,7 @@ const IndexPage = () => (
         `audio engineering`,
       ]}
     />
-    <h1 style={{ marginBottom: `1.45rem`, textAlign: 'center' }}>Sound Design and Composition for Theatre</h1>
+    <h1 style={{ marginBottom: `1.45rem`, textAlign: 'center', padding: `8px` }}>Sound Design and Composition for Theatre</h1>
     <main>
       <section>
         <ContentSection>
