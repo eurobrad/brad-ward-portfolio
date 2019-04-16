@@ -33,6 +33,10 @@ const NavButton = styled.h2`
   display: inline-block;
   margin: 0 10px;
   border-bottom: 3px solid rebeccapurple;
+  a {
+    color: white;
+    text-decoration: none;
+  }
   :hover {
     border-bottom: 3px solid white;
   }
@@ -78,9 +82,9 @@ const Header = ({ siteTitle }) => (
         <NavButton>
           <StyledLink to="/about">About</StyledLink>
         </NavButton>
-        <ContactButton>
-          <a href="mailto:info@bradward.net" target="_blank" rel="noopener">Say hi</a>
-        </ContactButton>
+        <NavButton>
+          <a href="mailto:info@bradward.net" target="_blank" rel="noopener">Contact</a>
+        </NavButton>
       </NavWrapper>
     </nav>
   </HeaderMain>
