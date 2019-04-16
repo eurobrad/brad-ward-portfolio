@@ -50,17 +50,6 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-const ContactButton = styled.h2`
-  display: inline-block;
-  margin: 0 10px;
-  padding: 4px 8px;
-  background: white;
-  border-radius: 8px;
-  a {
-    color: rebeccapurple;
-  }
-`;
-
 const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
