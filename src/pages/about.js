@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const About = styled.div`
-  margin: 0 8px;
+  padding: 8px;
   h1 {
     text-align: center;
   }
