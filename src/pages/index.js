@@ -22,6 +22,85 @@ const ContentSection = styled.div`
   }
 `;
 
+const Portfolio = styled.section`
+  text-align: center;
+  h2 {
+    color: grey;
+  }
+`;
+
+const PortfolioTitles = styled.div`
+  color: grey;
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+  p {
+    display: inline-block;
+    padding: 8px;
+  }
+`;
+
 const IndexPage = () => (
   <Layout>
     <SEO
@@ -62,9 +141,21 @@ const IndexPage = () => (
           </p>
         </ContentSection>
       </section>
-      <section style={{ margin: `4.35rem 0` }}>
-        <h2 style={{ textAlign: 'center' }}>Portfolio Matrix going here! :)</h2>
-      </section>
+      <Portfolio>
+        <h2>Portfolio</h2>
+        <PortfolioTitles>
+          <p data-tooltip="12">All</p>/
+          <p data-tooltip="8">Theatre</p>/
+          <p data-tooltip="2">Education</p>/
+          <p data-tooltip="2">International</p>/
+          <p data-tooltip="1">AV</p>/
+          <p data-tooltip="4">System Design</p>/
+          <p data-tooltip="2">Museum</p>/
+          <p data-tooltip="4">Events</p>/
+          <p data-tooltip="3">Award</p>/
+          <p data-tooltip="0">Projection Mapping</p>
+        </PortfolioTitles>
+      </Portfolio>
     </main>
   </Layout>
 )
