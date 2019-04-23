@@ -55,9 +55,9 @@ const PortfolioTitles = styled.div`
     bottom: 90%;
     left: 50%;
     margin-bottom: 5px;
-    margin-left: -80px;
+    margin-left: -40px;
     padding: 7px;
-    width: 160px;
+    width: 80px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
