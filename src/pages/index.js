@@ -22,6 +22,42 @@ const ContentSection = styled.div`
   }
 `
 
+const PortfolioImage = styled.img`
+  display: inline-block;
+  margin: 0 0 -7px 0;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+`
+
+const PortfolioDescriptionTitle = styled.h4`
+  margin: 0;
+  padding-top: 6px;
+  color: white;
+`
+
+const PortfolioDescriptionText = styled.p`
+  margin: 0;
+  color: #777;
+  font-size: 12px;
+`
+
+const PortfolioDescription = styled.div`
+  background-color: #282727;
+  border-radius: 0 0 8px 8px;
+  width: 100%;
+`
+
+const PortfolioPiece = styled.div`
+  display: inline-block;
+  margin: 3px;
+  @media (min-width: 1000px) {
+    width: 32%;
+  }
+  @media (max-width: 999px) {
+    width: 50%;
+  }
+`
+
 const Portfolio = styled.section`
   text-align: center;
   h2 {
@@ -173,6 +209,56 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioTitles>
+        <PortfolioPiece>
+          <PortfolioImage
+            src={
+              'http://bradward.net/wordpress/wp-content/uploads/2018/04/Time-Stands-Still-4.jpg'
+            }
+            style={{
+              borderTop: `5px solid black`,
+              borderLeft: `3px solid black`,
+              borderRight: `3px solid black`,
+            }}
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>
+              Time Stands Still
+            </PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Bristol Riverside Theatre - 2018
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
+        <PortfolioPiece>
+          <PortfolioImage
+            src={
+              'http://bradward.net/wordpress/wp-content/uploads/2018/02/EnemyTitle-copy.jpg'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>
+              An Enemy of the People
+            </PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Bristol Riverside Theatre
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
+        <PortfolioPiece>
+          <PortfolioImage
+            src={
+              'http://bradward.net/wordpress/wp-content/uploads/2018/02/Image-2-Start-50-Seconds380x.png'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>
+              Number the Stars
+            </PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Nashville Children's Theatre
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
       </Portfolio>
     </main>
   </Layout>
