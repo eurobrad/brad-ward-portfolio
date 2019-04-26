@@ -54,7 +54,7 @@ const PortfolioPiece = styled.div`
     width: 32%;
   }
   @media (max-width: 999px) {
-    width: 50%;
+    width: 48%;
   }
 `
 
