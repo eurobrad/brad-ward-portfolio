@@ -3,33 +3,37 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
+import { Logo192x192 } from '../components/images/image-logo-192x192';
+
 const HeaderMain = styled.header`
   background: rebeccapurple;
   margin: 0 0 1.45em 0;
-  padding-top: 1em;
   text-align: center;
-  @media (min-width: 1200px) {
-    padding-right: 2em;
-  }
+`;
+
+const HeaderLogo = styled.div`
+  display: inline-block;
+  position: relative;
+  top: 13px;
+  width: 100px;
+  margin: 0 2em 1em 2em;
 `;
 
 const HeaderTitle = styled.h1`
   display: inline-block;
+  margin-left: 2em;
+  margin-right: 2em;
+  @media (max-width: 1075px) {
+    display: block;
+  }
 `;
 
 const NavWrapper = styled.div`
   display: inline-block;
-  @media (max-width: 810px) {
+  margin-left: 2em;
+  margin-right: 2em;
+  @media (max-width: 1075px) {
     display: block;
-  }
-  @media (min-width: 811px) {
-    margin-left: 6em;
-  }
-  @media (min-width: 1000px) {
-    margin-left: 16em;
-  }
-  @media (min-width: 1200px) {
-    margin-left: 28em;
   }
 `;
 
@@ -57,6 +61,9 @@ const StyledLink = styled(Link)`
 const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
+      <HeaderLogo>
+        <Logo192x192/>
+      </HeaderLogo>
       <HeaderTitle>
       <StyledLink to="/">Brad Ward Design</StyledLink>
       </HeaderTitle>
