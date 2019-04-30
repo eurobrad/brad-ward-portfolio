@@ -13,6 +13,10 @@ const HeaderMain = styled.header`
   }
 `;
 
+const HeaderTitle = styled.h1`
+  display: inline-block;
+`;
+
 const NavWrapper = styled.div`
   display: inline-block;
   @media (max-width: 810px) {
@@ -53,17 +57,9 @@ const StyledLink = styled(Link)`
 const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
-      <h1 style={{ display: `inline-block` }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          Brad Ward Design
-        </Link>
-      </h1>
+      <HeaderTitle>
+      <StyledLink to="/">Brad Ward Design</StyledLink>
+      </HeaderTitle>
       <NavWrapper>
         <NavButton>
           <StyledLink to="/">Home</StyledLink>
