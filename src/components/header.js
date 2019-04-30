@@ -16,7 +16,14 @@ const HeaderLogo = styled.div`
   position: relative;
   top: 13px;
   width: 100px;
-  margin: 0 2em 1em 2em;
+  margin: 0 2em 2em 2em;
+  text-align: center;
+  @media (min-width: 1200px) {
+    margin-right: 160px;
+  }
+  @media (min-width: 1300px) {
+    margin-right: 250px;
+  }
 `;
 
 const HeaderTitle = styled.h1`
@@ -25,6 +32,8 @@ const HeaderTitle = styled.h1`
   margin-right: 2em;
   @media (max-width: 1075px) {
     display: block;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 `;
 
@@ -33,7 +42,8 @@ const NavWrapper = styled.div`
   margin-left: 2em;
   margin-right: 2em;
   @media (max-width: 1075px) {
-    display: block;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 `;
 
@@ -62,7 +72,9 @@ const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
       <HeaderLogo>
-        <Logo192x192/>
+        <Link to="/">
+          <Logo192x192/>
+        </Link>
       </HeaderLogo>
       <HeaderTitle>
       <StyledLink to="/">Brad Ward Design</StyledLink>
