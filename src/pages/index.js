@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -209,26 +210,28 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioTitles>
-        <PortfolioPiece>
-          <PortfolioImage
-            src={
-              'http://bradward.net/wordpress/wp-content/uploads/2018/04/Time-Stands-Still-4.jpg'
-            }
-            style={{
-              borderTop: `5px solid black`,
-              borderLeft: `3px solid black`,
-              borderRight: `3px solid black`,
-            }}
-          />
-          <PortfolioDescription>
-            <PortfolioDescriptionTitle>
-              Time Stands Still
-            </PortfolioDescriptionTitle>
-            <PortfolioDescriptionText>
-              Bristol Riverside Theatre - 2018
-            </PortfolioDescriptionText>
-          </PortfolioDescription>
-        </PortfolioPiece>
+        <Link to="/timeStandsStill">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'http://bradward.net/wordpress/wp-content/uploads/2018/04/Time-Stands-Still-4.jpg'
+              }
+              style={{
+                borderTop: `5px solid black`,
+                borderLeft: `3px solid black`,
+                borderRight: `3px solid black`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Time Stands Still
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Bristol Riverside Theatre - 2018
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
         <PortfolioPiece>
           <PortfolioImage
             src={
