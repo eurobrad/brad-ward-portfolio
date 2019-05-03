@@ -20,6 +20,7 @@ const ViewProjectButton = styled.button`
   border: none;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
+  border-radius: 7px;
   cursor: pointer;
 `
 
