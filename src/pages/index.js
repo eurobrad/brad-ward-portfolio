@@ -34,12 +34,18 @@ const PortfolioDescriptionTitle = styled.h4`
   margin: 0;
   padding-top: 6px;
   color: white;
+  @media (max-width: 500px) {
+    font-size: 16px;
+  }
 `
 
 const PortfolioDescriptionText = styled.p`
   margin: 0;
   color: #777;
   font-size: 12px;
+  @media (max-width: 500px) {
+    font-size: 10px;
+  }
 `
 
 const PortfolioDescription = styled.div`
@@ -210,6 +216,23 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories>
+        <Link to="/theBrooklynGaze">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'http://bradward.net/wordpress/wp-content/uploads/2018/04/BKLYN-Gaze-Grid.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                The Brooklyn Gaze
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Brooklyn Public Library - 2017
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
         <Link to="/timeStandsStill">
           <PortfolioPiece>
             <PortfolioImage
