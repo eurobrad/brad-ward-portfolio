@@ -66,7 +66,7 @@ const Portfolio = styled.section`
   }
 `
 
-const PortfolioTitles = styled.div`
+const PortfolioCategories = styled.div`
   color: grey;
 
   /* Add this attribute to the element that needs a tooltip */
@@ -202,14 +202,14 @@ const IndexPage = () => (
       </section>
       <Portfolio>
         <h2>Portfolio</h2>
-        <PortfolioTitles>
+        <PortfolioCategories>
           <p data-tooltip="12">All</p>/<p data-tooltip="8">Theatre</p>/
           <p data-tooltip="2">Education</p>/
           <p data-tooltip="2">International</p>/<p data-tooltip="1">AV</p>/
           <p data-tooltip="4">System Design</p>/<p data-tooltip="2">Museum</p>/
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
-        </PortfolioTitles>
+        </PortfolioCategories>
         <Link to="/timeStandsStill">
           <PortfolioPiece>
             <PortfolioImage
