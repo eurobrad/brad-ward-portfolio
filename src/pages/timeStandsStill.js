@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const PortfolioSubtitle = styled.p`
+const ProjectSubtitle = styled.p`
   color: #777;
 `
 
@@ -20,11 +20,11 @@ const ViewProjectButton = styled.button`
   border: none;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
-  border-radius: 7px;
+  border-radius: 5px;
   cursor: pointer;
 `
 
-const PortfolioContent = styled.div`
+const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
 `
@@ -32,9 +32,9 @@ const PortfolioContent = styled.div`
 const TimeStandsStill = () => (
   <Layout>
     <SEO title="Time Stands Still" />
-    <PortfolioContent>
+    <ProjectContent>
       <h1>Time Stands Still</h1>
-      <PortfolioSubtitle>Bristol Riverside Theatre - 2018</PortfolioSubtitle>
+      <ProjectSubtitle>Bristol Riverside Theatre - 2018</ProjectSubtitle>
       <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
         <iframe
           src={'https://player.vimeo.com/video/266027000'}
@@ -77,7 +77,7 @@ const TimeStandsStill = () => (
       <a href="https://www.brtstage.org/2017-2018/time-stands-still/">
         <ViewProjectButton>View Project</ViewProjectButton>
       </a>
-    </PortfolioContent>
+    </ProjectContent>
   </Layout>
 )
 
