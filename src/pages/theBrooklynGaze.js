@@ -5,6 +5,12 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const ProjectContent__Title = styled.h1`
+  @media (max-width: 480px) {
+    font-size: 24px;
+  }
+`
+
 const ProjectSubtitle = styled.p`
   color: #777;
 `
@@ -33,7 +39,7 @@ const TheBrooklynGaze = () => (
   <Layout>
     <SEO title="The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost" />
     <ProjectContent>
-      <h1>The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost</h1>
+      <ProjectContent__Title>The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost</ProjectContent__Title>
       <ProjectSubtitle>
         Brooklyn Public Library Grand Army Plaza - 2017
       </ProjectSubtitle>

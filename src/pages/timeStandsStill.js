@@ -5,6 +5,12 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const ProjectContent__Title = styled.h1`
+  @media (max-width: 480px) {
+    font-size: 24px;
+  }
+`
+
 const ProjectSubtitle = styled.p`
   color: #777;
 `
@@ -33,7 +39,7 @@ const TimeStandsStill = () => (
   <Layout>
     <SEO title="Time Stands Still" />
     <ProjectContent>
-      <h1>Time Stands Still</h1>
+      <ProjectContent__Title>Time Stands Still</ProjectContent__Title>
       <ProjectSubtitle>Bristol Riverside Theatre - 2018</ProjectSubtitle>
       <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
         <iframe
