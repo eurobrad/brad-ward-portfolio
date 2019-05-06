@@ -14,7 +14,7 @@ const ProjectSubtitle = styled.p`
 const ProjectVideo = styled.div`
   position: relative;
   float: left;
-	clear: both;
+  clear: both;
   width: 60%;
   padding: 25% 0 0 0;
   margin-right: 2%;
@@ -82,7 +82,7 @@ const TimeStandsStill = () => (
           she shares with her boyfriend, James who has also had a similar
           experience. Both characters struggle with physical and mental recovery
           from their trauma, and how their experiences have changed their
-          relationship and each other. Can you really get back to “normal” or
+          relationship and each other. Can you really get back to "normal" or
           does normal change?
         </p>
         <p>

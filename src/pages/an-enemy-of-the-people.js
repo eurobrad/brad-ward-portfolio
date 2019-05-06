@@ -89,7 +89,7 @@ const TimeStandsStill = () => (
         </p>
         <p>Come and listen...</p>
       </ProjectDescription>
-      <a href="https://www.brtstage.org/2017-2018/time-stands-still/">
+      <a href="https://www.brtstage.org/">
         <ViewProjectButton>View Project</ViewProjectButton>
       </a>
     </ProjectContent>

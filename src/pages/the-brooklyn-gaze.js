@@ -63,9 +63,7 @@ const TheBrooklynGaze = () => (
     <SEO title="The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost" />
     <ProjectContent>
       <ProjectContent__Title>The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost</ProjectContent__Title>
-      <ProjectSubtitle>
-        Brooklyn Public Library Grand Army Plaza - 2017
-      </ProjectSubtitle>
+      <ProjectSubtitle>Brooklyn Public Library Grand Army Plaza - 2017</ProjectSubtitle>
       <ProjectVideo>
         <iframe
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
