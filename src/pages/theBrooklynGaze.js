@@ -48,6 +48,13 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
+    ${ProjectVideo} {
+      width: 100%;
+      height: 250px;
+      .vp-center {
+        width: 100%;
+      }
+    }
   }
 `
 
