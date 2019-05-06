@@ -5,19 +5,19 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1`
-  @media (max-width: 480px) {
-    font-size: 24px;
-  }
-`
+const ProjectContent__Title = styled.h1``
 
 const ProjectSubtitle = styled.p`
   color: #777;
 `
 
 const ProjectVideo = styled.div`
-  padding: 56.25% 0 0 0;
   position: relative;
+  float: left;
+	clear: both;
+  width: 60%;
+  padding: 25% 0 0 0;
+  margin-right: 2%;
   iframe {
     position: absolute;
     top: 0;
@@ -45,6 +45,11 @@ const ViewProjectButton = styled.button`
 const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
+  @media (max-width: 480px) {
+    ${ProjectContent__Title} {
+      font-size: 24px;
+    }
+  }
 `
 
 const TimeStandsStill = () => (
