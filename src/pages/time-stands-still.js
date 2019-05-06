@@ -65,7 +65,7 @@ const TimeStandsStill = () => (
     <ProjectContent>
       <ProjectContent__Title>Time Stands Still</ProjectContent__Title>
       <ProjectSubtitle>Bristol Riverside Theatre - 2018</ProjectSubtitle>
-      <ProjectVideo style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+      <ProjectVideo>
         <iframe
           src={'https://player.vimeo.com/video/266027000?title=0&portrait=0'}
           frameborder="0"
