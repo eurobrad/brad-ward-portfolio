@@ -222,7 +222,7 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
-        <Link to="/theBrooklynGaze">
+        <Link to="/the-brooklyn-gaze">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -239,7 +239,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/timeStandsStill">
+        <Link to="/time-stands-still">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -261,7 +261,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/anEnemyOfThePeople">
+        <Link to="/an-enemy-of-the-people">
         <PortfolioPiece>
           <PortfolioImage
             src={
