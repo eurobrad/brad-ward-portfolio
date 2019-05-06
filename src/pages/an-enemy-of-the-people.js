@@ -59,7 +59,7 @@ const ProjectContent = styled.div`
   }
 `
 
-const TimeStandsStill = () => (
+const AnEnemyOfThePeople = () => (
   <Layout>
     <SEO title="An Enemy of the People" />
     <ProjectContent>
@@ -96,4 +96,4 @@ const TimeStandsStill = () => (
   </Layout>
 )
 
-export default TimeStandsStill
+export default AnEnemyOfThePeople
