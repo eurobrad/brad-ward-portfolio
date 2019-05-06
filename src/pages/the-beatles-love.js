@@ -69,7 +69,7 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE Cast</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-cast.love-drive-my-car.jpg" />
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-drive-my-car.jpg" />
             <p className="legend">LOVE Drive My Car</p>
           </div>
           <div>
