@@ -15,6 +15,18 @@ const ProjectSubtitle = styled.p`
   color: #777;
 `
 
+const ProjectVideo = styled.div`
+  padding: 56.25% 0 0 0;
+  position: relative;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`
+
 const ProjectDescription = styled.section`
   margin-top: 32px;
   text-align: left;
@@ -43,21 +55,14 @@ const TheBrooklynGaze = () => (
       <ProjectSubtitle>
         Brooklyn Public Library Grand Army Plaza - 2017
       </ProjectSubtitle>
-      <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+      <ProjectVideo>
         <iframe
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
-          style={{
-            position: 'absolute',
-            top: '0',
-            left: '0',
-            width: '100%',
-            height: '100%',
-          }}
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-      </div>
+      </ProjectVideo>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
         <p>
