@@ -37,7 +37,7 @@ const TimeStandsStill = () => (
       <ProjectSubtitle>Bristol Riverside Theatre - 2018</ProjectSubtitle>
       <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
         <iframe
-          src={'https://player.vimeo.com/video/266027000'}
+          src={'https://player.vimeo.com/video/266027000?title=0&portrait=0'}
           style={{
             position: 'absolute',
             top: '0',
