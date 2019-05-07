@@ -26,17 +26,6 @@ const ProjectDescription = styled.section`
   text-align: left;
 `
 
-const ViewProjectButton = styled.button`
-  background-color: rebeccapurple;
-  color: white;
-  border: none;
-  margin: 16px;
-  padding: 8px 16px;
-  box-shadow: 2px 2px 2px 2px #bd92e8;
-  border-radius: 5px;
-  cursor: pointer;
-`
-
 const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
@@ -94,16 +83,6 @@ const OlympicsLondon2012 = () => (
           <li>House of Switzerland at the Olympics</li>
         </ul>
       </ProjectDescription>
-      <a
-        href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf?dl=0"
-        rel="noopener"
-        target="_blank"
-      >
-        <ViewProjectButton>View Project</ViewProjectButton>
-      </a>
-      <a href="https://www.cirquedusoleil.com/beatles­-love">
-        <ViewProjectButton>Show's Website</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
