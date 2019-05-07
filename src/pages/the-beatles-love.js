@@ -47,8 +47,8 @@ const ProjectContent = styled.div`
     ${ProjectVideo} {
       width: 100%;
       height: 250px;
-      .vp-center {
-        width: 100%;
+      .thumbs-wrapper {
+        display: none;
       }
     }
   }
