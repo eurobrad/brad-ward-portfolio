@@ -397,7 +397,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/barnesFoundation">
+        <Link to="/barnes-foundation">
           <PortfolioPiece>
             <PortfolioImage
               src={
