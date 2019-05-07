@@ -380,7 +380,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link> */}
-        <Link to="/prideAndPrejudice">
+        <Link to="/pride-and-prejudice">
           <PortfolioPiece>
             <PortfolioImage
               src={
