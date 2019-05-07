@@ -11,7 +11,7 @@ const ProjectSubtitle = styled.p`
   color: #777;
 `
 
-const ProjectVideo = styled.div`
+const ProjectMedia = styled.div`
   position: relative;
   float: left;
   clear: both;
@@ -49,7 +49,7 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
-    ${ProjectVideo} {
+    ${ProjectMedia} {
       width: 100%;
       height: 250px;
       .vp-center {
@@ -65,14 +65,14 @@ const TimeStandsStill = () => (
     <ProjectContent>
       <ProjectContent__Title>Time Stands Still</ProjectContent__Title>
       <ProjectSubtitle>Bristol Riverside Theatre - 2018</ProjectSubtitle>
-      <ProjectVideo>
+      <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/266027000?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-      </ProjectVideo>
+      </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
         <p>

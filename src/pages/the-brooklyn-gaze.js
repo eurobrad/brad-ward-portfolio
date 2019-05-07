@@ -11,7 +11,7 @@ const ProjectSubtitle = styled.p`
   color: #777;
 `
 
-const ProjectVideo = styled.div`
+const ProjectMedia = styled.div`
   position: relative;
   float: left;
 	clear: both;
@@ -48,7 +48,7 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
-    ${ProjectVideo} {
+    ${ProjectMedia} {
       width: 100%;
       height: 250px;
       .vp-center {
@@ -64,14 +64,14 @@ const TheBrooklynGaze = () => (
     <ProjectContent>
       <ProjectContent__Title>The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost</ProjectContent__Title>
       <ProjectSubtitle>Brooklyn Public Library Grand Army Plaza - 2017</ProjectSubtitle>
-      <ProjectVideo>
+      <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-      </ProjectVideo>
+      </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
         <p>

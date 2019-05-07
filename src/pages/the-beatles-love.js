@@ -13,7 +13,7 @@ const ProjectSubtitle = styled.p`
   color: #777;
 `
 
-const ProjectVideo = styled.div`
+const ProjectMedia = styled.div`
   position: relative;
   float: left;
   clear: both;
@@ -44,7 +44,7 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
-    ${ProjectVideo} {
+    ${ProjectMedia} {
       width: 100%;
       height: 250px;
       .thumbs-wrapper {
@@ -62,7 +62,7 @@ const TheBeatlesLOVE = () => (
       <ProjectSubtitle>
         Cirque du Soleil, The Mirage, Apple Records - 2006-2008
       </ProjectSubtitle>
-      <ProjectVideo>
+      <ProjectMedia>
         <Carousel autoPlay>
           <div>
             <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-cast.jpg" />
@@ -77,7 +77,7 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE SGT Pepper</p>
           </div>
         </Carousel>
-      </ProjectVideo>
+      </ProjectMedia>
       <ProjectDescription>
         <h4>Award: Two time Grammy award winner</h4>
         <p>Design Statement by Bradlee Ward, Sound Designer:</p>
