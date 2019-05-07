@@ -363,7 +363,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/lesMisérables">
+        {/* <Link to="/lesMisérables">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -379,7 +379,7 @@ const IndexPage = () => (
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
-        </Link>
+        </Link> */}
         <Link to="/prideAndPrejudice">
           <PortfolioPiece>
             <PortfolioImage
