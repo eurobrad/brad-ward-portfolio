@@ -82,19 +82,19 @@ const TransformationAndRevelation = () => (
         <p>
           Brad’s sound design was created for PMQ, at Theatre 503 in London in
           2010 and was remounted at the High Tides Festival in Suffolk in
-          2011.The play was written by Ella Hickson and Directed by James Dacre
+          2011. The play was written by Ella Hickson and Directed by James Dacre.
         </p>
         <p>
           Brad’s portfolio from PMQ was included in the Society of British
           Theatre Designers Expo, Transformation &amp; Revelation: Gormley to
-          Gaga – UK Design for Performance 2007­2011. This expo was exhibited at
+          Gaga – UK Design for Performance 2007­-2011. This expo was exhibited at
           the national conference in Cardiff, where approximately 5,500 visitors
           saw the show and then moved to the Prague Quadrennial where the expo
           won both of the special awards for sound and was seen by approximately
-          40,000 people.It then was chosen as one of eleven displays
+          40,000 people. It then was chosen as one of eleven displays
           representing important collections in the V&amp;A and formed part of
           the museum’s larger Olympic year exhibition, A Celebration of British
-          Design 1948­2012: Innovation in the Modern Age . From the V&amp;A, the
+          Design 1948­-2012: Innovation in the Modern Age. From the V&amp;A, the
           expo toured the UK.
         </p>
       </ProjectDescription>
