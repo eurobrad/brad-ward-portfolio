@@ -226,7 +226,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/04/BKLYN-Gaze-Grid.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/brooklyn-gaze.jpg'
               }
             />
             <PortfolioDescription>
@@ -243,7 +243,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/04/Time-Stands-Still-4.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/time-stands-still.jpg'
               }
               style={{
                 borderTop: `5px solid black`,
@@ -265,7 +265,7 @@ const IndexPage = () => (
         <PortfolioPiece>
           <PortfolioImage
             src={
-              'http://bradward.net/wordpress/wp-content/uploads/2018/02/EnemyTitle-copy.jpg'
+              'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/an-enemy-of-the-people.jpg'
             }
           />
           <PortfolioDescription>
@@ -282,7 +282,7 @@ const IndexPage = () => (
         <PortfolioPiece>
           <PortfolioImage
             src={
-              'http://bradward.net/wordpress/wp-content/uploads/2018/02/Image-2-Start-50-Seconds380x.png'
+              'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/number-the-stars.jpg'
             }
           />
           <PortfolioDescription>
@@ -299,7 +299,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/LoveLogo5.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/the-beatles-love.jpg'
               }
             />
             <PortfolioDescription>
@@ -316,7 +316,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/olympic-rings.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
               }
             />
             <PortfolioDescription>
@@ -333,7 +333,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/8big.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/transformation-and-revelation.jpg'
               }
             />
             <PortfolioDescription>
@@ -350,7 +350,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/Belmont-PJ_new.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/belmont-pj.jpg'
               }
             />
             <PortfolioDescription>
@@ -363,11 +363,11 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        {/* <Link to="/lesMisérables">
+        {/* <Link to="/les-miserables">
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/Les-Miserables.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/les-miserables.jpg'
               }
             />
             <PortfolioDescription>
@@ -384,7 +384,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/Pride-Prejudice5.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/pride-prejudice-project-cover.jpg'
               }
             />
             <PortfolioDescription>
@@ -401,7 +401,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/Barnes2.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/barnes-building-matrix-cover.jpg'
               }
             />
             <PortfolioDescription>
@@ -418,7 +418,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'http://bradward.net/wordpress/wp-content/uploads/2018/02/Methusalah-Tree30Ed-copy.jpg'
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/methuselah-tree.jpg'
               }
             />
             <PortfolioDescription>
