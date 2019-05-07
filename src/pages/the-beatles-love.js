@@ -44,12 +44,20 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
+    ${ProjectDescription} {
+      margin-top: 320px;
+    }
     ${ProjectMedia} {
       width: 100%;
       height: 250px;
       .thumbs-wrapper {
         display: none;
       }
+    }
+  }
+  @media (max-width: 375px) {
+    ${ProjectDescription} {
+      margin-top: 64px;
     }
   }
 `
