@@ -43,20 +43,11 @@ const ProjectContent = styled.div`
     ${ProjectContent__Title} {
       font-size: 24px;
     }
-    ${ProjectDescription} {
-      margin-top: 352px;
-    }
     ${ProjectMedia} {
       width: 100%;
-      height: 250px;
-      .thumbs-wrapper {
-        display: none;
-      }
     }
-  }
-  @media (max-width: 375px) {
     ${ProjectDescription} {
-      margin-top: 64px;
+      margin-top: 0;
     }
   }
 `
@@ -70,12 +61,7 @@ const IntroToProductionDesign = () => (
         Assistant Professor, Belmont University - 2012
       </ProjectSubtitle>
       <ProjectMedia>
-        <Carousel autoPlay>
-          <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/belmont-pj.jpg" />
-            <p className="legend">Belmont PJ</p>
-          </div>
-        </Carousel>
+        <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/belmont-pj.jpg" />
       </ProjectMedia>
       <ProjectDescription>
         <p>
