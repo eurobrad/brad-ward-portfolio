@@ -312,7 +312,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/2012OlympicsLondon">
+        <Link to="/olympics-london-2012">
           <PortfolioPiece>
             <PortfolioImage
               src={
