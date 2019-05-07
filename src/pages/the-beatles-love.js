@@ -30,7 +30,7 @@ const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
   border: none;
-  margin: auto 16px;
+  margin: 16px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
