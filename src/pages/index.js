@@ -273,6 +273,42 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
+
+        <PortfolioPiece>
+          <PortfolioImage
+            src={'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg'
+}
+/>
+
+
+
+        <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Faust 2.0
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Mabou Mines, NYC - 2019
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+
+        <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Mother%20Tile.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                The Mother
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Atlantic Theatre Company, NYC - 2019
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+
+
         <Link to="/time-stands-still">
           <PortfolioPiece>
             <PortfolioImage
