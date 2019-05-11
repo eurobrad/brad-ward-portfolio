@@ -279,9 +279,6 @@ const IndexPage = () => (
             src={'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg'
 }
 />
-
-
-
         <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Faust 2.0
@@ -308,6 +305,42 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
 
+          <Link to="/the-beatles-love">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/the-beatles-love.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                The Beatles LOVE
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Cirque du Soleil - 2006-2008
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
+
+        <Link to="/olympics-london-2012">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                2012 OLYMPICS – LONDON
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound Project Manager
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
 
         <Link to="/time-stands-still">
           <PortfolioPiece>
@@ -365,40 +398,7 @@ const IndexPage = () => (
           </PortfolioDescription>
         </PortfolioPiece>
         </Link>
-        <Link to="/the-beatles-love">
-          <PortfolioPiece>
-            <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/the-beatles-love.jpg'
-              }
-            />
-            <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                The Beatles LOVE
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                Cirque du Soleil - 2006-2008
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
-        </Link>
-        <Link to="/olympics-london-2012">
-          <PortfolioPiece>
-            <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
-              }
-            />
-            <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                2012 OLYMPICS – LONDON
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                Sound Project Manager
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
-        </Link>
+
         <Link to="/transformation-and-revelation">
           <PortfolioPiece>
             <PortfolioImage
