@@ -62,13 +62,13 @@ const LesMiserables = () => (
       <ProjectDescription>
         <p>Sound designer for this production in Belmont's Troutt Theatre.</p>
       </ProjectDescription>
-      <a
+      {/* <a
         href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/ProductionDesignPortfolio.pdf"
         rel="noopener"
         target="_blank"
       >
         <ViewProjectButton>Download Project (pdf)</ViewProjectButton>
-      </a>
+      </a> */}
     </ProjectContent>
   </Layout>
 )
