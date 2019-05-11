@@ -178,11 +178,10 @@ const IndexPage = () => (
             Sound Design and Composition
           </h3>
           <p>
-            Brad is an award winning Sound Designer and Composer. Brad is also
-            available for Projection/Media Design. He has also worked as a
+            Brad is an award winning Sound Designer and Broadway Associate. He has also worked as a
             Project Manager for events worldwide. Brad also creates amazing
             custom Sound Effects and Soundscapes and is an expert in Show
-            Control.
+            Control and Spatial Sound.
           </p>
         </ContentSection>
         <ContentSection>
@@ -192,8 +191,7 @@ const IndexPage = () => (
           </h3>
           <p>
             Brad is a NYC based CTS-D Certified design consultant working as
-            Senior AV/Theatrical Systems Designer at DLR Group | Westlake Reed
-            Leskosky. Brad can objectively design and engineer a system right
+            Senior AV/Theatrical Systems Designer at DLR Group Brad can objectively design and engineer a system right
             for your application. Please contact Brad to discuss your next
             project.
           </p>
