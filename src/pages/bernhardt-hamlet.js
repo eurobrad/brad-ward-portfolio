@@ -57,7 +57,7 @@ const LesMiserables = () => (
       <ProjectContent__Title>Bernhardt Hamlet</ProjectContent__Title>
       <ProjectSubtitle>Associate Sound Design, American Airlines Theatre, Broadway - 2018</ProjectSubtitle>
       <ProjectMedia>
-        <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/les-miserables.jpg" />
+        <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg" />
       </ProjectMedia>
       <ProjectDescription>
         <p>Sound designer for this production in Belmont's Troutt Theatre.</p>
