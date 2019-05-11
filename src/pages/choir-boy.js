@@ -63,7 +63,7 @@ const ChoirBoy = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Associate Sound designer with Sun Hee Kil for the Broadway premire of
+          Associate Sound Designer with Sun Hee Kil for the Broadway premire of
           CHOIR BOY by Tarell Alvin McCraney, Directed by Trip Cullman, Sound
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
           Theatre. Manhattan Theatre Club.
