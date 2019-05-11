@@ -59,21 +59,20 @@ const ChoirBoy = () => (
         Associate Sound Designer, Friedman Theatre, Broadway - 2019
       </ProjectSubtitle>
       <ProjectMedia>
-        <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/les-miserables.jpg" />
+        <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Associate Sound designer for this Tony Nominated Play for Manhattan
-          Theatre Club.{' '}
+          Associate Sound designer with Sun Hee Kil for the Broadway premire of
+          CHOIR BOY by Tarell Alvin McCraney, Directed by Trip Cullman, Sound
+          Design by Fitz Patton for Manhattan Theatre Club at the Friedman
+          Theatre. Manhattan Theatre Club.
         </p>
       </ProjectDescription>
-      {/* <a
-        href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/ProductionDesignPortfolio.pdf"
-        rel="noopener"
-        target="_blank"
-      >
-        <ViewProjectButton>Download Project (pdf)</ViewProjectButton>
-      </a> */}
+
+      <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+        <ViewProjectButton>Show's Website</ViewProjectButton>
+      </a>
     </ProjectContent>
   </Layout>
 )
