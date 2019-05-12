@@ -322,6 +322,25 @@ const IndexPage = () => (
         </Link>
 
 
+        <Link to="/diamond-jubilee">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                2012 OLYMPICS – LONDON
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound Project Manager
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
+
         <Link to="/olympics-london-2012">
           <PortfolioPiece>
             <PortfolioImage
