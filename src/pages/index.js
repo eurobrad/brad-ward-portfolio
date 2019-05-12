@@ -159,6 +159,7 @@ const IndexPage = () => (
         `composition for theatre`,
         `av`,
         `audio visual`,
+        `audiovisual`,
         `theatrical systems designer`,
         `audio engineering`,
       ]}
@@ -296,6 +297,23 @@ const IndexPage = () => (
           </PortfolioDescription>
         </PortfolioPiece>
 
+
+        <PortfolioPiece>
+          <PortfolioImage
+            src={
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>
+              Lewiston/Clarkston
+            </PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Rattlestick Playwrights Theater, NYC 2018
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
+        
         <Link to="/the-beatles-love">
           <PortfolioPiece>
             <PortfolioImage
