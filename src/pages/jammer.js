@@ -61,6 +61,7 @@ const ProjectContent = styled.div`
   }
 `
 
+
 const jammer = () => (
   <Layout>
     <SEO title="The Jammer" />
@@ -96,13 +97,18 @@ const jammer = () => (
         </p>
       </ProjectDescription>
       {/* <a href="http://www.theatredesign.org.uk/exhibitions/previous-exhibitions/transformation-revelation-at-the-va-london-2012/">
+
         <ViewProjectButton>View Project</ViewProjectButton>
       </a>
       <a href="http://videos.videopress.com/8fUdAM27/transformation-revelation1_fmt1.ogv">
         <ViewProjectButton>View Expo Trailer</ViewProjectButton>
+
       </a> */}
+
     </ProjectContent>
   </Layout>
 )
 
+
 export default jammer
+
