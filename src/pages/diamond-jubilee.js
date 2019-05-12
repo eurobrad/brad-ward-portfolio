@@ -60,36 +60,28 @@ const DiamondJubilee = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg" />
-            <p className="legend">Olympic Rings</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Queen.jpg" />
+            <p className="legend">Queen Elizabeth and Prince Philip</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympics-excel.jpg" />
-            <p className="legend">Olympics Excel</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/mwMch12que_0324.jpg" />
+            <p className="legend">The Setup, Manchester Central Hall</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympics-house-of-switzerland.jpg" />
-            <p className="legend">Olympics House of Switzerland</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Rig.JPG" />
+            <p className="legend">The d&b Rig</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Array Calc.pdf" />
+            <p className="legend">The Array Calc</p>
           </div>
         </Carousel>
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Sound Project Manager and Sound Tech for various events surrounding
-          the 2012 Olympic Games in London for Blitz Communications.
-        </p>
-        <ul>
-          <h4>Projects included:</h4>
-          <li>
-            Training events hosted by London Organising Committee of the Olympic
-            and Paralympic Games at the Excel Center
-          </li>
-          <li>
-            Kickoff event at the Gherkin for the Olympic Committee starting the
-            500 day countdown timer in Trafalger Square and on the BT Tower
-          </li>
-          <li>House of Switzerland at the Olympics</li>
-        </ul>
+          One of the highest honors I had while living in the UK was to serve the Queen as the Sound Designer and Project Manager for her Jubilee Celebration in Manchester.  It was a very exciting day and it went off without a hitch.
+         </p>
+       
       </ProjectDescription>
     </ProjectContent>
   </Layout>

@@ -1,13 +1,11 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import styled from 'styled-components';
-import { BWEducation } from '../components/images/image-bradward-education';
-import { BWAudioDesign } from '../components/images/image-bradward_audio-design';
-import { CtsdCertified } from '../components/images/image-ctsd';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-
-
+import { Link } from 'gatsby'
+import React from 'react'
+import styled from 'styled-components'
+import { BWEducation } from '../components/images/image-bradward-education'
+import { BWAudioDesign } from '../components/images/image-bradward_audio-design'
+import { CtsdCertified } from '../components/images/image-ctsd'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const ContentSection = styled.div`
   display: inline-block;
@@ -178,10 +176,10 @@ const IndexPage = () => (
             Sound Design and Composition
           </h3>
           <p>
-            Brad is an award winning Sound Designer and Broadway Associate. He has also worked as a
-            Project Manager for events worldwide. Brad also creates amazing
-            custom Sound Effects and Soundscapes and is an expert in Show
-            Control and Spatial Sound.
+            Brad is an award winning Sound Designer and Broadway Associate. He
+            has also worked as a Project Manager for events worldwide. Brad also
+            creates amazing custom Sound Effects and Soundscapes and is an
+            expert in Show Control and Spatial Sound.
           </p>
         </ContentSection>
         <ContentSection>
@@ -191,9 +189,9 @@ const IndexPage = () => (
           </h3>
           <p>
             Brad is a NYC based CTS-D Certified design consultant working as
-            Senior AV/Theatrical Systems Designer at DLR Group Brad can objectively design and engineer a system right
-            for your application. Please contact Brad to discuss your next
-            project.
+            Senior AV/Theatrical Systems Designer at DLR Group Brad can
+            objectively design and engineer a system right for your application.
+            Please contact Brad to discuss your next project.
           </p>
         </ContentSection>
         <ContentSection>
@@ -220,7 +218,7 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
-          <Link to="/choir-boy">
+        <Link to="/choir-boy">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -228,9 +226,7 @@ const IndexPage = () => (
               }
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                Choir Boy
-              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Friedman Theatre, Broadway 2019
               </PortfolioDescriptionText>
@@ -239,20 +235,20 @@ const IndexPage = () => (
         </Link>
 
         <PortfolioPiece>
-            <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
-              }
-            />
-            <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                Bernhardt Hamlet
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                American Airlines Theatre, Broadway - 2019
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
+          <PortfolioImage
+            src={
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>
+              Bernhardt Hamlet
+            </PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              American Airlines Theatre, Broadway - 2019
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
 
         <Link to="/the-brooklyn-gaze">
           <PortfolioPiece>
@@ -274,36 +270,33 @@ const IndexPage = () => (
 
         <PortfolioPiece>
           <PortfolioImage
-            src={'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg'
-}
-/>
-        <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                Faust 2.0
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                Mabou Mines, NYC - 2019
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
+            src={
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>Faust 2.0</PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Mabou Mines, NYC - 2019
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
 
         <PortfolioPiece>
-            <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Mother%20Tile.jpg'
-              }
-            />
-            <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                The Mother
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                Atlantic Theatre Company, NYC - 2019
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
+          <PortfolioImage
+            src={
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Mother%20Tile.jpg'
+            }
+          />
+          <PortfolioDescription>
+            <PortfolioDescriptionTitle>The Mother</PortfolioDescriptionTitle>
+            <PortfolioDescriptionText>
+              Atlantic Theatre Company, NYC - 2019
+            </PortfolioDescriptionText>
+          </PortfolioDescription>
+        </PortfolioPiece>
 
-          <Link to="/the-beatles-love">
+        <Link to="/the-beatles-love">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -321,8 +314,7 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-
-        <Link to="/diamond-jubilee">
+        <Link to="/olympics-london-2012">
           <PortfolioPiece>
             <PortfolioImage
               src={
@@ -340,20 +332,19 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-
-        <Link to="/olympics-london-2012">
+        <Link to="/diamond-jubilee">
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg'
               }
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                2012 OLYMPICS – LONDON
+                Queen Elizabeth's Diamond Jubilee Celebration
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Sound Project Manager
+                Sound Designer/Project Manager
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -382,38 +373,38 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
         <Link to="/an-enemy-of-the-people">
-        <PortfolioPiece>
-          <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/an-enemy-of-the-people.jpg'
-            }
-          />
-          <PortfolioDescription>
-            <PortfolioDescriptionTitle>
-              An Enemy of the People
-            </PortfolioDescriptionTitle>
-            <PortfolioDescriptionText>
-              Bristol Riverside Theatre
-            </PortfolioDescriptionText>
-          </PortfolioDescription>
-        </PortfolioPiece>
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/an-enemy-of-the-people.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                An Enemy of the People
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Bristol Riverside Theatre
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
         </Link>
         <Link to="/number-the-stars">
-        <PortfolioPiece>
-          <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/number-the-stars.jpg'
-            }
-          />
-          <PortfolioDescription>
-            <PortfolioDescriptionTitle>
-              Number the Stars
-            </PortfolioDescriptionTitle>
-            <PortfolioDescriptionText>
-              Nashville Children's Theatre
-            </PortfolioDescriptionText>
-          </PortfolioDescription>
-        </PortfolioPiece>
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/number-the-stars.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Number the Stars
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Nashville Children's Theatre
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
         </Link>
 
         <Link to="/transformation-and-revelation">
@@ -476,9 +467,7 @@ const IndexPage = () => (
               }
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                The Jammer
-              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>The Jammer</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Edinburgh Fringe Festival -2004
               </PortfolioDescriptionText>
