@@ -448,6 +448,25 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
+
+        <Link to="/jammer.js">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://github.com/eurobrad/brad-ward-portfolio/blob/master/src/images/JammerTile.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                The Jammer
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Edinburgh Fringe Festival -2004
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
         <Link to="/pride-and-prejudice">
           <PortfolioPiece>
             <PortfolioImage
