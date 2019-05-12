@@ -77,13 +77,14 @@ const jammer = () => (
 
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/wrPlmKw_PTo"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          src="https://www.youtube.com/embed/wrPlmKw_PTo"
+         
         />
       </ProjectMedia>
-
+<script src= "https://www.youtube.com/iframe_api"/>
       <ProjectDescription>
         <p>
           The Jammer was originally performed at Yale School of Drama and then
