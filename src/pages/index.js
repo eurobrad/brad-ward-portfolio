@@ -300,7 +300,7 @@ const IndexPage = () => (
         <PortfolioPiece>
           <PortfolioImage
             src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.fw.png'
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg'
             }
           />
           <PortfolioDescription>
