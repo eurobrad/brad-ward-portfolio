@@ -297,11 +297,10 @@ const IndexPage = () => (
           </PortfolioDescription>
         </PortfolioPiece>
 
-
         <PortfolioPiece>
           <PortfolioImage
             src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.fw.png'
             }
           />
           <PortfolioDescription>
@@ -313,7 +312,7 @@ const IndexPage = () => (
             </PortfolioDescriptionText>
           </PortfolioDescription>
         </PortfolioPiece>
-        
+
         <Link to="/the-beatles-love">
           <PortfolioPiece>
             <PortfolioImage
