@@ -61,41 +61,54 @@ const ProjectContent = styled.div`
   }
 `
 
-const TransformationAndRevelation = () => (
+
+const jammer = () => (
   <Layout>
-    <SEO title="Transformation &amp; Revelation" />
+    <SEO title="The Jammer" />
     <ProjectContent>
-      <ProjectContent__Title>
-        Transformation &amp; Revelation
-      </ProjectContent__Title>
-      <ProjectSubtitle>UK Design for Performance - 2011
-      </ProjectSubtitle>
+      <ProjectContent__Title>The Jammer</ProjectContent__Title>
+      <ProjectSubtitle>Edinburgh Fringe Festival - 2004</ProjectSubtitle>
       <ProjectMedia>
         <iframe
-                src={'https://www.youtube.com/embed/wrPlmKw_PTo'}
-                    frameborder="0"
-                    allow="autoplay; fullscreen"
-                    allowfullscreen
-        />
+          // src={'https://www.youtube.com/embed/wrPlmKw_PTo'}
+          //     frameborder="0"
+          //     allow="autoplay; fullscreen"
+          //     allowfullscreen
 
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wrPlmKw_PTo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
       </ProjectMedia>
-     
+
       <ProjectDescription>
         <p>
-        The Jammer was first performed at Yale School of Drama and then was produced for the Edinburgh Fringe Festival.
+          The Jammer was originally performed at Yale School of Drama and then
+          was produced for the Edinburgh Fringe Festival.
         </p>
         <p>
-        Brad’s design for the play along with the show control system he designed for this play won the 2005 Clear-Com Award for Achievement in Sound at USITT in Toronto.  The playback system, designed in Max MSP, was called Q Show Control which became my thesis at Yale.
+          Brad’s design for the play along with the show control system he
+          designed for this play won the 2005 Clear-Com Award for Achievement in
+          Sound at USITT in Toronto. The playback system, designed in Max MSP,
+          was called Q Show Control which became his thesis at Yale.
         </p>
       </ProjectDescription>
-      <a href="http://www.theatredesign.org.uk/exhibitions/previous-exhibitions/transformation-revelation-at-the-va-london-2012/">
+      {/* <a href="http://www.theatredesign.org.uk/exhibitions/previous-exhibitions/transformation-revelation-at-the-va-london-2012/">
+
         <ViewProjectButton>View Project</ViewProjectButton>
       </a>
       <a href="http://videos.videopress.com/8fUdAM27/transformation-revelation1_fmt1.ogv">
         <ViewProjectButton>View Expo Trailer</ViewProjectButton>
-      </a>
+
+      </a> */}
+
     </ProjectContent>
   </Layout>
 )
 
-export default TransformationAndRevelation
+
+export default jammer
+

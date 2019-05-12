@@ -449,11 +449,11 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-        <Link to="/jammer.js">
+        <Link to="/jammer">
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'https://github.com/eurobrad/brad-ward-portfolio/blob/master/src/images/JammerTile.jpg'
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/JammerTile.jpg'
               }
             />
             <PortfolioDescription>
