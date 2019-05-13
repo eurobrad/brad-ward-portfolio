@@ -186,7 +186,7 @@ const IndexPage = () => (
         <ContentSection>
           <CtsdCertified />
           <h3 style={{ marginTop: `1.45rem`, textAlign: `center` }}>
-            AV and Theatrical Systems Designer
+            AV/Theatrical Systems Designer
           </h3>
           <p>
             Brad is a NYC based CTS-D Certified design consultant working as
@@ -201,7 +201,7 @@ const IndexPage = () => (
             Education
           </h3>
           <p>
-            Brad has provided successful workshops, classes, training, lectures,
+            Brad provides successful workshops, classes, training, lectures,
             and demonstrations throughout the world. Brad is known for his clear
             communication at the level he is teaching which has ranged from
             primary and graduate students to industry professionals. Let Brad

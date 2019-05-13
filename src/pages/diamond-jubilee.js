@@ -79,7 +79,7 @@ const DiamondJubilee = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          One of the highest honors I had while living in the UK was to serve the Queen as the Sound Designer and Project Manager for her Jubilee Celebration in Manchester.  It was a very exciting day and it went off without a hitch.
+          While living in the UK I had the honor of serving the Queen as the Sound Designer and Project Manager for her Jubilee Celebration in Manchester.  It was a very exciting day and it went off without a hitch.
          </p>
        
       </ProjectDescription>
