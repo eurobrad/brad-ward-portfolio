@@ -55,7 +55,9 @@ const DiamondJubilee = () => (
   <Layout>
     <SEO title="Queen Elizabeth's Diamond Jubilee Celebration" />
     <ProjectContent>
-      <ProjectContent__Title>Queen Elizabeth's Diamond Jubilee Celebration, Manchester UK</ProjectContent__Title>
+      <ProjectContent__Title>
+        Queen Elizabeth's Diamond Jubilee Celebration, Manchester UK
+      </ProjectContent__Title>
       <ProjectSubtitle>Sound Designer/Project Manager</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
@@ -79,9 +81,11 @@ const DiamondJubilee = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          While living in the UK I had the honor of serving the Queen as the Sound Designer and Project Manager for her Jubilee Celebration in Manchester.  It was a very exciting day and it went off without a hitch.
-         </p>
-       
+          While living in the UK I had the honor of serving the Queen as Sound
+          Designer and Project Manager for her Jubilee Celebration in
+          Manchester. It was a very exciting day and it went off without a
+          hitch.
+        </p>
       </ProjectDescription>
     </ProjectContent>
   </Layout>
