@@ -66,7 +66,9 @@ const TheMethuselahTree = () => (
     <SEO title="The Methuselah Tree" />
     <ProjectContent>
       <ProjectContent__Title>The Methuselah Tree</ProjectContent__Title>
-      <ProjectSubtitle>Cockroach Theatre - Las Vegas, NN, Minnesota Fringe Festival, & Goldwell Open Air Museum - Rhyolite, NV - 2007</ProjectSubtitle>
+      <ProjectSubtitle>
+        Cockroach Theatre - Las Vegas, NN, Minnesota Fringe Festival, & Goldwell Open Air Museum - Rhyolite, NV - 2007
+      </ProjectSubtitle>
       <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/98592789?title=0&portrait=0'}
@@ -77,9 +79,9 @@ const TheMethuselahTree = () => (
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
-      <p>
-          Brad received the Sound Design Award at World Stage Design 2009 in Seoul
-          Korea for this design.
+        <p>
+          Brad received the Sound Design Award at World Stage Design 2009 in
+          Seoul Korea for this design.
         </p>
         <p>
           The world is transforming – beyond human understanding. In this
@@ -94,14 +96,13 @@ const TheMethuselahTree = () => (
           to the cause, yet still hasn’t realized he cannot save himself.
         </p>
         <p>
-        Transformation was most important in the sound design as I described
+          Transformation was most important in the sound design as I described
           the world within Harris’ laboratory and the ever-evolving world
           outside. Proportion and dynamics were key … I was just as interested
           in the decay of a sand cast bell as in the climax of an earthquake or
           a bowl of pudding being thrown through a window. Silence was also
           crucial.
         </p>
-
       </ProjectDescription>
     </ProjectContent>
   </Layout>
