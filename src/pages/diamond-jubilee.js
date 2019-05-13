@@ -74,7 +74,7 @@ const DiamondJubilee = () => (
             <p className="legend">The d&b Rig</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Array Calc.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Array%20Calc.jpg" />
             <p className="legend">The Array Calc</p>
           </div>
         </Carousel>
