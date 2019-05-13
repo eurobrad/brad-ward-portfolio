@@ -78,8 +78,8 @@ const TheMethuselahTree = () => (
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
       <p>
-          Brad's design was given the Sound Design Award at World Stage Design 2009 in Seoul
-          Korea.
+          Brad received the Sound Design Award at World Stage Design 2009 in Seoul
+          Korea for this design.
         </p>
         <p>
           The world is transforming – beyond human understanding. In this
