@@ -80,9 +80,6 @@ const Nutmeg = () => (
           University's New Theatre.
         </p>
       </ProjectDescription>
-      <a href="https://www.nashvillechildrenstheatre.org/">
-        <ViewProjectButton>View Project</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
