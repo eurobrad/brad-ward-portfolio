@@ -201,8 +201,8 @@ const IndexPage = () => (
             Education
           </h3>
           <p>
-            Brad provides successful workshops, classes, training, lectures,
-            and demonstrations throughout the world. Brad is known for his clear
+            Brad provides successful workshops, classes, training, lectures, and
+            demonstrations throughout the world. Brad is known for his clear
             communication at the level he is teaching which has ranged from
             primary and graduate students to industry professionals. Let Brad
             design a learning experience for you.
