@@ -4,6 +4,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Logo192x192 } from '../components/images/image-logo-192x192';
+import { Logo295x148 } from '../components/images/image-logo-white-295x148';
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
