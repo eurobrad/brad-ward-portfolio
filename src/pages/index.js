@@ -300,7 +300,8 @@ const IndexPage = () => (
         <PortfolioPiece>
           <PortfolioImage
             src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg'            }
+              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg'
+            }
           />
           <PortfolioDescription>
             <PortfolioDescriptionTitle>
@@ -526,11 +527,12 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-        <Link to="/utmeg">
+        <Link to="/nutmeg">
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Nutmeg%20tile.jpg'}
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Nutmeg%20tile.jpg'
+              }
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -542,7 +544,6 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-
 
         <Link to="/the-methuselah-tree">
           <PortfolioPiece>
