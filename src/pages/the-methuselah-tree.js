@@ -66,7 +66,7 @@ const TheMethuselahTree = () => (
     <SEO title="The Methuselah Tree" />
     <ProjectContent>
       <ProjectContent__Title>The Methuselah Tree</ProjectContent__Title>
-      <ProjectSubtitle>Cockroach Theatre - 2007</ProjectSubtitle>
+      <ProjectSubtitle>Cockroach Theatre - Las Vegas, Nv, Minnesota Fringe Festival, & Goldwell Open Air Museum - Rhyolite, NV2007</ProjectSubtitle>
       <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/98592789?title=0&portrait=0'}
@@ -77,6 +77,10 @@ const TheMethuselahTree = () => (
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
+      <p>
+          Brad's design was given the Sound Design Award at World Stage Design 2009 in Seoul
+          Korea.
+        </p>
         <p>
           The world is transforming – beyond human understanding. In this
           absurdist dark comedy, we see Harris, a mad scientist attempting to
@@ -88,23 +92,16 @@ const TheMethuselahTree = () => (
           opposed to eating pudding, and occasionally pounds his gavel in
           judgment. By the end of the play, Harris has sacrificed son and wife
           to the cause, yet still hasn’t realized he cannot save himself.
-          Transformation was most important in the sound design as I described
+        </p>
+        <p>
+        Transformation was most important in the sound design as I described
           the world within Harris’ laboratory and the ever-evolving world
           outside. Proportion and dynamics were key … I was just as interested
           in the decay of a sand cast bell as in the climax of an earthquake or
           a bowl of pudding being thrown through a window. Silence was also
           crucial.
         </p>
-        <p>
-          This project was first presented by Cockroach Theatre in Las Vegas in
-          2007.
-        </p>
-        <p>
-          Later that year, it was presented at the Minnesota Fringe Festival.
-          Brad’s portfolio presentation for this piece was presented in Seoul
-          Korea at World Stage Design in 2009 where it won the Sound Design
-          award.
-        </p>
+
       </ProjectDescription>
     </ProjectContent>
   </Layout>
