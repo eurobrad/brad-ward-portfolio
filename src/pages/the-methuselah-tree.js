@@ -66,7 +66,7 @@ const TheMethuselahTree = () => (
     <SEO title="The Methuselah Tree" />
     <ProjectContent>
       <ProjectContent__Title>The Methuselah Tree</ProjectContent__Title>
-      <ProjectSubtitle>Cockroach Theatre - Las Vegas, Nv, Minnesota Fringe Festival, & Goldwell Open Air Museum - Rhyolite, NV2007</ProjectSubtitle>
+      <ProjectSubtitle>Cockroach Theatre - Las Vegas, NN, Minnesota Fringe Festival, & Goldwell Open Air Museum - Rhyolite, NV - 2007</ProjectSubtitle>
       <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/98592789?title=0&portrait=0'}
