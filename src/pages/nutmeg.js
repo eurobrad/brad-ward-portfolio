@@ -59,7 +59,7 @@ const ProjectContent = styled.div`
   }
 `
 
-const Nutmeg = () => (
+const nutmeg = () => (
   <Layout>
     <SEO title="A Splash of Nutmeg in Milk" />
     <ProjectContent>
@@ -84,4 +84,4 @@ const Nutmeg = () => (
   </Layout>
 )
 
-export default Nutmeg
+export default nutmeg
