@@ -530,15 +530,14 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/methuselah-tree.jpg'
-              }
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Nutmeg%20tile.jpg'}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                The Methuselah Tree
+                A Splash of Nutmeg in Milk
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Cockroach Theatre - 2007
+                Yale School of Drama 2004
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
