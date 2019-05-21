@@ -7,7 +7,6 @@ import { Logo_White_295x148 } from './images/logo-white-295x148';
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
-  margin: 0 0 1.45em 0;
   text-align: center;
 `;
 
@@ -39,8 +38,7 @@ const HeaderTitle = styled.h1`
 
 const NavWrapper = styled.div`
   display: inline-block;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0.33em 2em;
   @media (max-width: 1075px) {
     margin-left: 16px;
     margin-right: 16px;
@@ -57,9 +55,6 @@ const NavButton = styled.h2`
   }
   :hover {
     border-bottom: 3px solid white;
-  }
-  @media (max-width: 810px) {
-    margin-bottom: 20px;
   }
 `;
 
