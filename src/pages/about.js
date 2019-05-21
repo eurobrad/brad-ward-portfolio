@@ -12,7 +12,7 @@ const About = styled.div`
   }
 `
 
-const SecondPage = () => (
+const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <About>
@@ -67,4 +67,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AboutPage
