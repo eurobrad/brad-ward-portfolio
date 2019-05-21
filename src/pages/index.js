@@ -164,9 +164,7 @@ const IndexPage = () => (
         `audio engineering`,
       ]}
     />
-    <h1
-      style={{ textAlign: 'center', padding: `10px` }}
-    >
+    <h1 style={{ textAlign: 'center', padding: `10px` }}>
       Sound Design and Composition for Theatre
     </h1>
     <main>
@@ -235,21 +233,23 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-        <PortfolioPiece>
-          <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
-            }
-          />
-          <PortfolioDescription>
-            <PortfolioDescriptionTitle>
-              Bernhardt Hamlet
-            </PortfolioDescriptionTitle>
-            <PortfolioDescriptionText>
-              American Airlines Theatre, Broadway - 2019
-            </PortfolioDescriptionText>
-          </PortfolioDescription>
-        </PortfolioPiece>
+        <Link to="/bernhardt-hamlet">
+          <PortfolioPiece>
+            <PortfolioImage
+              src={
+                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
+              }
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Bernhardt Hamlet
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                American Airlines Theatre, Broadway - 2019
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
 
         <Link to="/the-brooklyn-gaze">
           <PortfolioPiece>
