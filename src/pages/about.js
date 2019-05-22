@@ -48,7 +48,7 @@ const AboutPage = () => (
       <p>
         <strong>Download Resume:</strong> —{' '}
         <a
-          href="http://bradward.net/resume/Resume%20-%20Brad%20Ward%20-%20Sound%20Design%20-%20Web.pdf"
+          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_SoundDesign.pdf"
           rel="noopener"
           target="_blank"
         >
@@ -56,7 +56,7 @@ const AboutPage = () => (
         </a>{' '}
         —{' '}
         <a
-          href="http://bradward.net/resume/Resume%20-%20Brad%20Ward%20-%20Consulting%20-%20Education%20-%20web.pdf"
+          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_ConsultingAndEducation.pdf"
           rel="noopener"
           target="_blank"
         >
