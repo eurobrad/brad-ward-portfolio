@@ -7,6 +7,14 @@ import { CtsdCertified } from '../components/images/image-ctsd'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const PageTitle = styled.h1`
+  padding: 10px;
+  text-align: center;
+  @media (min-width: 450px) {
+    margin: 16px 0;
+  }
+`
+
 const ContentSection = styled.div`
   display: inline-block;
   width: 33%;
@@ -164,9 +172,7 @@ const IndexPage = () => (
         `audio engineering`,
       ]}
     />
-    <h1 style={{ textAlign: 'center', padding: `10px` }}>
-      Sound Design and Composition for Theatre
-    </h1>
+    <PageTitle>Sound Design and Composition for Theatre</PageTitle>
     <main>
       <section>
         <ContentSection>

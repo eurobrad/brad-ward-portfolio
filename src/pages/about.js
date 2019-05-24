@@ -4,19 +4,23 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const PageTitle = styled.h1`
+  padding: 10px;
+  text-align: center;
+  @media (min-width: 450px) {
+    margin: 16px 0;
+  }
+`
+
 const About = styled.div`
   padding: 0 8px;
-  h1 {
-    padding: 10px;
-    text-align: center;
-  }
 `
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <About>
-      <h1>About Brad</h1>
+      <PageTitle>About Brad</PageTitle>
       <p>
         Brad Ward is a New York City-based Sound Designer. He works as a Senior
         AV and Theatrical Systems Designer at{' '}
