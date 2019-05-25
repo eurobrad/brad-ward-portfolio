@@ -8,7 +8,7 @@ const PageTitle = styled.h1`
   padding: 10px;
   text-align: center;
   @media (min-width: 450px) {
-    margin: 16px 0;
+    margin: 24px 0;
   }
 `
 
