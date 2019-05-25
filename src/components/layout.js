@@ -22,15 +22,16 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 1260,
             padding: `0 8px`,
           }}
         >
           {children}
-          <footer style={{ marginTop: `1.45rem`, }}>
+          <footer style={{ marginTop: `1.45rem` }}>
             © {new Date().getFullYear()}, Built by
             {` `}
-            <a href="https://www.linkedin.com/in/tysonwilliams/">Tyson Williams</a>
+            <a href="https://www.linkedin.com/in/tysonwilliams/">
+              Tyson Williams
+            </a>
           </footer>
         </div>
       </>
