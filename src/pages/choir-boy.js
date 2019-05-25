@@ -12,21 +12,24 @@ const ProjectSubtitle = styled.p`
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 `
 
 const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
+  margin-bottom: 1.45rem;
   border: none;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
@@ -60,6 +63,9 @@ const ChoirBoy = () => (
       </ProjectSubtitle>
       <ProjectMedia>
         <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
+        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+          <ViewProjectButton>Show's Website</ViewProjectButton>
+        </a>
       </ProjectMedia>
       <ProjectDescription>
         <p>
@@ -69,10 +75,6 @@ const ChoirBoy = () => (
           Theatre. Manhattan Theatre Club.
         </p>
       </ProjectDescription>
-
-      <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-        <ViewProjectButton>Show's Website</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
