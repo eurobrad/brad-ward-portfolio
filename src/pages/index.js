@@ -31,9 +31,9 @@ const ContentSection = styled.div`
 
 const PortfolioImage = styled.div`
   background-color: black;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   padding: 33%;
   border-radius: 8px 8px 0 0;
