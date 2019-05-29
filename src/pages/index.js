@@ -29,10 +29,12 @@ const ContentSection = styled.div`
   }
 `
 
-const PortfolioImage = styled.img`
-  display: inline-block;
-  margin: 0 0 -7px 0;
+const PortfolioImage = styled.div`
+  background-color: black;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
   width: 100%;
+  padding: 33%;
   border-radius: 8px 8px 0 0;
 `
 
@@ -226,14 +228,14 @@ const IndexPage = () => (
         <Link to="/choir-boy">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/CHOIR_BOY_NOM.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/CHOIR_BOY_NOM.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Friedman Theatre, Broadway 2019
+                Friedman Theatre, Broadway
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -242,16 +244,16 @@ const IndexPage = () => (
         <Link to="/bernhardt-hamlet">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Bernhardt Hamlet
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                American Airlines Theatre, Broadway - 2019
+                American Airlines Theatre, Broadway
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -260,16 +262,16 @@ const IndexPage = () => (
         <Link to="/the-brooklyn-gaze">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/brooklyn-gaze.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/brooklyn-gaze.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 The Brooklyn Gaze
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Brooklyn Public Library - 2017
+                Brooklyn Public Library
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -277,44 +279,44 @@ const IndexPage = () => (
 
         <PortfolioPiece>
           <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg'
-            }
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/FAUST.jpg')`,
+            }}
           />
           <PortfolioDescription>
             <PortfolioDescriptionTitle>Faust 2.0</PortfolioDescriptionTitle>
             <PortfolioDescriptionText>
-              Mabou Mines, NYC - 2019
+              Mabou Mines, NYC
             </PortfolioDescriptionText>
           </PortfolioDescription>
         </PortfolioPiece>
 
         <PortfolioPiece>
           <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Mother%20Tile.jpg'
-            }
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Mother%20Tile.jpg')`,
+            }}
           />
           <PortfolioDescription>
             <PortfolioDescriptionTitle>The Mother</PortfolioDescriptionTitle>
             <PortfolioDescriptionText>
-              Atlantic Theatre Company, NYC - 2019
+              Atlantic Theatre Company, NYC
             </PortfolioDescriptionText>
           </PortfolioDescription>
         </PortfolioPiece>
 
         <PortfolioPiece>
           <PortfolioImage
-            src={
-              'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg'
-            }
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg')`,
+            }}
           />
           <PortfolioDescription>
             <PortfolioDescriptionTitle>
               Lewiston/Clarkston
             </PortfolioDescriptionTitle>
             <PortfolioDescriptionText>
-              Rattlestick Playwrights Theater, NYC 2018
+              Rattlestick Playwrights Theater, NYC
             </PortfolioDescriptionText>
           </PortfolioDescription>
         </PortfolioPiece>
@@ -322,16 +324,16 @@ const IndexPage = () => (
         <Link to="/the-beatles-love">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/the-beatles-love.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/the-beatles-love.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 The Beatles LOVE
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Cirque du Soleil - 2006-2008
+                Cirque du Soleil
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -340,9 +342,9 @@ const IndexPage = () => (
         <Link to="/olympics-london-2012">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/olympic-rings.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/olympic-rings.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -358,13 +360,13 @@ const IndexPage = () => (
         <Link to="/diamond-jubilee">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                Queen Elizabeth's Diamond Jubilee Celebration
+                Queen Elizabeth's Diamond Jubilee
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Sound Designer/Project Manager
@@ -376,13 +378,8 @@ const IndexPage = () => (
         <Link to="/time-stands-still">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/time-stands-still.jpg'
-              }
               style={{
-                borderTop: `5px solid black`,
-                borderLeft: `3px solid black`,
-                borderRight: `3px solid black`,
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/time-stands-still.jpg')`,
               }}
             />
             <PortfolioDescription>
@@ -390,7 +387,7 @@ const IndexPage = () => (
                 Time Stands Still
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Bristol Riverside Theatre - 2018
+                Bristol Riverside Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -398,9 +395,9 @@ const IndexPage = () => (
         <Link to="/an-enemy-of-the-people">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/an-enemy-of-the-people.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/an-enemy-of-the-people.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -415,9 +412,9 @@ const IndexPage = () => (
         <Link to="/number-the-stars">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/number-the-stars.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/number-the-stars.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -433,16 +430,16 @@ const IndexPage = () => (
         <Link to="/transformation-and-revelation">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/transformation-and-revelation.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/transformation-and-revelation.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Transformation &amp; Revelation
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                UK Design for Performance - 2011
+                UK Design for Performance
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -450,9 +447,9 @@ const IndexPage = () => (
         <Link to="/intro-to-production-design">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/belmont-pj.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/belmont-pj.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -467,16 +464,16 @@ const IndexPage = () => (
         <Link to="/les-miserables">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/les-miserables.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/les-miserables.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Les Misérables
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Belmont University - 2013
+                Belmont University
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -485,14 +482,14 @@ const IndexPage = () => (
         <Link to="/jammer">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/JammerTile.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/JammerTile.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>The Jammer</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Edinburgh Fringe Festival -2004
+                Edinburgh Fringe Festival
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -501,16 +498,16 @@ const IndexPage = () => (
         <Link to="/pride-and-prejudice">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/pride-prejudice-project-cover.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/pride-prejudice-project-cover.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Pride and Prejudice
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Bristol Riverside Theatre - 2013
+                Bristol Riverside Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -518,9 +515,9 @@ const IndexPage = () => (
         <Link to="/barnes-foundation">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/barnes-building-matrix-cover.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/barnes-building-matrix-cover.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
@@ -536,16 +533,16 @@ const IndexPage = () => (
         <Link to="/nutmeg">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Nutmeg%20tile.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Nutmeg%20tile.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 A Splash of Nutmeg in Milk
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Yale School of Drama 2004
+                Yale School of Drama
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -554,16 +551,16 @@ const IndexPage = () => (
         <Link to="/the-methuselah-tree">
           <PortfolioPiece>
             <PortfolioImage
-              src={
-                'https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/methuselah-tree.jpg'
-              }
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/methuselah-tree.jpg')`,
+              }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 The Methuselah Tree
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Cockroach Theatre - 2007
+                Cockroach Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
