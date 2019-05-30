@@ -12,6 +12,7 @@ const ProjectSubtitle = styled.p`
 `
 
 const ProjectMedia = styled.div`
+  display: inline-block;
   width: 49%;
   margin-right: 2%;
 `
@@ -19,6 +20,8 @@ const ProjectMedia = styled.div`
 const ProjectDescription = styled.section`
   display: inline-block;
   width: 49%;
+  height: 465px;
+  overflow: auto;
   vertical-align: top;
   text-align: left;
   @media (max-width: 480px) {
