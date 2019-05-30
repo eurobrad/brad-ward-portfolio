@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const FooterText = styled.h3`
   margin-bottom: 0;
-  padding: 8px 0;
+  padding: 24px 8px;
   font-family: 'Arial Narrow Bold', sans-serif;
   a {
     color: white;
@@ -11,6 +11,9 @@ const FooterText = styled.h3`
     :hover {
       cursor: pointer;
     }
+  }
+  @media (max-width: 400px) {
+    padding: 16px 8px;
   }
 `
 
