@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
-import { Logo_White_295x148 } from './images/logo-white-295x148';
+import { Logo_White_295x148 } from './images/logo-white-295x148'
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
   text-align: center;
-`;
+`
 
 const HeaderLogo = styled.div`
   display: inline-block;
@@ -23,7 +23,7 @@ const HeaderLogo = styled.div`
   @media (min-width: 1300px) {
     margin-right: 250px;
   }
-`;
+`
 
 const HeaderTitle = styled.h1`
   display: inline-block;
@@ -34,7 +34,7 @@ const HeaderTitle = styled.h1`
     margin-left: 16px;
     margin-right: 16px;
   }
-`;
+`
 
 const NavWrapper = styled.div`
   display: inline-block;
@@ -43,7 +43,7 @@ const NavWrapper = styled.div`
     margin-left: 16px;
     margin-right: 16px;
   }
-`;
+`
 
 const NavButton = styled.h2`
   display: inline-block;
@@ -56,23 +56,23 @@ const NavButton = styled.h2`
   :hover {
     border-bottom: 3px solid white;
   }
-`;
+`
 
 const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
-`;
+`
 
 const Header = ({ siteTitle }) => (
   <HeaderMain>
     <nav>
       <HeaderLogo>
         <Link to="/">
-          <Logo_White_295x148/>
+          <Logo_White_295x148 />
         </Link>
       </HeaderLogo>
       <HeaderTitle>
-      <StyledLink to="/">Brad Ward Design</StyledLink>
+        <StyledLink to="/">Brad Ward Design</StyledLink>
       </HeaderTitle>
       <NavWrapper>
         <NavButton>
@@ -82,7 +82,9 @@ const Header = ({ siteTitle }) => (
           <StyledLink to="/about">About</StyledLink>
         </NavButton>
         <NavButton>
-          <a href="mailto:info@bradward.design" target="_blank" rel="noopener">Contact</a>
+          <a href="mailto:info@bradward.design" target="_blank" rel="noopener">
+            Contact
+          </a>
         </NavButton>
       </NavWrapper>
     </nav>

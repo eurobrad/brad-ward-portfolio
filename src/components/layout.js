@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Footer from './footer'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -26,14 +27,8 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer style={{ marginTop: `1.45rem` }}>
-            © {new Date().getFullYear()}, Built by
-            {` `}
-            <a href="https://www.linkedin.com/in/tysonwilliams/">
-              Tyson Williams
-            </a>
-          </footer>
         </div>
+        <Footer />
       </>
     )}
   />
