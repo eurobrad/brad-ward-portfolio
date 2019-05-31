@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -12,16 +11,22 @@ const ProjectSubtitle = styled.p`
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  display: inline-block;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 const ViewProjectButton = styled.button`
@@ -50,27 +55,25 @@ const ProjectContent = styled.div`
   }
 `
 
-const LesMiserables = () => (
+const BernhardtHamlet = () => (
   <Layout>
     <SEO title="Bernhardt Hamlet" />
     <ProjectContent>
       <ProjectContent__Title>Bernhardt Hamlet</ProjectContent__Title>
-      <ProjectSubtitle>Associate Sound Design, American Airlines Theatre, Broadway - 2018</ProjectSubtitle>
+      <ProjectSubtitle>
+        Associate Sound Design, American Airlines Theatre, Broadway - 2018
+      </ProjectSubtitle>
       <ProjectMedia>
         <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Bernhardt%20Tile.jpg" />
+        {/* <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+          <ViewProjectButton>Project's Website</ViewProjectButton>
+        </a> */}
       </ProjectMedia>
       <ProjectDescription>
         <p>Sound designer for this production in Belmont's Troutt Theatre.</p>
       </ProjectDescription>
-      {/* <a
-        href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/ProductionDesignPortfolio.pdf"
-        rel="noopener"
-        target="_blank"
-      >
-        <ViewProjectButton>Download Project (pdf)</ViewProjectButton>
-      </a> */}
     </ProjectContent>
   </Layout>
 )
 
-export default LesMiserables
+export default BernhardtHamlet
