@@ -26,6 +26,7 @@ const ProjectDescription = styled.section`
   text-align: left;
   @media (max-width: 480px) {
     width: 100%;
+    height: auto;
   }
 `
 
