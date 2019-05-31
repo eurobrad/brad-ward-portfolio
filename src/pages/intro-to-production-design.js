@@ -1,29 +1,41 @@
-import { Link } from 'gatsby'
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContent__Title = styled.h1`
+  margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  display: inline-block;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 const ViewProjectButton = styled.button`
@@ -62,6 +74,13 @@ const IntroToProductionDesign = () => (
       </ProjectSubtitle>
       <ProjectMedia>
         <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/belmont-pj.jpg" />
+        <a
+          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/ProductionDesignPortfolio.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          <ViewProjectButton>Download Project (pdf)</ViewProjectButton>
+        </a>
       </ProjectMedia>
       <ProjectDescription>
         <p>
@@ -73,13 +92,6 @@ const IntroToProductionDesign = () => (
           class and a syllabus, click the link below.
         </p>
       </ProjectDescription>
-      <a
-        href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/ProductionDesignPortfolio.pdf"
-        rel="noopener"
-        target="_blank"
-      >
-        <ViewProjectButton>Download Project (pdf)</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
