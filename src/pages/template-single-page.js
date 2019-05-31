@@ -6,11 +6,17 @@ import SEO from '../components/seo'
 
 const ProjectContent__Title = styled.h1`
   margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
 `
 
 const ProjectSubtitle = styled.p`
   color: #777;
   margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
