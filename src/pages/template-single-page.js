@@ -4,10 +4,13 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContent__Title = styled.h1`
+  margin: 0 10px 10px 10px;
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
 `
 
 const ProjectMedia = styled.div`
