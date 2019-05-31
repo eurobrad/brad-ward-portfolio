@@ -1,29 +1,41 @@
-import { Link } from 'gatsby'
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContentTitle = styled.h1`
+  margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  display: inline-block;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 const ViewProjectButton = styled.button`
@@ -41,7 +53,7 @@ const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectMedia} {
@@ -57,10 +69,18 @@ const BarnesFoundation = () => (
   <Layout>
     <SEO title="Barnes Foundation" />
     <ProjectContent>
-      <ProjectContent__Title>Barnes Foundation</ProjectContent__Title>
-      <ProjectSubtitle>Architects Tod Williams &amp; Billie Tsien - 2012</ProjectSubtitle>
+      <ProjectContentTitle>Barnes Foundation</ProjectContentTitle>
+      <ProjectSubtitle>
+        Architects Tod Williams &amp; Billie Tsien - 2012
+      </ProjectSubtitle>
       <ProjectMedia>
         <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/barnes-building.jpg" />
+        <a href="http://twbta.com/work/barnes-foundation">
+          <ViewProjectButton>View Project</ViewProjectButton>
+        </a>
+        <a href="http://www.barnesfoundation.org/">
+          <ViewProjectButton>Museum Website</ViewProjectButton>
+        </a>
       </ProjectMedia>
       <ProjectDescription>
         <p>
@@ -70,21 +90,17 @@ const BarnesFoundation = () => (
           facility, designed by Tod Williams Billie Tsien Architects. In
           addition to the galleries, the new building includes classrooms,
           seminar rooms, an auditorium, and a 7,500-sf atrium to be used for
-          various public and private events. While working at Acoustic
-          Dimensions I was the AV Designer for this project which included
-          distance learning, archival audio and video recording, broadcast
-          integration, and sound reinforcement. I took this project through the
-          Programming, Schematic Design, and Initial Design Development phases
-          and included complete drawing sets and written specs. The project was
-          completed in 2012 after I left AD.
+          various public and private events.
+        </p>
+        <p>
+          While working at Acoustic Dimensions I was the AV Designer for this
+          project which included distance learning, archival audio and video
+          recording, broadcast integration, and sound reinforcement. I took this
+          project through the Programming, Schematic Design, and Initial Design
+          Development phases and included complete drawing sets and written
+          specs. The project was completed in 2012 after I left AD.
         </p>
       </ProjectDescription>
-      <a href="http://twbta.com/work/barnes-foundation">
-        <ViewProjectButton>View Project</ViewProjectButton>
-      </a>
-      <a href="http://www.barnesfoundation.org/">
-        <ViewProjectButton>Museum Website</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
