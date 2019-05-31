@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1`
+const ProjectContentTitle = styled.h1`
   margin: 0 10px 10px 10px;
   @media (min-width: 450px) {
     margin-top: 26px;
@@ -52,7 +52,7 @@ const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectMedia} {
@@ -68,7 +68,7 @@ const BernhardtHamlet = () => (
   <Layout>
     <SEO title="Bernhardt Hamlet" />
     <ProjectContent>
-      <ProjectContent__Title>Bernhardt Hamlet</ProjectContent__Title>
+      <ProjectContentTitle>Bernhardt Hamlet</ProjectContentTitle>
       <ProjectSubtitle>
         Associate Sound Design, American Airlines Theatre, Broadway - 2018
       </ProjectSubtitle>

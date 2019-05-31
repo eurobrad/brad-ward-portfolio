@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1`
+const ProjectContentTitle = styled.h1`
   margin: 0 10px 10px 10px;
   @media (min-width: 450px) {
     margin-top: 26px;
@@ -53,7 +53,7 @@ const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectMedia} {
@@ -69,7 +69,7 @@ const SingleImageTemplate = () => (
   <Layout>
     <SEO title="Page's Title" />
     <ProjectContent>
-      <ProjectContent__Title>Project Title</ProjectContent__Title>
+      <ProjectContentTitle>Project Title</ProjectContentTitle>
       <ProjectSubtitle>Project Description</ProjectSubtitle>
       <ProjectMedia>
         <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
