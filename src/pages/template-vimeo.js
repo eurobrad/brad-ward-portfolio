@@ -22,8 +22,6 @@ const ProjectSubtitle = styled.p`
 const ProjectMedia = styled.div`
   position: relative;
   display: inline-block;
-  /* float: left;
-  clear: both; */
   width: 49%;
   padding: 25% 0 0 0;
   iframe {
