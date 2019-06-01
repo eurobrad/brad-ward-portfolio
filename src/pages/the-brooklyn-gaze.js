@@ -1,21 +1,30 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContentTitle = styled.h1`
+  margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
   position: relative;
-  float: left;
-	clear: both;
-  width: 60%;
+  display: inline-block;
+  /* float: left;
+  clear: both; */
+  width: 49%;
   padding: 25% 0 0 0;
   iframe {
     position: absolute;
@@ -27,14 +36,23 @@ const ProjectMedia = styled.div`
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
   border: none;
+  margin-top: 96px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
@@ -45,7 +63,7 @@ const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectMedia} {
@@ -55,6 +73,12 @@ const ProjectContent = styled.div`
         width: 100%;
       }
     }
+    ${ViewProjectButton} {
+      margin-top: 168px;
+    }
+    ${ProjectDescription} {
+      margin-top: 32px;
+    }
   }
 `
 
@@ -62,8 +86,12 @@ const TheBrooklynGaze = () => (
   <Layout>
     <SEO title="The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost" />
     <ProjectContent>
-      <ProjectContent__Title>The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost</ProjectContent__Title>
-      <ProjectSubtitle>Brooklyn Public Library Grand Army Plaza - 2017</ProjectSubtitle>
+      <ProjectContentTitle>
+        The Brooklyn Gaze – Erasure &amp; Revelation/Lightpost
+      </ProjectContentTitle>
+      <ProjectSubtitle>
+        Brooklyn Public Library Grand Army Plaza - 2017
+      </ProjectSubtitle>
       <ProjectMedia>
         <iframe
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
@@ -71,6 +99,9 @@ const TheBrooklynGaze = () => (
           allow="autoplay; fullscreen"
           allowfullscreen
         />
+        <a href="https://www.facebook.com/events/1404488956284735">
+          <ViewProjectButton>View Project</ViewProjectButton>
+        </a>
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
@@ -111,9 +142,6 @@ const TheBrooklynGaze = () => (
           of theatrical design and style.
         </p>
       </ProjectDescription>
-      <a href="https://www.facebook.com/events/1404488956284735">
-        <ViewProjectButton>View Project</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )
