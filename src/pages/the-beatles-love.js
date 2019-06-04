@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -7,23 +6,38 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContentTitle = styled.h1`
+  margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  display: inline-block;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 const ViewProjectButton = styled.button`
@@ -41,11 +55,11 @@ const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectDescription} {
-      margin-top: 320px;
+      margin-top: 32px;
     }
     ${ProjectMedia} {
       width: 100%;
@@ -55,18 +69,13 @@ const ProjectContent = styled.div`
       }
     }
   }
-  @media (max-width: 375px) {
-    ${ProjectDescription} {
-      margin-top: 64px;
-    }
-  }
 `
 
 const TheBeatlesLOVE = () => (
   <Layout>
     <SEO title="The Beatles LOVE" />
     <ProjectContent>
-      <ProjectContent__Title>The Beatles LOVE</ProjectContent__Title>
+      <ProjectContentTitle>The Beatles LOVE</ProjectContentTitle>
       <ProjectSubtitle>
         Cirque du Soleil, The Mirage, Apple Records - 2006-2008
       </ProjectSubtitle>
@@ -85,6 +94,16 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE SGT Pepper</p>
           </div>
         </Carousel>
+        <a
+          href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf?dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          <ViewProjectButton>View Project</ViewProjectButton>
+        </a>
+        <a href="https://www.cirquedusoleil.com/beatles­-love">
+          <ViewProjectButton>Show's Website</ViewProjectButton>
+        </a>
       </ProjectMedia>
       <ProjectDescription>
         <h4>Award: Two time Grammy award winner</h4>
@@ -97,16 +116,6 @@ const TheBeatlesLOVE = () => (
           during the show’s creation period.
         </p>
       </ProjectDescription>
-      <a
-        href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf?dl=0"
-        rel="noopener"
-        target="_blank"
-      >
-        <ViewProjectButton>View Project</ViewProjectButton>
-      </a>
-      <a href="https://www.cirquedusoleil.com/beatles­-love">
-        <ViewProjectButton>Show's Website</ViewProjectButton>
-      </a>
     </ProjectContent>
   </Layout>
 )

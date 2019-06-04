@@ -1,4 +1,6 @@
 import React from 'react'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
@@ -23,9 +25,6 @@ const ProjectMedia = styled.div`
   display: inline-block;
   width: 49%;
   margin-right: 2%;
-  a {
-    display: block;
-  }
 `
 
 const ProjectDescription = styled.section`
@@ -44,8 +43,8 @@ const ProjectDescription = styled.section`
 const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
-  margin-bottom: 1.45rem;
   border: none;
+  margin: 16px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
@@ -59,28 +58,54 @@ const ProjectContent = styled.div`
     ${ProjectContentTitle} {
       font-size: 24px;
     }
+    ${ProjectDescription} {
+      margin-top: 32px;
+    }
     ${ProjectMedia} {
       width: 100%;
-    }
-    ${ProjectDescription} {
-      margin-top: 0;
+      height: 250px;
+      .thumbs-wrapper {
+        display: none;
+      }
     }
   }
 `
 
-const SingleImageTemplate = () => (
+const TheBeatlesLOVE = () => (
   <Layout>
-    <SEO title="Page's Title" />
+    <SEO title="Project Title" />
     <ProjectContent>
       <ProjectContentTitle>Project Title</ProjectContentTitle>
-      <ProjectSubtitle>Project Description</ProjectSubtitle>
+      <ProjectSubtitle>Project Subtitle</ProjectSubtitle>
       <ProjectMedia>
-        <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
-        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-          <ViewProjectButton>Project's Website</ViewProjectButton>
+        <Carousel autoPlay>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-cast.jpg" />
+            <p className="legend">Image 1 name</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-drive-my-car.jpg" />
+            <p className="legend">Image 2 name</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-sgt-pepper.jpg" />
+            <p className="legend">Image 3 name</p>
+          </div>
+        </Carousel>
+        <a
+          href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf?dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          <ViewProjectButton>View Project</ViewProjectButton>
+        </a>
+        <a href="https://www.cirquedusoleil.com/beatles­-love">
+          <ViewProjectButton>View Project</ViewProjectButton>
         </a>
       </ProjectMedia>
       <ProjectDescription>
+        <h4>Award: Two time Grammy award winner</h4>
+        <p>Design Statement by Bradlee Ward, Sound Designer:</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
           aliquet diam, eu tincidunt velit. Aliquam varius a arcu non bibendum.
@@ -95,4 +120,4 @@ const SingleImageTemplate = () => (
   </Layout>
 )
 
-export default SingleImageTemplate
+export default TheBeatlesLOVE

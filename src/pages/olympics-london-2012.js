@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -7,34 +6,60 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ProjectContent__Title = styled.h1``
+const ProjectContentTitle = styled.h1`
+  margin: 0 10px 10px 10px;
+  @media (min-width: 450px) {
+    margin-top: 26px;
+  }
+`
 
 const ProjectSubtitle = styled.p`
   color: #777;
+  margin: 10px;
+  @media (min-width: 450px) {
+    margin-bottom: 34px;
+  }
 `
 
 const ProjectMedia = styled.div`
-  position: relative;
-  float: left;
-  clear: both;
-  width: 60%;
+  display: inline-block;
+  width: 49%;
   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
-  margin-top: 32px;
+  display: inline-block;
+  width: 49%;
+  height: 465px;
+  overflow: auto;
+  vertical-align: top;
   text-align: left;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
+`
+
+const ViewProjectButton = styled.button`
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  margin: 16px;
+  padding: 8px 16px;
+  box-shadow: 2px 2px 2px 2px #bd92e8;
+  border-radius: 5px;
+  cursor: pointer;
 `
 
 const ProjectContent = styled.div`
   text-align: center;
   padding: 8px;
   @media (max-width: 480px) {
-    ${ProjectContent__Title} {
+    ${ProjectContentTitle} {
       font-size: 24px;
     }
     ${ProjectDescription} {
-      margin-top: 352px;
+      margin-top: 32px;
     }
     ${ProjectMedia} {
       width: 100%;
@@ -44,18 +69,13 @@ const ProjectContent = styled.div`
       }
     }
   }
-  @media (max-width: 375px) {
-    ${ProjectDescription} {
-      margin-top: 64px;
-    }
-  }
 `
 
 const OlympicsLondon2012 = () => (
   <Layout>
     <SEO title="2012 OLYMPICS – LONDON" />
     <ProjectContent>
-      <ProjectContent__Title>2012 OLYMPICS – LONDON</ProjectContent__Title>
+      <ProjectContentTitle>2012 OLYMPICS – LONDON</ProjectContentTitle>
       <ProjectSubtitle>Sound Project Manager</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
@@ -79,7 +99,9 @@ const OlympicsLondon2012 = () => (
           the 2012 Olympic Games in London for Blitz Communications.
         </p>
         <ul>
-          <h4>Projects included:</h4>
+          <h3 style={{ marginTop: `16px`, textAlign: `center` }}>
+            Projects included:
+          </h3>
           <li>
             Training events hosted by London Organising Committee of the Olympic
             and Paralympic Games at the Excel Center
