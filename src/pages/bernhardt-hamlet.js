@@ -79,7 +79,7 @@ const BernhardtHamlet = () => (
         </a> */}
       </ProjectMedia>
       <ProjectDescription>
-        <p>Sound designer for this production in Belmont's Troutt Theatre.</p>
+        <p>Sound designer for this production at Roundabout Theatre's American Airlines Theatre.</p>
       </ProjectDescription>
     </ProjectContent>
   </Layout>
