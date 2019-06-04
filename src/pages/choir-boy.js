@@ -23,6 +23,9 @@ const ProjectMedia = styled.div`
   display: inline-block;
   width: 49%;
   margin-right: 2%;
+  a {
+    display: block;
+  }
 `
 
 const ProjectDescription = styled.section`

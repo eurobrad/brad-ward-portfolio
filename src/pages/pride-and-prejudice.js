@@ -23,6 +23,9 @@ const ProjectMedia = styled.div`
   display: inline-block;
   width: 49%;
   margin-right: 2%;
+  a {
+    display: block;
+  }
 `
 
 const ProjectDescription = styled.section`
@@ -35,6 +38,9 @@ const ProjectDescription = styled.section`
   @media (max-width: 480px) {
     width: 100%;
     height: auto;
+    p {
+      margin-top: 24px;
+    }
   }
 `
 
