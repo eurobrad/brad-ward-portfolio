@@ -88,6 +88,7 @@ const TheBrooklynGaze = () => (
       <ProjectSubtitle>Project Description</ProjectSubtitle>
       <ProjectMedia>
         <iframe
+          title="Video Title"
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"

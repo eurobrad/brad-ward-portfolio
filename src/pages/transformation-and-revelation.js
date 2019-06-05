@@ -60,6 +60,9 @@ const ViewProjectButton = styled.button`
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
   cursor: pointer;
+  @media (min-width: 1200px) {
+    margin-top: 224px;
+  }
 `
 
 const ProjectContent = styled.div`
@@ -93,6 +96,7 @@ const TransformationAndRevelation = () => (
       <ProjectSubtitle>UK Design for Performance - 2011</ProjectSubtitle>
       <ProjectMedia>
         <iframe
+          title="Transformation and Revelation"
           src={'https://player.vimeo.com/video/97871458?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"
