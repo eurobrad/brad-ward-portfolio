@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const FooterText = styled.h3`
+const FooterText = styled.p`
   margin-bottom: 0;
-  padding: 24px 8px;
+  padding: 5px 8px;
   font-family: 'Arial Narrow Bold', sans-serif;
   a {
     color: white;
@@ -11,9 +11,6 @@ const FooterText = styled.h3`
     :hover {
       cursor: pointer;
     }
-  }
-  @media (max-width: 400px) {
-    padding: 16px 8px;
   }
 `
 
