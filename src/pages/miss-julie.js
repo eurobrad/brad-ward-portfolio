@@ -79,7 +79,7 @@ const SingleImageTemplate = () => (
       <ProjectMedia>
         <figure>
           <figcaption>Listen to this Audio Sample:</figcaption>
-          <audio controls src="/audio/01Opening.mp3">
+          <audio controls src="../src/audio/01Opening.mp3">
             Your browser does not support the
             <code>audio</code> element.
           </audio>
