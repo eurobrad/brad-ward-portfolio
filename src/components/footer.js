@@ -31,7 +31,7 @@ const Footer = ({ siteTitle }) => (
         target="_blank"
         rel="noopener"
       >
-        Tyson Williams
+        Tyson
       </a>
       {` `}|{` `}
       Contact
