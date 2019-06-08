@@ -566,6 +566,22 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
+
+        <Link to="/miss-julie">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/miss-julie.jpg')`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>Miss Julie</PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Miss Julie Location
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
       </Portfolio>
     </main>
   </Layout>
