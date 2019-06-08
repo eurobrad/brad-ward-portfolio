@@ -33,7 +33,7 @@ const ProjectMedia = styled.div`
 const ProjectDescription = styled.section`
   display: inline-block;
   width: 49%;
-  height: 465px;
+  height: 496px;
   overflow: auto;
   vertical-align: top;
   text-align: left;
@@ -79,7 +79,7 @@ const SingleImageTemplate = () => (
       <ProjectMedia>
         <figure>
           <figcaption>Listen to this Audio Sample:</figcaption>
-          <audio controls src="/audio/01Opening.mp3">
+          <audio controls src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/01Opening.mp3">
             Your browser does not support the
             <code>audio</code> element.
           </audio>
