@@ -77,6 +77,13 @@ const ChoirBoy = () => (
         Associate Sound Designer, Friedman Theatre, Broadway - 2019
       </ProjectSubtitle>
       <ProjectMedia>
+        <iframe
+          title="Video Title"
+          src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        />
         <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
         <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
           <ViewProjectButton>Show's Website</ViewProjectButton>
