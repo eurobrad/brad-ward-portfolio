@@ -20,11 +20,17 @@ const ProjectSubtitle = styled.p`
 `
 
 const ProjectMedia = styled.div`
+  position: relative;
   display: inline-block;
   width: 49%;
-  margin-right: 2%;
-  a {
-    display: block;
+  margin-right: 26px;
+  padding: 25% 0 0 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 `
 
@@ -35,6 +41,9 @@ const ProjectDescription = styled.section`
   overflow: auto;
   vertical-align: top;
   text-align: left;
+  @media (min-width: 1331px) {
+    margin-top: 46px;
+  }
   @media (max-width: 480px) {
     width: 100%;
     height: auto;
@@ -44,8 +53,8 @@ const ProjectDescription = styled.section`
 const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
-  margin-bottom: 1.45rem;
   border: none;
+  margin-top: 96px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
@@ -61,9 +70,16 @@ const ProjectContent = styled.div`
     }
     ${ProjectMedia} {
       width: 100%;
+      height: 250px;
+      .vp-center {
+        width: 100%;
+      }
+    }
+    ${ViewProjectButton} {
+      margin-top: 168px;
     }
     ${ProjectDescription} {
-      margin-top: 0;
+      margin-top: 32px;
     }
   }
 `
@@ -79,12 +95,12 @@ const ChoirBoy = () => (
       <ProjectMedia>
         <iframe
           title="Video Title"
-          src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
+          src={'https://player.vimeo.com/video/345787425?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-        <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" />
+        {/* <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" /> */}
         <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
           <ViewProjectButton>Show's Website</ViewProjectButton>
         </a>

@@ -23,6 +23,7 @@ const ProjectMedia = styled.div`
   position: relative;
   display: inline-block;
   width: 49%;
+  margin-right: 26px;
   padding: 25% 0 0 0;
   iframe {
     position: absolute;
@@ -40,6 +41,9 @@ const ProjectDescription = styled.section`
   overflow: auto;
   vertical-align: top;
   text-align: left;
+  @media (min-width: 1331px) {
+    margin-top: 46px;
+  }
   @media (max-width: 480px) {
     width: 100%;
     height: auto;
