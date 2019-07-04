@@ -103,7 +103,7 @@ const ChoirBoy = () => (
         {/* <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" /> */}
 
         <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-          <ViewProjectButton>Show's Website</ViewProjectButton>
+          <ViewProjectButton>Choir Boy Website</ViewProjectButton>
         </a>
       </ProjectMedia>
       <ProjectDescription>
