@@ -105,6 +105,8 @@ const ChoirBoy = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
+          2019 Tony Award - Best Sound Design for a Play
+          <br />
           Associate Sound Designer with Sun Hee Kil for the Broadway premire of
           CHOIR BOY by Tarell Alvin McCraney, Directed by Trip Cullman, Sound
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
