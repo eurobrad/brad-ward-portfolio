@@ -99,11 +99,14 @@ const TheBeatlesLOVE = () => (
           rel="noopener"
           target="_blank"
         >
-          <ViewProjectButton>L&SA Article</ViewProjectButton>
+          <ViewProjectButton>L+SA Article</ViewProjectButton>
         </a>
-        <a href="https://www.cirquedusoleil.com/beatles­-love">
-          <ViewProjectButton>Show's Website</ViewProjectButton>
+        <a
+          href="https://www.cirquedusoleil.com/beatles­-love"
+          rel="noopener"
           target="_blank"
+        >
+          <ViewProjectButton>Show's Website</ViewProjectButton>
         </a>
       </ProjectMedia>
       <ProjectDescription>
