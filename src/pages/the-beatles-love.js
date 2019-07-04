@@ -108,10 +108,6 @@ const TheBeatlesLOVE = () => (
         >
           <ViewProjectButton>Show's Website</ViewProjectButton>
         </a>
-
-        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-          <ViewProjectButton>Choir Boy Website</ViewProjectButton>
-        </a>
       </ProjectMedia>
       <ProjectDescription>
         <h4>Award: Two time Grammy award winner</h4>
