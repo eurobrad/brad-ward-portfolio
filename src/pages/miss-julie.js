@@ -79,14 +79,27 @@ const SingleImageTemplate = () => (
       <ProjectMedia>
         <figure>
           <figcaption>Listen to this Audio Sample:</figcaption>
-          <audio controls src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/01Opening.mp3">
+          <audio
+            controls
+            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/01Opening.mp3"
+          >
             Your browser does not support the
             <code>audio</code> element.
           </audio>
         </figure>
-        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+        <figure>
+          <figcaption>Listen to this Audio Sample:</figcaption>
+          <audio
+            controls
+            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/02juliesdream.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        {/* <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
           <ViewProjectButton>Project's Website</ViewProjectButton>
-        </a>
+        </a> */}
       </ProjectMedia>
       <ProjectDescription>
         <p>
