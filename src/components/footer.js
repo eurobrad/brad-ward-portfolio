@@ -36,7 +36,7 @@ const Footer = ({ siteTitle }) => (
       {` `}|{` `}
       Contact
       {` `}
-      <a href="mailto:info@bradward.design" target="_blank" rel="noopener">
+      <a href="mailto:info@bradward.net" target="_blank" rel="noopener">
         Brad &#9993;
       </a>
     </FooterText>
