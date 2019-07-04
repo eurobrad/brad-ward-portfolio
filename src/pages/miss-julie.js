@@ -103,13 +103,15 @@ const SingleImageTemplate = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
-          aliquet diam, eu tincidunt velit. Aliquam varius a arcu non bibendum.
-          Vestibulum orci lectus, finibus sed pulvinar quis, hendrerit ut eros.
-          In hac habitasse platea dictumst. Sed dolor nisi, eleifend et vehicula
-          eu, efficitur a magna. Pellentesque vel imperdiet metus. Donec blandit
-          tempus felis a porttitor. Phasellus turpis ex, faucibus vel venenatis
-          sed, suscipit ut felis.
+          by August Strindberg
+          <br />
+          Sound Design and Original Compositions
+          <br />
+          Yale Repertory Theatre
+          <br />
+          2005
+          <br />
+          Selected as part of the US exhibit at thePrague QA, 2007.
         </p>
       </ProjectDescription>
     </ProjectContent>
