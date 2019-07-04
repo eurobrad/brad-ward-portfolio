@@ -100,8 +100,6 @@ const ChoirBoy = () => (
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-
-        {/* <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" /> */}
       </ProjectMedia>
       <ProjectDescription>
         <p>
