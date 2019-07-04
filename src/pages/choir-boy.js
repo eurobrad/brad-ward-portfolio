@@ -101,10 +101,6 @@ const ChoirBoy = () => (
           allowfullscreen
         />
 
-        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-          <ViewProjectButton>Choir Boy Website</ViewProjectButton>
-        </a>
-
         {/* <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/ChoirBoy%20Nominations.jpg" /> */}
       </ProjectMedia>
       <ProjectDescription>
@@ -114,6 +110,10 @@ const ChoirBoy = () => (
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
           Theatre. Manhattan Theatre Club.
         </p>
+
+        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+          <ViewProjectButton>Choir Boy Website</ViewProjectButton>
+        </a>
       </ProjectDescription>
     </ProjectContent>
   </Layout>
