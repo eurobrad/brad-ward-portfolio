@@ -82,7 +82,23 @@ const BernhardtHamlet = () => (
         </a> */}
       </ProjectMedia>
       <ProjectDescription>
-        <p>Sound designer for this production at Roundabout Theatre's American Airlines Theatre.</p>
+        <p>
+          Associate Sound Designer for this production at Roundabout Theatre's
+          American Airlines Theatre.
+          <br />
+          This was the first of many collaboratoins between Brad and Tony Award
+          Winning Sound Designer Fitz Patton and system desinger Sun Hee Kil. We
+          like to call ourselves "Fitz's Angels". Sunny and Brad create
+          fine-tune the instrument through Fitz delivers his heavenly sounds and
+          music.
+        </p>
+
+        <a href="https://www.fitzpatton.com" rel="noopener" target="_blank">
+          <ViewProjectButton>Fitz Patton</ViewProjectButton>
+        </a>
+        <a href="https://www.sunheekil.com" rel="noopener" target="_blank">
+          <ViewProjectButton>Sun Hee Kil</ViewProjectButton>
+        </a>
       </ProjectDescription>
     </ProjectContent>
   </Layout>

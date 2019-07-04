@@ -95,7 +95,7 @@ const TheBeatlesLOVE = () => (
           </div>
         </Carousel>
         <a
-          href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf?dl=0"
+          href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf"
           rel="noopener"
           target="_blank"
         >
