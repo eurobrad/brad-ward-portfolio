@@ -1,8 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import { BWEducation } from '../components/images/image-bradward-education'
-import { BWAudioDesign } from '../components/images/image-bradward_audio-design'
+import { BWEducation } from '../components/images/image-bradward_audio-design'
+import { BWAudioDesign } from '../components/images/image-BradTony'
 import { CtsdCertified } from '../components/images/image-ctsd'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -165,6 +165,7 @@ const IndexPage = () => (
       title="Home"
       keywords={[
         `brad ward`,
+        `Tony Award`,
         `sound design`,
         `sound composition`,
         `composition for theatre`,
@@ -184,10 +185,13 @@ const IndexPage = () => (
             Sound Design and Composition
           </h3>
           <p>
-            Brad is an award winning Sound Designer and Broadway Associate. He
-            has also worked as a Project Manager for events worldwide. Brad also
-            creates amazing custom Sound Effects and Soundscapes and is an
-            expert in Show Control and Spatial Sound.
+            Brad is an award winning Sound Designer and Broadway Associate. Brad
+            meticulously designs and alligns systems that precisely deliver the
+            sound design for a production night after night. His striking and
+            subtle sound designs work in concert with other design elements to
+            tell stories. He creates custom sound effects, soundscapes, and
+            music, and is an expert in show control, MaxMSP, and spatial sound.
+            He has worked as a Project Manager for events worldwide.
           </p>
         </ContentSection>
         <ContentSection>
