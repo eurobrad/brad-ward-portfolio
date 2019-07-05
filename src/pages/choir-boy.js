@@ -91,7 +91,8 @@ const ChoirBoy = () => (
     <ProjectContent>
       <ProjectContentTitle>Choir Boy</ProjectContentTitle>
       <ProjectSubtitle>
-        Associate Sound Designer, Friedman Theatre, Broadway - 2019
+        Associate Sound Designer, Friedman Theatre/Manhattan Theatre Club,
+        Broadway - 2019
       </ProjectSubtitle>
       <ProjectMedia>
         <iframe
@@ -105,11 +106,12 @@ const ChoirBoy = () => (
       <ProjectDescription>
         <p>
           2019 Tony Award - Best Sound Design for a Play
-          <br />
+          <br /> <br />
           Associate Sound Designer with Sun Hee Kil for the Broadway premire of
           CHOIR BOY by Tarell Alvin McCraney, Directed by Trip Cullman, Sound
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
-          Theatre. Manhattan Theatre Club. <br />
+          Theatre.
+          <br />
           <a
             href="https://choirboybroadway.com/"
             rel="noopener"
