@@ -1,8 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import { BWEducation } from '../components/images/image-bradward_audio-design'
-import { BWAudioDesign } from '../components/images/image-BradTony'
+import { BWEducation } from '../components/images/image-bradward-education'
+import { BWAudioDesign } from '../components/images/image-bradward_audio-design'
 import { CtsdCertified } from '../components/images/image-ctsd'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -89,14 +89,12 @@ const Portfolio = styled.section`
 
 const PortfolioCategories = styled.div`
   color: grey;
-
   /* Add this attribute to the element that needs a tooltip */
   [data-tooltip] {
     position: relative;
     z-index: 2;
     cursor: pointer;
   }
-
   /* Hide the tooltip content by default */
   [data-tooltip]:before,
   [data-tooltip]:after {
@@ -106,7 +104,6 @@ const PortfolioCategories = styled.div`
     opacity: 0;
     pointer-events: none;
   }
-
   /* Position tooltip above the element */
   [data-tooltip]:before {
     position: absolute;
@@ -127,7 +124,6 @@ const PortfolioCategories = styled.div`
     font-size: 14px;
     line-height: 1.2;
   }
-
   /* Triangle hack to make tooltip look like a speech bubble */
   [data-tooltip]:after {
     position: absolute;
@@ -143,7 +139,6 @@ const PortfolioCategories = styled.div`
     font-size: 0;
     line-height: 0;
   }
-
   /* Show tooltip content on hover */
   [data-tooltip]:hover:before,
   [data-tooltip]:hover:after {
@@ -152,7 +147,6 @@ const PortfolioCategories = styled.div`
     filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
-
   p {
     display: inline-block;
     padding: 8px;
@@ -165,7 +159,6 @@ const IndexPage = () => (
       title="Home"
       keywords={[
         `brad ward`,
-        `Tony Award`,
         `sound design`,
         `sound composition`,
         `composition for theatre`,
@@ -191,7 +184,6 @@ const IndexPage = () => (
             subtle sound designs work in concert with other design elements to
             tell stories. He creates custom sound effects, soundscapes, and
             music, and is an expert in show control, MaxMSP, and spatial sound.
-            He has worked as a Project Manager for events worldwide.
           </p>
         </ContentSection>
         <ContentSection>
@@ -200,10 +192,11 @@ const IndexPage = () => (
             AV/Theatrical Systems Designer
           </h3>
           <p>
-            Brad is a NYC based CTS-D Certified design consultant working as
-            Senior AV/Theatrical Systems Designer at DLR Group Brad can
-            objectively design and engineer a system right for your application.
-            Please contact Brad to discuss your next project.
+            Brad is a NYC based CTS-D Certified Senior Design Consultant and
+            Project Manager. He has successfully designed and managed projects
+            around the world. Brad can objectively design and engineer a system
+            right for your application or manage your upcoming project. Please
+            contact Brad to discuss how we can collaborate.
           </p>
         </ContentSection>
         <ContentSection>
@@ -379,7 +372,6 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-
         <Link to="/time-stands-still">
           <PortfolioPiece>
             <PortfolioImage
@@ -431,7 +423,6 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-
         <Link to="/transformation-and-revelation">
           <PortfolioPiece>
             <PortfolioImage
