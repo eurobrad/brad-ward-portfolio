@@ -45,6 +45,8 @@ const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
   border: none;
+  margin-top: 25px;
+  margin-right: 25px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
@@ -86,19 +88,27 @@ const BernhardtHamlet = () => (
           Associate Sound Designer for this production at Roundabout Theatre's
           American Airlines Theatre.
           <br />
-          This was the first of many collaboratoins between Brad and Tony Award
-          Winning Sound Designer Fitz Patton and system desinger Sun Hee Kil. We
-          like to call ourselves "Fitz's Angels". Sunny and Brad create
-          fine-tune the instrument through Fitz delivers his heavenly sounds and
-          music.
+          <a
+            href="https://www.roundabouttheatre.org/get-tickets/2018-2019-season/bernhardthamlet/"
+            rel="noopener"
+            target="_blank"
+          >
+            <ViewProjectButton>Show Website</ViewProjectButton>
+          </a>
+          <br /> <br />
+          This was the first of many collaboratoins between Brad, Tony Award
+          winning sound designer Fitz Patton, and system desinger Sun Hee Kil.
+          Sunny and Brad like to call themselves "Fitz's Angels" as they design,
+          implement, and fine-tune the instrument through Fitz delivers his
+          heavenly sounds and music.
+          <br />
+          <a href="https://www.fitzpatton.com" rel="noopener" target="_blank">
+            <ViewProjectButton>Fitz Patton</ViewProjectButton>
+          </a>
+          <a href="https://www.sunheekil.com" rel="noopener" target="_blank">
+            <ViewProjectButton>Sun Hee Kil</ViewProjectButton>
+          </a>
         </p>
-
-        <a href="https://www.fitzpatton.com" rel="noopener" target="_blank">
-          <ViewProjectButton>Fitz Patton</ViewProjectButton>
-        </a>
-        <a href="https://www.sunheekil.com" rel="noopener" target="_blank">
-          <ViewProjectButton>Sun Hee Kil</ViewProjectButton>
-        </a>
       </ProjectDescription>
     </ProjectContent>
   </Layout>

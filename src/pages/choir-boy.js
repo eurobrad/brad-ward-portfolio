@@ -42,7 +42,7 @@ const ProjectDescription = styled.section`
   vertical-align: top;
   text-align: left;
   @media (min-width: 1331px) {
-    margin-top: 46px;
+    margin-top: 0px;
   }
   @media (max-width: 480px) {
     width: 100%;
@@ -54,7 +54,8 @@ const ViewProjectButton = styled.button`
   background-color: rebeccapurple;
   color: white;
   border: none;
-  margin-top: 96px;
+  margin-top: 25px;
+  margin-right: 25px;
   padding: 8px 16px;
   box-shadow: 2px 2px 2px 2px #bd92e8;
   border-radius: 5px;
@@ -108,12 +109,29 @@ const ChoirBoy = () => (
           Associate Sound Designer with Sun Hee Kil for the Broadway premire of
           CHOIR BOY by Tarell Alvin McCraney, Directed by Trip Cullman, Sound
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
-          Theatre. Manhattan Theatre Club.
+          Theatre. Manhattan Theatre Club. <br />
+          <a
+            href="https://choirboybroadway.com/"
+            rel="noopener"
+            target="_blank"
+          >
+            <ViewProjectButton>Choir Boy Website</ViewProjectButton>
+          </a>
+          <br />
+          <br />
+          This another collaboratoin between Brad, Tony Award winning sound
+          designer Fitz Patton, and system desinger Sun Hee Kil. Sunny and Brad
+          like to call themselves "Fitz's Angels" as they design, implement, and
+          fine-tune the instrument through Fitz delivers his heavenly sounds and
+          music.
+          <br />
+          <a href="https://www.fitzpatton.com" rel="noopener" target="_blank">
+            <ViewProjectButton>Fitz Patton</ViewProjectButton>
+          </a>
+          <a href="https://www.sunheekil.com" rel="noopener" target="_blank">
+            <ViewProjectButton>Sun Hee Kil</ViewProjectButton>
+          </a>
         </p>
-
-        <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
-          <ViewProjectButton>Choir Boy Website</ViewProjectButton>
-        </a>
       </ProjectDescription>
     </ProjectContent>
   </Layout>
