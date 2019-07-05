@@ -17,9 +17,9 @@ export const BWAudioDesign = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "BradTony.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "BradTonyAward.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 214) {
               ...GatsbyImageSharpFluid
             }
           }
