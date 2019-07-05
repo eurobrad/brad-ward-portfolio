@@ -17,7 +17,9 @@ export const BWEducation = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "bradward-education.jpg" }) {
+        placeholderImage: file(
+          relativePath: { eq: "bradward_audio-design.jpg" }
+        ) {
           childImageSharp {
             fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid
