@@ -92,6 +92,7 @@ const TheBrooklynGaze = () => (
       </ProjectSubtitle>
       <ProjectMedia>
         <iframe
+          title="The Brooklyn Gaze"
           src={'https://player.vimeo.com/video/325853481?title=0&portrait=0'}
           frameborder="0"
           allow="autoplay; fullscreen"
