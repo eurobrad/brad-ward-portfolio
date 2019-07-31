@@ -51,6 +51,8 @@ const ProjectDescription = styled.section`
 `
 
 const ViewProjectButton = styled.button`
+  position: relative;
+  z-index: 999;
   background-color: rebeccapurple;
   color: white;
   border: none;
