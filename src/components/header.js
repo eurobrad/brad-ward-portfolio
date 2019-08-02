@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
-import { Logo_White_295x148 } from './images/logo-white-295x148'
+import { Logo_White_295x148 as LogoWhite } from './images/logo-white-295x148'
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
@@ -68,7 +68,7 @@ const Header = ({ siteTitle }) => (
     <nav>
       <HeaderLogo>
         <Link to="/">
-          <Logo_White_295x148 />
+          <LogoWhite />
         </Link>
       </HeaderLogo>
       <HeaderTitle>
