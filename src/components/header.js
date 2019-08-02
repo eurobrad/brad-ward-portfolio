@@ -82,7 +82,11 @@ const Header = ({ siteTitle }) => (
           <StyledLink to="/about">About</StyledLink>
         </NavButton>
         <NavButton>
-          <a href="mailto:info@bradward.net" target="_blank" rel="noopener">
+          <a
+            href="mailto:info@bradward.net"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact
           </a>
         </NavButton>
