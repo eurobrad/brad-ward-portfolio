@@ -134,7 +134,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Brad Ward Design`,
 }
 
 export default Header
