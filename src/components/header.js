@@ -71,7 +71,7 @@ const hamburgerMenuStyles = {
   },
   bmMenuWrap: {
     position: 'fixed',
-    height: '128px',
+    height: '136px',
   },
   bmMenu: {
     background: '#9a6ac9',
@@ -108,12 +108,12 @@ const Header = ({ siteTitle }) => (
       </HeaderTitle>
       <NavWrapper>
         <Menu styles={hamburgerMenuStyles} right disableAutoFocus>
-          <a id="home" className="menu-item" href="/">
+          <StyledLink to="/" id="home" className="menu-item">
             Home
-          </a>
-          <a id="about" className="menu-item" href="/about">
+          </StyledLink>
+          <StyledLink to="/about" id="about" className="menu-item">
             About
-          </a>
+          </StyledLink>
           <a
             id="contact"
             className="menu-item"
