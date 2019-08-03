@@ -2,12 +2,16 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
+import { slide as Menu } from 'react-burger-menu'
 
 import { Logo_White_295x148 as LogoWhite } from './images/logo-white-295x148'
 
 const HeaderMain = styled.header`
   background: rebeccapurple;
   text-align: center;
+  @media (max-width: 1075px) {
+    padding-bottom: 8px;
+  }
 `
 
 const HeaderLogo = styled.div`
@@ -17,12 +21,6 @@ const HeaderLogo = styled.div`
   width: 100px;
   margin: 0 2em 2em 2em;
   text-align: center;
-  @media (min-width: 1200px) {
-    margin-right: 160px;
-  }
-  @media (min-width: 1300px) {
-    margin-right: 250px;
-  }
 `
 
 const HeaderTitle = styled.h1`
@@ -39,22 +37,10 @@ const HeaderTitle = styled.h1`
 const NavWrapper = styled.div`
   display: inline-block;
   margin: 0.33em 2em;
+  padding-top: 8px;
   @media (max-width: 1075px) {
     margin-left: 16px;
     margin-right: 16px;
-  }
-`
-
-const NavButton = styled.h2`
-  display: inline-block;
-  margin: 0 10px;
-  border-bottom: 3px solid rebeccapurple;
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  :hover {
-    border-bottom: 3px solid white;
   }
 `
 
@@ -62,6 +48,52 @@ const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
 `
+
+const hamburgerMenuStyles = {
+  bmBurgerButton: {
+    position: 'relative',
+    top: '8px',
+    width: '36px',
+    height: '30px',
+  },
+  bmBurgerBars: {
+    background: 'white',
+  },
+  bmBurgerBarsHover: {
+    background: '#a90000',
+  },
+  bmCrossButton: {
+    height: '24px',
+    width: '24px',
+  },
+  bmCross: {
+    background: '#bdc3c7',
+  },
+  bmMenuWrap: {
+    position: 'fixed',
+    height: '128px',
+  },
+  bmMenu: {
+    background: '#9a6ac9',
+    padding: '0em 1.5em 0em',
+    fontSize: '1.5em',
+  },
+  bmMorphShape: {
+    fill: '#9a6ac9',
+  },
+  bmItemList: {
+    color: '#b8b7ad',
+    padding: '0.8em',
+  },
+  bmItem: {
+    color: 'white',
+    textDecoration: 'none',
+    padding: '.1em 0em',
+  },
+  bmOverlay: {
+    background: 'none',
+  },
+}
 
 const Header = ({ siteTitle }) => (
   <HeaderMain>
@@ -75,21 +107,23 @@ const Header = ({ siteTitle }) => (
         <StyledLink to="/">Brad Ward Design</StyledLink>
       </HeaderTitle>
       <NavWrapper>
-        <NavButton>
-          <StyledLink to="/">Home</StyledLink>
-        </NavButton>
-        <NavButton>
-          <StyledLink to="/about">About</StyledLink>
-        </NavButton>
-        <NavButton>
+        <Menu styles={hamburgerMenuStyles} right disableAutoFocus>
+          <a id="home" className="menu-item" href="/">
+            Home
+          </a>
+          <a id="about" className="menu-item" href="/about">
+            About
+          </a>
           <a
+            id="contact"
+            className="menu-item"
             href="mailto:info@bradward.net"
             target="_blank"
             rel="noopener noreferrer"
           >
             Contact
           </a>
-        </NavButton>
+        </Menu>
       </NavWrapper>
     </nav>
   </HeaderMain>
