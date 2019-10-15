@@ -103,21 +103,14 @@ const TheBrooklynGaze = () => (
         <a href="https://www.facebook.com/events/1404488956284735">
           <ViewProjectButton>View Project</ViewProjectButton>
         </a>
-
-        <br />
-          <a
-            href="https://www.iheart.com/podcast/966-pqa-usitt-at-the-2019-pq-45919724/episode/brad-ward-sunny-kil-45923906/"
-            rel="noopener"
-            target="_blank"
-          >
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
         <p>
-          "Sound designers Bradlee Ward and Sun Hee Kil’s design for The Brooklyn
-          Gaze has been selected to be exhibited at the Prague Quadrennial* as
-          one of 51 designs selected to represent the ‘best of theatre design
-          from the U.S. over the past four years’."
+          "Sound designers Bradlee Ward and Sun Hee Kil’s design for The
+          Brooklyn Gaze has been selected to be exhibited at the Prague
+          Quadrennial* as one of 51 designs selected to represent the ‘best of
+          theatre design from the U.S. over the past four years’."
         </p>
         <p>
           The Brooklyn Gaze was a series of projection mapped artworks
