@@ -106,7 +106,7 @@ const TheBrooklynGaze = () => (
 
         <br />
           <a
-            href="https://choirboybroadway.com/"
+            href="https://www.iheart.com/podcast/966-pqa-usitt-at-the-2019-pq-45919724/episode/brad-ward-sunny-kil-45923906/"
             rel="noopener"
             target="_blank"
           >
