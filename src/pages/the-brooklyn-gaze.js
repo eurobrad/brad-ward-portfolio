@@ -104,7 +104,7 @@ const TheBrooklynGaze = () => (
           <ViewProjectButton>View Project</ViewProjectButton>
         </a>
         <a href="https://www.facebook.com/events/1404488956284735">
-          <ViewProjectButton>Podcast</ViewProjectButton>
+          <ViewProjectButton>Companion Podcast</ViewProjectButton>
         </a>
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
