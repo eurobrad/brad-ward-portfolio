@@ -114,7 +114,7 @@ const TheBrooklynGaze = () => (
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
         <p>
-          "Sound designers Brad Ward and Sun Hee Kil’s design for The Brooklyn
+          "Sound designers Bradlee Ward and Sun Hee Kil’s design for The Brooklyn
           Gaze has been selected to be exhibited at the Prague Quadrennial* as
           one of 51 designs selected to represent the ‘best of theatre design
           from the U.S. over the past four years’."
