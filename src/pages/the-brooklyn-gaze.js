@@ -103,6 +103,13 @@ const TheBrooklynGaze = () => (
         <a href="https://www.facebook.com/events/1404488956284735">
           <ViewProjectButton>View Project</ViewProjectButton>
         </a>
+
+        <br />
+          <a
+            href="https://choirboybroadway.com/"
+            rel="noopener"
+            target="_blank"
+          >
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
