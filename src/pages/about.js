@@ -40,7 +40,7 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
   Previously, Brad taught Audio Engineering at Belmont University in Nashville, 
   Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE 
   in Las Vegas.  
-</P>
+</p>
   <p>
   He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
 </P>
