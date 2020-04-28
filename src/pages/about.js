@@ -25,8 +25,9 @@ const AboutPage = () => (
         Brad is a Senior Associate at {' '}
         <a href="http://www.auerbachconsultants.com" rel="noopener" target="_blank">
           Auerbach Pollock Friedlander
-        </a> where he designs sound and video systems for theatres, themed entertainment, and productions around the world.  Brad is also a New York City based Sound Designer and Broadway Associate.
-        .
+        </a> 
+  where he designs sound and video systems for theatres, themed entertainment, and productions around the world.
+  Brad is also a New York City based Sound Designer and Broadway Associate.        .
       </p>
       <p>
         Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for 
@@ -40,12 +41,13 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
   He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
 </P>
   
-  <p>Brad holds an MFA degree in Sound Design from Yale School of Drama. 
+  <p>
+  Brad holds an MFA degree in Sound Design from Yale School of Drama. 
 Please visit Brad’s website at www.BradWard.net.
 
       </p>
-      
-     
+      <p>   
+        </p>
       <p>
         <strong>Download Resume:</strong> —{' '}
         <a
