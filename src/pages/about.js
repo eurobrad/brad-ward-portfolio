@@ -43,6 +43,8 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
   
   <p>
   Brad holds an MFA degree in Sound Design from Yale School of Drama. 
+  <br>
+  <br>
 Please visit Brad’s website at www.BradWard.net.
 
       </p>
