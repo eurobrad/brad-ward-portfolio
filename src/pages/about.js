@@ -22,7 +22,7 @@ const AboutPage = () => (
     <About>
       <PageTitle>About Brad</PageTitle>
       <p>
-        Brad Ward is a New York City-based Sound Designer. He works as a Senior
+        Bradlee Ward is a New York City-based Sound Designer. He works as a Senior
         AV and Theatrical Systems Designer at{' '}
         <a href="http://www.dlrgroup.com" rel="noopener" target="_blank">
           DLR Group | Westlake Reed Leskosky
