@@ -43,7 +43,7 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
 </p>
   <p>
   He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
-</P>
+</p>
   
   <p>
   Brad holds an MFA degree in Sound Design from Yale School of Drama. 
