@@ -24,21 +24,18 @@ const AboutPage = () => (
       <p>
         Brad is a Senior Associate at {' '}
         <a href="http://www.auerbachconsultants.com" rel="noopener" target="_blank">
-          Auerbach Pollock Friedlander where he designs sound and video systems for theatres, themed entertainment, and productions around the world.  Brad is also a New York City based Sound Designer and Broadway Associate.
-        </a>
+          Auerbach Pollock Friedlander
+        </a> where he designs sound and video systems for theatres, themed entertainment, and productions around the world.  Brad is also a New York City based Sound Designer and Broadway Associate.
         .
       </p>
       <p>
-        Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for TAKE ME OUT on Broadway.
+        Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for 
+Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for TAKE ME OUT on Broadway.
 
 He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo in Calgary.
-
 Previously, Brad taught Audio Engineering at Belmont University in Nashville, Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
-
 He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
-
 Brad holds an MFA degree in Sound Design from Yale School of Drama. 
-
 Please visit Brad’s website at www.BradWard.net.
 
       </p>
