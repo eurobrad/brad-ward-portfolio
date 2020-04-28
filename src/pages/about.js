@@ -31,11 +31,14 @@ const AboutPage = () => (
       </p>
       <p>
         Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for 
-Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for TAKE ME OUT on Broadway.
+Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for 
+  TAKE ME OUT on Broadway.
 
 He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo in Calgary.
-<p>
-  Previously, Brad taught Audio Engineering at Belmont University in Nashville, Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
+</p>
+  <p>
+  Previously, Brad taught Audio Engineering at Belmont University in Nashville, 
+  Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
 </P>
   <p>
   He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
