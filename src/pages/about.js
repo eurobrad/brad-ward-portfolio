@@ -27,7 +27,7 @@ const AboutPage = () => (
           Auerbach Pollock Friedlander
         </a> 
   where he designs sound and video systems for theatres, themed entertainment, and productions around the world.
-  Brad is also a New York City based Sound Designer and Broadway Associate.        .
+  Brad is also a New York City based Sound Designer and Broadway Associate.
       </p>
       <p>
         Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for 
@@ -38,7 +38,8 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
 </p>
   <p>
   Previously, Brad taught Audio Engineering at Belmont University in Nashville, 
-  Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
+  Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE 
+  in Las Vegas.  
 </P>
   <p>
   He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
@@ -46,13 +47,12 @@ He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo
   
   <p>
   Brad holds an MFA degree in Sound Design from Yale School of Drama. 
-  <br>
-  <br>
+  </p>
+  <p>
 Please visit Brad’s website at www.BradWard.net.
 
       </p>
-      <p>   
-        </p>
+    
       <p>
         <strong>Download Resume:</strong> —{' '}
         <a
