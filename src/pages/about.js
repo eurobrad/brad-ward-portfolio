@@ -22,17 +22,25 @@ const AboutPage = () => (
     <About>
       <PageTitle>About Brad</PageTitle>
       <p>
-        Bradlee Ward is a New York City-based Sound Designer. He works as a Senior
-        AV and Theatrical Systems Designer at{' '}
-        <a href="http://www.dlrgroup.com" rel="noopener" target="_blank">
-          DLR Group | Westlake Reed Leskosky
+        Brad is a Senior Associate at {' '}
+        <a href="http://www.auerbachconsultants.com" rel="noopener" target="_blank">
+          Auerbach Pollock Friedlander where he designs sound and video systems for theatres, themed entertainment, and productions around the world.  Brad is also a New York City based Sound Designer and Broadway Associate.
         </a>
         .
       </p>
       <p>
-        With his expertise in theatrical sound design and the academe, Brad is
-        available for commissioned projects, teaching, and workshops on a
-        freelance basis.
+        Brad was the associate sound designer for CHOIR BOY on Broadway which won the 2019 Tony Award for Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for TAKE ME OUT on Broadway.
+
+He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo in Calgary.
+
+Previously, Brad taught Audio Engineering at Belmont University in Nashville, Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
+
+He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
+
+Brad holds an MFA degree in Sound Design from Yale School of Drama. 
+
+Please visit Brad’s website at www.BradWard.net.
+
       </p>
       <p>
         Previously, Brad worked as Assistant Professor of Audio Engineering
