@@ -175,7 +175,7 @@ const IndexPage = () => (
         <ContentSection>
           <BWAudioDesign />
           <h3 style={{ marginTop: `1.45rem`, textAlign: `center` }}>
-            Sound Design and Composition
+            Theatrical Sound Design
           </h3>
           <p>
             Brad is an award winning Sound Designer and Broadway Associate. Brad
@@ -189,11 +189,11 @@ const IndexPage = () => (
         <ContentSection>
           <CtsdCertified />
           <h3 style={{ marginTop: `1.45rem`, textAlign: `center` }}>
-            AV/Theatrical Systems Designer
+            AV/Theatrical Design Consultant
           </h3>
           <p>
-            Brad is a NYC based CTS-D Certified Senior Design Consultant and
-            Project Manager. He has successfully designed and managed projects
+            Brad is a NYC based CTS-D Certified Senior Associate at Auerbach Pollock Friedlander. 
+  He has successfully designed and managed projects
             around the world. Brad can objectively design and engineer a system
             right for your application or manage your upcoming project. Please
             contact Brad to discuss how we can collaborate.
