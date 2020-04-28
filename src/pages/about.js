@@ -33,27 +33,19 @@ const AboutPage = () => (
 Best Sound Design for a Play.  Brad is presently the associate designer sound designer and system designer for TAKE ME OUT on Broadway.
 
 He is the curator for Sound Kitchen 2021 at the upcoming World Stage Design expo in Calgary.
-Previously, Brad taught Audio Engineering at Belmont University in Nashville, Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
-He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
-Brad holds an MFA degree in Sound Design from Yale School of Drama. 
+<p>
+  Previously, Brad taught Audio Engineering at Belmont University in Nashville, Project Manager for Blitz Communications in London, and Lead System Tech for Cirque du Soleil’s The Beatles LOVE in Las Vegas.  
+</P>
+  <p>
+  He serves on the education committee for the Theatrical Sound Designers and Composers Association, is a vice commissioner for sound for United States Institute for Theatre Technology, and is a member of the Association of Sound Designers in the UK.  
+</P>
+  
+  <p>Brad holds an MFA degree in Sound Design from Yale School of Drama. 
 Please visit Brad’s website at www.BradWard.net.
 
       </p>
-      <p>
-        Previously, Brad worked as Assistant Professor of Audio Engineering
-        Technology at Belmont University in Nashville, Project Manager for Blitz
-        Communications in London, and Lead Audio for Cirque du Soleil’s The
-        Beatles LOVE in Las Vegas.
-      </p>
-      <p>
-        Brad serves on the education committee for the Theatrical Sound
-        Designers and Composers Association, is a vice commissioner for sound
-        for United States Institute for Theatre Technology, and is a member of
-        the Association of Sound Designers in the UK. He was the curator for
-        Sound Kitchen at World Stage Design 2017 in Taipei. Brad enjoys sharing
-        his knowledge through lectures and adjunct teaching assignments.
-      </p>
-      <p>Brad holds an MFA degree in Sound Design from Yale School of Drama.</p>
+      
+     
       <p>
         <strong>Download Resume:</strong> —{' '}
         <a
