@@ -169,13 +169,13 @@ const IndexPage = () => (
         `audio engineering`,
       ]}
     />
-    <PageTitle>Sound Design and Composition for Theatre</PageTitle>
+    <PageTitle>Sound Design and Consulting for Theatre</PageTitle>
     <main>
       <section>
         <ContentSection>
           <BWAudioDesign />
           <h3 style={{ marginTop: `1.45rem`, textAlign: `center` }}>
-            Theatrical Sound Design
+            Theatrical Sound Designer
           </h3>
           <p>
             Brad is an award winning Sound Designer and Broadway Associate. Brad
@@ -202,7 +202,7 @@ const IndexPage = () => (
         <ContentSection>
           <BWEducation />
           <h3 style={{ marginTop: `1.45rem`, textAlign: `center` }}>
-            Education
+            Educator
           </h3>
           <p>
             Brad provides successful workshops, classes, training, lectures, and
