@@ -20,11 +20,11 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Articles" />
     <About>
-      <PageTitle>Articles</PageTitle>
+      <PageTitle>Articles & Resources</PageTitle>
       <p>
-        Brad is a Senior Associate at{' '}
+        Rose Tattoo - TiMax Article 2019
         <a
-          href="http://www.auerbachconsultants.com"
+          href="www.bradward.net/src/articles/Rose Tattoo - TiMax - L&S America.pdf"
           rel="noopener"
           target="_blank"
         >
