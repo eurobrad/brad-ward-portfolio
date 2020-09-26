@@ -24,11 +24,11 @@ const AboutPage = () => (
       <p>
         Rose Tattoo - TiMax Article 2019
         <a
-          href="www.bradward.net/src/articles/Rose Tattoo - TiMax - L&S America.pdf"
+          href="https://uploads.codesandbox.io/uploads/user/e0111d8f-2afd-4ac0-8a49-bbfc20ba5eb3/cDJf-Rose+Tattoo+-+TiMax+-+L&S+America.pdf"
           rel="noopener"
           target="_blank"
         >
-          Auerbach Pollock Friedlander
+          Rose Tattoo TiMax Article
         </a>
         where he designs sound and video systems for theatres, themed
         entertainment, and productions around the world. Brad is also a New York
