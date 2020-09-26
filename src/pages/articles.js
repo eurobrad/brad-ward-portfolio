@@ -31,25 +31,17 @@ const ArticlesPage = () => (
           Rose Tattoo TiMax Article
         </a>
       </p>
-
-      <p>Please visit Brad’s website at www.BradWard.net.</p>
-
       <p>
-        <strong>Download Resume:</strong> —{' '}
+        TSDCA 2020 Panel: Exploring the Relationship Between Sound Designers,
+        Acousticians, AV Consultants, and Installers
+      </p>
+      <p>
         <a
-          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_SoundDesign.pdf"
+          href="https://tsdca.org/videos/2020-annual-meeting-exploring-the-relationship-between-sound-designers-acousticians-av-consultants-and-installers/"
           rel="noopener"
           target="_blank"
         >
-          Theatrical/Sound Design
-        </a>{' '}
-        —{' '}
-        <a
-          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_ConsultingAndEducation.pdf"
-          rel="noopener"
-          target="_blank"
-        >
-          Consulting/Education
+          TSDCA Session
         </a>
       </p>
     </Articles>
