@@ -12,14 +12,14 @@ const PageTitle = styled.h1`
   }
 `
 
-const About = styled.div`
+const Articles = styled.div`
   padding: 0 8px;
 `
 
-const AboutPage = () => (
+const ArticlesPage = () => (
   <Layout>
     <SEO title="Articles" />
-    <About>
+    <Articles>
       <PageTitle>Articles & Resources</PageTitle>
       <p>Rose Tattoo - TiMax Article 2019</p>
       <p>
@@ -52,7 +52,7 @@ const AboutPage = () => (
           Consulting/Education
         </a>
       </p>
-    </About>
+    </Articles>
   </Layout>
 )
 
