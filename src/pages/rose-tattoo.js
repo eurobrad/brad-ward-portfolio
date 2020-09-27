@@ -92,7 +92,7 @@ const RoseTattoo = () => (
             </p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/brad-techtable.jpg" />
+            <img src="https://uploads.codesandbox.io/uploads/user/e0111d8f-2afd-4ac0-8a49-bbfc20ba5eb3/Wjcb-+Brad+at+RT+Tech+Table.jpg" />
             <p className="legend">Brad at Tech Tech Table</p>
           </div>
           <div>
