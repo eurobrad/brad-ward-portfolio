@@ -82,6 +82,10 @@ const RoseTattoo = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Queen.jpg" />
+            <p className="legend">Queen Elizabeth and Prince Philip</p>
+          </div>
+          <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
             <p className="legend">
               Fitz Patton, Designer with Associates Sunny Kil & Brad Ward
