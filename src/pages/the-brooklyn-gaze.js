@@ -100,13 +100,25 @@ const TheBrooklynGaze = () => (
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-        <a href="https://www.facebook.com/events/1404488956284735">
+        <a
+          href="https://www.facebook.com/events/1404488956284735"
+          rel="noopener"
+          target="_blank"
+        >
           <ViewProjectButton>View Project</ViewProjectButton>
         </a>
-        <a href="https://podcasts.apple.com/us/podcast/brad-ward-sunny-kil/id1467190855?i=1000440764120">
+        <a
+          href="https://podcasts.apple.com/us/podcast/brad-ward-sunny-kil/id1467190855?i=1000440764120"
+          rel="noopener"
+          target="_blank"
+        >
           <ViewProjectButton>Companion Podcast</ViewProjectButton>
         </a>
-        <a href="http://pq19.usitt.org/professional/brad-ward-sunny-kil/">
+        <a
+          href="http://pq19.usitt.org/professional/brad-ward-sunny-kil/"
+          rel="noopener"
+          target="_blank"
+        >
           <ViewProjectButton>PQ Exhibit</ViewProjectButton>
         </a>
       </ProjectMedia>
