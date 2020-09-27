@@ -82,22 +82,42 @@ const RoseTattoo = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo/RedCarpet.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
             <p className="legend">
               Fitz Patton, Designer with Associates Sunny Kil & Brad Ward
             </p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo/brad-techtable.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/brad-techtable.jpg" />
             <p className="legend">Brad at Tech Tech Table</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo/frontshot.JPG" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/frontshot.JPG" />
             <p className="legend">The Rig</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo/speakers-sideshot.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/speakers-sideshot.jpg" />
             <p className="legend">Side Shot</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Racks.jpg" />
+            <p className="legend">Rack Room</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Mic4022.jpg" />
+            <p className="legend">Floor Mic</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/ff.jpg" />
+            <p className="legend">Front Fills</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/flamingo.jpg" />
+            <p className="legend">Upstage Speakers with the Flamingos!</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/TechBW3.jpg" />
+            <p className="legend">Brad at the Tech Table</p>
           </div>
         </Carousel>
       </ProjectMedia>
