@@ -104,7 +104,7 @@ const RoseTattoo = () => (
             <p className="legend">Side Shot</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Racks.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Racks.JPG" />
             <p className="legend">Rack Room</p>
           </div>
           <div>
