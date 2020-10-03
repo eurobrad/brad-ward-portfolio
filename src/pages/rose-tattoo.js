@@ -82,13 +82,17 @@ const RoseTattoo = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Queen.jpg" />
+            <p className="legend">Queen Elizabeth and Prince Philip</p>
+          </div>
+          <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
             <p className="legend">
               Fitz Patton, Designer with Associates Sunny Kil & Brad Ward
             </p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/brad-techtable.jpg" />
+            <img src="https://uploads.codesandbox.io/uploads/user/e0111d8f-2afd-4ac0-8a49-bbfc20ba5eb3/Wjcb-+Brad+at+RT+Tech+Table.jpg" />
             <p className="legend">Brad at Tech Tech Table</p>
           </div>
           <div>
@@ -129,7 +133,7 @@ const RoseTattoo = () => (
           and staring Marisa Tomei. This wasn my first experience with TiMax
           which proved to make the sound natural. I don't know how we would have
           achieved this given the challenges of the cast's movement through the
-          space.
+          space. This is me with Luda fixing the mess that is the website!!!
         </p>
       </ProjectDescription>
     </ProjectContent>
