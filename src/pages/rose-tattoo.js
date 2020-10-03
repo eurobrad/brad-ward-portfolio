@@ -133,7 +133,7 @@ const RoseTattoo = () => (
           and staring Marisa Tomei. This wasn my first experience with TiMax
           which proved to make the sound natural. I don't know how we would have
           achieved this given the challenges of the cast's movement through the
-          space. This is teh new stuff to add...... Luda Luda Luda
+          space. This is teh new stuff to add...... Luda Luda Luda Brad Brad Brad.
         </p>
       </ProjectDescription>
     </ProjectContent>
