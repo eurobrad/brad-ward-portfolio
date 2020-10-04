@@ -128,12 +128,14 @@ const RoseTattoo = () => (
       <ProjectDescription>
         <p>
           Once again working wtih designer Fitz Patton and Associate Sunny Kil,
-          I was fortunate to be a part of the design team for this excellent
-          performance at the American Airlines Theatre. Directed by Trip Cullman
-          and staring Marisa Tomei. This wasn my first experience with TiMax
-          which proved to make the sound natural. I don't know how we would have
+          Brad was fortunate to be a part of the design team for this excellent
+          performance at the American Airlines Theatre directed by Trip Cullman
+          and staring Marisa Tomei. This was Brad's first experience with TiMax
+          which proved to make the sound natural. Brad said "I don't know how we would have
           achieved this given the challenges of the cast's movement through the
-          space. This is teh new stuff to add...... Luda Luda Luda Brad Brad Brad.
+          space."
+          The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrasonics wireless mics and DPA floor mics.  A full equipment list is available at the link below.
+Click Here for an article discussing the process.
         </p>
       </ProjectDescription>
     </ProjectContent>
