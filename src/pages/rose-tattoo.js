@@ -135,19 +135,16 @@ const RoseTattoo = () => (
           achieved this given the challenges of the cast's movement through the
           space."
           <br>
-          The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrosonics wireless mics and DPA floor mics.  A full equipment list is available at the link below.
+          The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrosonics wireless mics and DPA floor mics.  
+          A full equipment list is available at the link below.
 <br>
-
-
           Click below for an article discussing the process.
-        </p>
-
-  <br />
+  <br>
           <a href="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/articles/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" rel="noopener" target="_blank">
             <ViewProjectButton>EQ List</ViewProjectButton>
           </a>
 
-
+        </p>
       </ProjectDescription>
     </ProjectContent>
   </Layout>
