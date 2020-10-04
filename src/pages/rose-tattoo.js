@@ -83,7 +83,7 @@ const RoseTattoo = () => (
         <Carousel autoPlay>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/AmericanAirlines.jpg" />
-            <p className="legend">Queen Elizabeth and Prince Philip</p>
+            <p className="legend">The Rose Tattoo on Broadway</p>
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
@@ -97,7 +97,7 @@ const RoseTattoo = () => (
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/frontshot.JPG" />
-            <p className="legend">The Rig</p>
+            <p className="legend">The Meyer Rig</p>
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/speakers-sideshot.jpg" />
