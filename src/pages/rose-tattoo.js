@@ -134,8 +134,10 @@ const RoseTattoo = () => (
           which proved to make the sound natural. Brad said "I don't know how we would have
           achieved this given the challenges of the cast's movement through the
           space."
-          The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrasonics wireless mics and DPA floor mics.  A full equipment list is available at the link below.
-Click Here for an article discussing the process.
+          </p>
+          <p>The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrasonics wireless mics and DPA floor mics.  A full equipment list is available at the link below.
+</p>
+          <p>Click Here for an article discussing the process.
         </p>
       </ProjectDescription>
     </ProjectContent>
