@@ -23,7 +23,7 @@ const ProjectSubtitle = styled.p`
 
 const ProjectMedia = styled.div`
   display: inline-block;
-  width: 10%;
+  width: 49%;
    margin-right: 2%;
 `
 
