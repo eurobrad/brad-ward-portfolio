@@ -96,7 +96,7 @@ const RoseTattoo = () => (
             <p className="legend">Brad at Tech Tech Table</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/frontshot.JPG" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/frontshot.jpg" />
             <p className="legend">The Meyer Rig</p>
           </div>
           <div>
@@ -109,7 +109,7 @@ const RoseTattoo = () => (
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Mic4022.jpg" />
-            <p className="legend">Floor Mic</p>
+            <p className="legend">Floor Mic in the Sand</p>
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/ff.jpg" />
