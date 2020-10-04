@@ -23,9 +23,8 @@ const ProjectSubtitle = styled.p`
 
 const ProjectMedia = styled.div`
   display: inline-block;
-  width: 49%;
-  Height: 100px;
-  margin-right: 2%;
+  width: 10%;
+   margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
