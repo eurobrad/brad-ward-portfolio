@@ -140,7 +140,8 @@ const RoseTattoo = () => (
 <br/>
           Click below for an article discussing the process.
   <br/>
-          <a href="https://www.dropbox.com/s/v79aa2u655s404y/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf?dl=0" target="_blank">
+          <a href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_ConsultingAndEducation.pdf" target="_blank">
+
             <ViewProjectButton>EQ List</ViewProjectButton>
           </a>
 
