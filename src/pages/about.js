@@ -60,16 +60,8 @@ Please visit Brad’s website at www.BradWard.net.
           rel="noopener"
           target="_blank"
         >
-          Theatrical/Sound Design
+          Resume
         </a>{' '}
-        —{' '}
-        <a
-          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_ConsultingAndEducation.pdf"
-          rel="noopener"
-          target="_blank"
-        >
-          Consulting/Education
-        </a>
       </p>
     </About>
   </Layout>
