@@ -232,22 +232,6 @@ const IndexPage = () => (
               }}
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>The Rose Tattoo</PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                American Airlines Theatre, Broadway
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
-        </Link>
-
-         <Link to="/rose-tattoo">
-          <PortfolioPiece>
-            <PortfolioImage
-              style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/RedCarpet.jpg')`,
-              }}
-            />
-            <PortfolioDescription>
               <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Friedman Theatre, Broadway
