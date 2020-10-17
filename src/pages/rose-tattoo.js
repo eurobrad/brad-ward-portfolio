@@ -148,7 +148,7 @@ const RoseTattoo = () => (
 
             <ViewProjectButton>EQ List</ViewProjectButton>
             </a>
-            <br>
+            <br/>
             <a 
 href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf" target="_blank">
 
