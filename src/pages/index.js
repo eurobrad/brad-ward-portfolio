@@ -224,17 +224,17 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
-        <Link to="/choir-boy">
+        <Link to="/rose-tattoo">
           <PortfolioPiece>
             <PortfolioImage
               style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/CHOIR_BOY_TONY.jpg')`,
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg')`,
               }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Friedman Theatre, Broadway
+                American Airlines Theatre, Broadway
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
