@@ -232,9 +232,9 @@ const IndexPage = () => (
               }}
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>The Rose Tattoo - Broadway</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                American Airlines Theatre, Broadway
+                American Airlines Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -248,9 +248,9 @@ const IndexPage = () => (
               }}
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>Choir Boy - Broadway</PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Friedman Theatre, Broadway
+                Friedman Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
@@ -265,10 +265,10 @@ const IndexPage = () => (
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                Bernhardt Hamlet
+                Bernhardt Hamlet - Broadway
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                American Airlines Theatre, Broadway
+                American Airlines Theatre
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
