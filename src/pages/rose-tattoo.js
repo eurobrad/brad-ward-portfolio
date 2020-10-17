@@ -145,6 +145,8 @@ const RoseTattoo = () => (
             <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" target="_blank">
 
             <ViewProjectButton>EQ List</ViewProjectButton>
+            </a>
+            
 
   <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf" target="_blank">
 
