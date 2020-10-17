@@ -167,6 +167,7 @@ const IndexPage = () => (
         `audiovisual`,
         `theatrical systems designer`,
         `audio engineering`,
+        `tony award`,
       ]}
     />
     <PageTitle>Sound Design and Consulting for Theatre</PageTitle>
@@ -228,6 +229,22 @@ const IndexPage = () => (
             <PortfolioImage
               style={{
                 backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/CHOIR_BOY_TONY.jpg')`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>The Rose Tattoo</PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                American Airlines Theatre, Broadway
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
+         <Link to="/rose-tattoo">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/RedCarpet.jpg')`,
               }}
             />
             <PortfolioDescription>
