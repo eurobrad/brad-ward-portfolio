@@ -143,8 +143,8 @@ const RoseTattoo = () => (
 <br/>
           Click below for a full equipment list an article discussing the process.
   <br/>
-            <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" 
-            rel="noopener"
+            <a 
+            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
             target="_blank">
 
             <ViewProjectButton>EQ List</ViewProjectButton>
