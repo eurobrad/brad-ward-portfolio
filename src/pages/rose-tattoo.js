@@ -152,7 +152,7 @@ const RoseTattoo = () => (
             <br>
             
 
-  <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf" 
+  <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf"
   rel=noopener
   target="_blank">
 
