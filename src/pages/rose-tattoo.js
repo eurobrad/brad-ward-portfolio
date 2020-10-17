@@ -136,13 +136,21 @@ const RoseTattoo = () => (
           space."
           <br />
           The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrosonics wireless mics and DPA floor mics.  
-          A full equipment list is available at the link below.
+          <br/> Ftiz Patton and Jason Michael Webb were nominated for the 2020 Tony Award for Best Original Score for Theatre for The Rose Tattoo.
+          
+          
 <br/>
-          Click below for an article discussing the process.
+          Click below for a full equipment list an article discussing the process.
   <br/>
-          <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" target="_blank">
+            <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" target="_blank">
 
             <ViewProjectButton>EQ List</ViewProjectButton>
+
+  <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf" target="_blank">
+
+          <a href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" target="_blank">
+
+            <ViewProjectButton>Article</ViewProjectButton>
           </a>
 
         </p>
