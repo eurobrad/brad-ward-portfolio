@@ -240,6 +240,22 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
+                <Link to="/choir-boy">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/CHOIR_BOY_TONY.jpg')`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>Choir Boy</PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Friedman Theatre, Broadway
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
         <Link to="/bernhardt-hamlet">
           <PortfolioPiece>
             <PortfolioImage
