@@ -71,7 +71,7 @@ const hamburgerMenuStyles = {
   },
   bmMenuWrap: {
     position: 'fixed',
-    height: '136px',
+    height: '200px',
   },
   bmMenu: {
     background: '#9a6ac9',
