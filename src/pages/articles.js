@@ -56,6 +56,41 @@ const ArticlesPage = () => (
           Rose Tattoo TiMax Article - 2019
         </a>
       </p>
+
+      <p>
+        2018</p>
+
+<p>
+        Lighting & Sound America Article - Storming Elsinore - Design of Bernhardt Hamlet on Broadway 2018
+      </p>
+      <p>
+        <a
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/bernhardthamlet%202018/BernhardtHamlet%20L%26SA%20Article.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          Storming Elsinore
+        </a>
+      </p>
+
+
+        <p>
+        USITT 2018 Creative Teaching Panel: Presentation of Belmont University Intro to Sound Reinforcement Lab Project
+      </p>
+      <p>
+        <a
+          href="http://teachingarchive.usitt.org/sound/2018/03/13/curb-cafe/"
+          rel="noopener"
+          target="_blank"
+        >
+          Curb Cafe Project
+        </a>
+      </p>
+
+
+
+
+
     </Articles>
   </Layout>
 )
