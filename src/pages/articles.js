@@ -101,6 +101,23 @@ const ArticlesPage = () => (
           Art of the Install
         </a>
       </p>
+        2013</p>
+
+
+      <p>
+        <a
+          href="https://      https://vimeo.com/62640663"
+          rel="noopener"
+          target="_blank"
+        >
+          USITT Guerrilla Sound Challenge
+        </a>
+      </p>
+
+
+
+
+
 
     </Articles>
   </Layout>
