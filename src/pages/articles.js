@@ -69,6 +69,15 @@ const ArticlesPage = () => (
         </a>
       </p>
 
+              <a
+          href="https://t.e2ma.net/webview/w0kakd/b7c28c8c2a184c9ad29ccf90f8da1f05"
+          rel="noopener"
+          target="_blank"
+        >
+          Brad Joins Auerbach Pollock Friedlander - 2019
+        </a>
+      </p>
+
       <p>
 
         2018</p>
