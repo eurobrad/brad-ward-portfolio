@@ -75,7 +75,7 @@ const ArticlesPage = () => (
 
 
         <p>
-        USITT 2018 Creative Teaching Panel: Presentation of Belmont University Intro to Sound Reinforcement Lab Project
+        USITT 2018 Creative Teaching Panel: Brad Presented one his Belmont University Intro to Sound Reinforcement Lab Project, and this project is now part of USITT's archive of creative teaching examples.
       </p>
       <p>
         <a
