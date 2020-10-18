@@ -114,6 +114,9 @@ const Header = ({ siteTitle }) => (
           <StyledLink to="/about" id="about" className="menu-item">
             About
           </StyledLink>
+                    <StyledLink to="/articles" id="articles" className="menu-item">
+            Resources
+          </StyledLink>
           <a
             id="contact"
             className="menu-item"
