@@ -124,9 +124,8 @@ const ArticlesPage = () => (
           Art of the Install
         </a>
       </p>
+            <p>
         2013</p>
-
-
       <p>
         <a
           href="https://vimeo.com/62640663"
