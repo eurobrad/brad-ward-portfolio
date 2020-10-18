@@ -21,17 +21,10 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
-      <p>Rose Tattoo - TiMax Article 2019</p>
+      
       <p>
-        <a
-          href="https://uploads.codesandbox.io/uploads/user/e0111d8f-2afd-4ac0-8a49-bbfc20ba5eb3/cDJf-Rose+Tattoo+-+TiMax+-+L&S+America.pdf"
-          rel="noopener"
-          target="_blank"
-        >
-          Rose Tattoo TiMax Article
-        </a>
-      </p>
-      <p>
+        2020</p>
+        <p>
         TSDCA 2020 Panel: Exploring the Relationship Between Sound Designers,
         Acousticians, AV Consultants, and Installers
       </p>
@@ -41,7 +34,26 @@ const ArticlesPage = () => (
           rel="noopener"
           target="_blank"
         >
-          TSDCA Session
+          TSDCA Session Video
+        </a>
+      </p>
+            <p>
+        <a
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/TSDCA%202020/TSDCA_Takeaway_24June2020.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          TSDCA Session Takeaway
+        </a>
+      </p>
+      <p>2019</p>
+      <p>
+        <a
+          href="https://uploads.codesandbox.io/uploads/user/e0111d8f-2afd-4ac0-8a49-bbfc20ba5eb3/cDJf-Rose+Tattoo+-+TiMax+-+L&S+America.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          Rose Tattoo TiMax Article - 2019
         </a>
       </p>
     </Articles>
