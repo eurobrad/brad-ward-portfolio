@@ -46,6 +46,18 @@ const ArticlesPage = () => (
           TSDCA Session Takeaway
         </a>
       </p>
+      <p>
+        RCF Press Release on Brad's Design for Bedlam Theatre's KING LEAR directed by Eric Tucker at Bristol Riverside Theatre 2020
+      </p>
+      <p>
+        <a
+          href="https://https://eurobrad.s3.us-east-2.amazonaws.com/articles/RCF%20King%20Lear%202020.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          Art of the Install
+        </a>
+      </p>
       <p>2019</p>
       <p>
         <a
@@ -58,6 +70,7 @@ const ArticlesPage = () => (
       </p>
 
       <p>
+
         2018</p>
 
 <p>
