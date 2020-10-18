@@ -68,6 +68,7 @@ const ArticlesPage = () => (
           Rose Tattoo TiMax Article - 2019
         </a>
       </p>
+      <p>
 
               <a
           href="https://t.e2ma.net/webview/w0kakd/b7c28c8c2a184c9ad29ccf90f8da1f05"
@@ -128,17 +129,13 @@ const ArticlesPage = () => (
 
       <p>
         <a
-          href="https://      https://vimeo.com/62640663"
+          href="https://vimeo.com/62640663"
           rel="noopener"
           target="_blank"
         >
           USITT Guerrilla Sound Challenge
         </a>
       </p>
-
-
-
-
 
 
     </Articles>
