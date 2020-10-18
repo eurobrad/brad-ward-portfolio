@@ -24,7 +24,7 @@ const FooterMain = styled.header`
 const Footer = ({ siteTitle }) => (
   <FooterMain>
     <FooterText>
-      © {new Date().getFullYear()}, 
+      © {new Date().getFullYear()}
       {` `}|{` `}
       Contact
       {` `}
