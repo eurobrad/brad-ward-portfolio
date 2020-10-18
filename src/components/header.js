@@ -54,7 +54,7 @@ const hamburgerMenuStyles = {
     position: 'relative',
     top: '8px',
     width: '36px',
-    height: '30px',
+    height: '40px',
   },
   bmBurgerBars: {
     background: 'white',
