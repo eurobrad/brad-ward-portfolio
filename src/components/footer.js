@@ -24,15 +24,7 @@ const FooterMain = styled.header`
 const Footer = ({ siteTitle }) => (
   <FooterMain>
     <FooterText>
-      © {new Date().getFullYear()}, Built by
-      {` `}
-      <a
-        href="https://www.linkedin.com/in/tysonwilliams/"
-        target="_blank"
-        rel="noopener"
-      >
-        Tyson
-      </a>
+      © {new Date().getFullYear()}, 
       {` `}|{` `}
       Contact
       {` `}
