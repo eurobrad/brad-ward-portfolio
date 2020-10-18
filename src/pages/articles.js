@@ -86,10 +86,21 @@ const ArticlesPage = () => (
           Curb Cafe Project
         </a>
       </p>
+      <p>
+        2016</p>
 
-
-
-
+<p>
+        Stage Directions Article - The Art of the Install - Brad featured in article by Bryan Reesman 2016
+      </p>
+      <p>
+        <a
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/Stage%20Directions%20Art%20of%20the%20Installation.pdf"
+          rel="noopener"
+          target="_blank"
+        >
+          Art of the Install
+        </a>
+      </p>
 
     </Articles>
   </Layout>
