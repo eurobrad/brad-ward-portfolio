@@ -56,7 +56,7 @@ Please visit Brad’s website at www.BradWard.net.
       <p>
         <strong>Download Resume:</strong> —{' '}
         <a
-          href="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/documents/Resume_BradWard_SoundDesign.pdf"
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/resume/Resume-Brad%20Ward-Web.pdf"
           rel="noopener"
           target="_blank"
         >
