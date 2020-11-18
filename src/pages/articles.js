@@ -21,10 +21,9 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
-      
+
+      <p>2020</p>
       <p>
-        2020</p>
-        <p>
         TSDCA 2020 Panel: Exploring the Relationship Between Sound Designers,
         Acousticians, AV Consultants, and Installers
       </p>
@@ -37,7 +36,7 @@ const ArticlesPage = () => (
           TSDCA Session Video
         </a>
       </p>
-            <p>
+      <p>
         <a
           href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/TSDCA%202020/TSDCA_Takeaway_24June2020.pdf"
           rel="noopener"
@@ -47,15 +46,16 @@ const ArticlesPage = () => (
         </a>
       </p>
       <p>
-        RCF Press Release on Brad's Design for Bedlam Theatre's KING LEAR directed by Eric Tucker at Bristol Riverside Theatre 2020
+        RCF Press Release on Brad's Design for Bedlam Theatre's KING LEAR
+        directed by Eric Tucker at Bristol Riverside Theatre 2020
       </p>
       <p>
         <a
-          href="https://https://eurobrad.s3.us-east-2.amazonaws.com/articles/RCF%20King%20Lear%202020.pdf"
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/RCF%20King%20Lear%202020.pdf"
           rel="noopener"
           target="_blank"
         >
-          Art of the Install
+          Lear Press Release - 2020
         </a>
       </p>
       <p>2019</p>
@@ -69,8 +69,7 @@ const ArticlesPage = () => (
         </a>
       </p>
       <p>
-
-              <a
+        <a
           href="https://t.e2ma.net/webview/w0kakd/b7c28c8c2a184c9ad29ccf90f8da1f05"
           rel="noopener"
           target="_blank"
@@ -79,12 +78,11 @@ const ArticlesPage = () => (
         </a>
       </p>
 
+      <p>2018</p>
+
       <p>
-
-        2018</p>
-
-<p>
-        Lighting & Sound America Article - Storming Elsinore - Design of Bernhardt Hamlet on Broadway 2018
+        Lighting & Sound America Article - Storming Elsinore - Design of
+        Bernhardt Hamlet on Broadway 2018
       </p>
       <p>
         <a
@@ -96,9 +94,10 @@ const ArticlesPage = () => (
         </a>
       </p>
 
-
-        <p>
-        USITT 2018 Creative Teaching Panel: Brad Presented one his Belmont University Intro to Sound Reinforcement Lab Project, and this project is now part of USITT's archive of creative teaching examples.
+      <p>
+        USITT 2018 Creative Teaching Panel: Brad Presented one his Belmont
+        University Intro to Sound Reinforcement Lab Project, and this project is
+        now part of USITT's archive of creative teaching examples.
       </p>
       <p>
         <a
@@ -109,11 +108,11 @@ const ArticlesPage = () => (
           Curb Cafe Project
         </a>
       </p>
-      <p>
-        2016</p>
+      <p>2016</p>
 
-<p>
-        Stage Directions Article - The Art of the Install - Brad featured in article by Bryan Reesman 2016
+      <p>
+        Stage Directions Article - The Art of the Install - Brad featured in
+        article by Bryan Reesman 2016
       </p>
       <p>
         <a
@@ -124,19 +123,12 @@ const ArticlesPage = () => (
           Art of the Install
         </a>
       </p>
-            <p>
-        2013</p>
+      <p>2013</p>
       <p>
-        <a
-          href="https://vimeo.com/62640663"
-          rel="noopener"
-          target="_blank"
-        >
+        <a href="https://vimeo.com/62640663" rel="noopener" target="_blank">
           USITT Guerrilla Sound Challenge
         </a>
       </p>
-
-
     </Articles>
   </Layout>
 )
