@@ -193,11 +193,11 @@ const IndexPage = () => (
             AV/Theatrical Design Consultant
           </h3>
           <p>
-            Brad is a NYC based CTS-D Certified Senior Associate at Auerbach Pollock Friedlander. 
-  He has successfully designed and managed projects
-            around the world. Brad can objectively design and engineer a system
-            right for your application or manage your upcoming project. Please
-            contact Brad to discuss how we can collaborate.
+            Brad is a NYC based CTS-D Certified Senior Associate at Auerbach
+            Pollock Friedlander. He has successfully designed and managed
+            projects around the world. Brad can objectively design and engineer
+            a system right for your application or manage your upcoming project.
+            Please contact Brad to discuss how we can collaborate.
           </p>
         </ContentSection>
         <ContentSection>
@@ -232,7 +232,9 @@ const IndexPage = () => (
               }}
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>The Rose Tattoo - Broadway</PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>
+                The Rose Tattoo - Broadway
+              </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 American Airlines Theatre
               </PortfolioDescriptionText>
@@ -240,7 +242,7 @@ const IndexPage = () => (
           </PortfolioPiece>
         </Link>
 
-                <Link to="/choir-boy">
+        <Link to="/choir-boy">
           <PortfolioPiece>
             <PortfolioImage
               style={{
@@ -248,7 +250,9 @@ const IndexPage = () => (
               }}
             />
             <PortfolioDescription>
-              <PortfolioDescriptionTitle>Choir Boy - Broadway</PortfolioDescriptionTitle>
+              <PortfolioDescriptionTitle>
+                Choir Boy - Broadway
+              </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Friedman Theatre
               </PortfolioDescriptionText>
@@ -323,7 +327,7 @@ const IndexPage = () => (
         <PortfolioPiece>
           <PortfolioImage
             style={{
-              backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Lewiston+Clarkston+FacebookCover.jpg')`,
+              backgroundImage: `url('https://eurobrad.s3.us-east-2.amazonaws.com/assets/Lewiston%2BClarkston%2BFacebookCover.jpg')`,
             }}
           />
           <PortfolioDescription>
