@@ -23,6 +23,18 @@ const ArticlesPage = () => (
       <PageTitle>Articles & Resources</PageTitle>
 
       <p>2020</p>
+
+      <p>USITT Forum at Four Webinar: What is a Sound Associate?</p>
+      <p>
+        <a
+          href="https://www.youtube.com/watch?v=AYlZ9r2sVts"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Video
+        </a>
+      </p>
+
       <p>
         TSDCA 2020 Panel: Exploring the Relationship Between Sound Designers,
         Acousticians, AV Consultants, and Installers
