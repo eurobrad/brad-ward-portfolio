@@ -44,10 +44,40 @@ const ArticlesPage = () => (
           </audio>
         </figure>
         <figure>
-          <figcaption>Listen to this Audio Sample:</figcaption>
+          <figcaption>Lo, How A Rose E'er Blooming:</figcaption>
           <audio
             controls
-            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/02juliesdream.mp3"
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/tlc_christmas2021/Lo%20How%20A%20Rose%20Eer%20Blooming.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        <figure>
+          <figcaption>See Amid The Winter's Snow:</figcaption>
+          <audio
+            controls
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/tlc_christmas2021/See%20Amid%20The%20Winters%20Snow.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        <figure>
+          <figcaption>While By My Sheep:</figcaption>
+          <audio
+            controls
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/tlc_christmas2021/While%20By%20My%20Sheep.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        <figure>
+          <figcaption>Violin Piece:</figcaption>
+          <audio
+            controls
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/tlc_christmas2021/Violin%20Piece.mp3"
           >
             Your browser does not support the
             <code>audio</code> element.
