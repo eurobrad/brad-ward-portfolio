@@ -87,13 +87,6 @@ const ArticlesPage = () => (
           <ViewProjectButton>Project's Website</ViewProjectButton>
         </a> */}
       </ProjectMedia>
-      <p>
-        <a
-          href="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Away%20In%20A%20Manger.aiff"
-          rel="noopener"
-          target="_blank"
-        >
-
     </Articles>
   </Layout>
 )
