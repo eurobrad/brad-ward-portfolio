@@ -34,7 +34,7 @@ const ArticlesPage = () => (
       <p>Christmas 2021</p>
       <ProjectMedia>
         <figure>
-          <figcaption>Listen to this Audio Sample:</figcaption>
+          <figcaption>Away In A Manger:</figcaption>
           <audio
             controls
             src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Away%20In%20A%20Manger.aiff"
