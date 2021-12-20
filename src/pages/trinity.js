@@ -15,7 +15,16 @@ const PageTitle = styled.h1`
 const Articles = styled.div`
   padding: 0 8px;
 `
+const ProjectAudio = styled.audio``
 
+const ProjectMedia = styled.div`
+  display: inline-block;
+  width: 49%;
+  margin-right: 2%;
+  a {
+    display: block;
+  }
+`
 const ArticlesPage = () => (
   <Layout>
     <SEO title="Articles" />
