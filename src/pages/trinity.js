@@ -20,37 +20,15 @@ const ArticlesPage = () => (
   <Layout>
     <SEO title="Articles" />
     <Articles>
-      <PageTitle>Articles & Resources</PageTitle>
+      <PageTitle>Trinity Lutheran Church of Manhattan Choir</PageTitle>
 
       <p>2020</p>
 
-      <p>USITT Forum at Four Webinar: What is a Sound Associate?</p>
-      <p>
-        <a
-          href="https://www.youtube.com/watch?v=AYlZ9r2sVts"
-          rel="noopener"
-          target="_blank"
-        >
-          Session Video
-        </a>
-      </p>
+      <p>Christmas 2021</p>
 
       <p>
-        TSDCA 2020 Panel: Exploring the Relationship Between Sound Designers,
-        Acousticians, AV Consultants, and Installers
-      </p>
-      <p>
         <a
-          href="https://tsdca.org/videos/2020-annual-meeting-exploring-the-relationship-between-sound-designers-acousticians-av-consultants-and-installers/"
-          rel="noopener"
-          target="_blank"
-        >
-          TSDCA Session Video
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/TSDCA%202020/TSDCA_Takeaway_24June2020.pdf"
+          href="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Away%20In%20A%20Manger.aiff"
           rel="noopener"
           target="_blank"
         >
