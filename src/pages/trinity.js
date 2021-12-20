@@ -37,7 +37,7 @@ const ArticlesPage = () => (
           <figcaption>Listen to this Audio Sample:</figcaption>
           <audio
             controls
-            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/01Opening.mp3"
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Away%20In%20A%20Manger.aiff"
           >
             Your browser does not support the
             <code>audio</code> element.
