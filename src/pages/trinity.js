@@ -37,7 +37,7 @@ const ArticlesPage = () => (
           <figcaption>Away In A Manger:</figcaption>
           <audio
             controls
-            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Agnes.mp3"
+            src="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/tlc_christmas2021/Away%20In%20A%20Manger.mp3"
           >
             Your browser does not support the
             <code>audio</code> element.
