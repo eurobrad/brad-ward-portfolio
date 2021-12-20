@@ -22,10 +22,32 @@ const ArticlesPage = () => (
     <Articles>
       <PageTitle>Trinity Lutheran Church of Manhattan Choir</PageTitle>
 
-      <p>2020</p>
-
       <p>Christmas 2021</p>
-
+      <ProjectMedia>
+        <figure>
+          <figcaption>Listen to this Audio Sample:</figcaption>
+          <audio
+            controls
+            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/01Opening.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        <figure>
+          <figcaption>Listen to this Audio Sample:</figcaption>
+          <audio
+            controls
+            src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/audio/02juliesdream.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+        {/* <a href="https://choirboybroadway.com/" rel="noopener" target="_blank">
+          <ViewProjectButton>Project's Website</ViewProjectButton>
+        </a> */}
+      </ProjectMedia>
       <p>
         <a
           href="https://eurobrad.s3.us-east-2.amazonaws.com/trinity_content/Away%20In%20A%20Manger.aiff"
