@@ -49,7 +49,7 @@ const AboutPage = () => (
       <p>
         Previously, Brad taught Audio Engineering at Belmont University in
         Nashville, Digital Production at Mountview Academy for the Arts in
-        London, Sound Design for UNLV im Las Vegas, Project Manager for Blitz
+        London, Sound Design for UNLV in Las Vegas, Project Manager for Blitz
         Communications in London, and Lead System Tech for Cirque du Soleil’s
         The Beatles LOVE in Las Vegas.
       </p>
