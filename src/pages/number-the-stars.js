@@ -98,9 +98,6 @@ const NumberTheStars = () => (
           allow="autoplay; fullscreen"
           allowfullscreen
         />
-        <a href="https://www.nashvillechildrenstheatre.org/">
-          <ViewProjectButton>View Project</ViewProjectButton>
-        </a>
       </ProjectMedia>
       <script src="https://player.vimeo.com/api/player.js" />
       <ProjectDescription>
