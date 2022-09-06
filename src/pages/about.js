@@ -34,6 +34,7 @@ const AboutPage = () => (
         entertainment, and productions around the world. Brad is also a New York
         City based Sound Designer and Broadway Associate.
       </p>
+      <br />
       <p>
         Brad was recently the sound designer for PENELOPE, OR HOW THE ODYSSEY
         WAS REALLY WRITTEN at The York Theatre in NYC and assistant designer for
@@ -44,6 +45,7 @@ const AboutPage = () => (
         He was the curator for Sound Kitchen 2023 at OISTAT's World Stage Design
         expo in Calgary.
       </p>
+      <br />
       <p>
         Previously, Brad taught Audio Engineering at Belmont University in
         Nashville, Digital Production at Mountview Academy for the Arts in
@@ -52,7 +54,6 @@ const AboutPage = () => (
         The Beatles LOVE in Las Vegas.
       </p>
       <br />
-      <br />
       <p>
         He serves on the education committee for the Theatrical Sound Designers
         and Composers Association, is a vice commissioner for sound for United
@@ -60,12 +61,10 @@ const AboutPage = () => (
         Association of Sound Designers in the UK.
       </p>
       <br />
-      <br />
       <p>Brad holds an MFA degree in Sound Design from Yale School of Drama.</p>
       <br />
       <br />
       <p>Please visit Brad’s website at www.BradWard.net.</p>
-      <br />
       <br />
       <p>
         <strong>Download Resume:</strong> —{' '}
