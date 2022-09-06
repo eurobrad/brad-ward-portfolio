@@ -36,12 +36,13 @@ const AboutPage = () => (
       </p>
       <p>
         Brad was recently the sound designer for PENELOPE, OR HOW THE ODYSSEY
-        WAS REALLY WRITTEN and assistant designer for Audible.com Theater at
-        Minetta Lane's HEART. He was the associate sound designer THE ROSE
-        TATTOO on Broadway which was nominated for the 2020 Tony Award for Best
-        Original Score for Theatre and for CHOIR BOY on Broadway which won the
-        2019 Tony Award for Best Sound Design for a Play. He was the curator for
-        Sound Kitchen 2023 at OISTAT's World Stage Design expo in Calgary.
+        WAS REALLY WRITTEN at The York Theatre in NYC and assistant designer for
+        Audible.com Theater at Minetta Lane's HEART. He was the associate sound
+        designer THE ROSE TATTOO on Broadway which was nominated for the 2020
+        Tony Award for Best Original Score for Theatre and for CHOIR BOY on
+        Broadway which won the 2019 Tony Award for Best Sound Design for a Play.
+        He was the curator for Sound Kitchen 2023 at OISTAT's World Stage Design
+        expo in Calgary.
       </p>
       <p>
         Previously, Brad taught Audio Engineering at Belmont University in
