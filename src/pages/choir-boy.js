@@ -114,15 +114,6 @@ const ChoirBoy = () => (
           Design by Fitz Patton for Manhattan Theatre Club at the Friedman
           Theatre.
           <br />
-          <a
-            href="https://choirboybroadway.com/"
-            rel="noopener"
-            target="_blank"
-          >
-            <ViewProjectButton>Choir Boy Website</ViewProjectButton>
-          </a>
-          <br />
-          <br />
           This another collaboratoin between Brad, Tony Award winning sound
           designer Fitz Patton, and system desinger Sun Hee Kil. Sunny and Brad
           like to call themselves "Fitz's Angels" as they design, implement, and
