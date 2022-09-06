@@ -63,7 +63,6 @@ const AboutPage = () => (
       <br />
       <p>Brad holds an MFA degree in Sound Design from Yale School of Drama.</p>
       <br />
-      <br />
       <p>Please visit Brad’s website at www.BradWard.net.</p>
       <br />
       <p>
