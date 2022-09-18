@@ -82,7 +82,10 @@ const USITT2022 = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://www.dropbox.com/s/vabxaam6fsv8h9d/SpatialSoundGroup.JPG?dl=0" altxt "Spatial Sound Group" />
+            <img
+              src="https://www.dropbox.com/s/vabxaam6fsv8h9d/SpatialSoundGroup.JPG?dl=0"
+              alt="Spatial Sound Group"
+            />
             <p className="legend">The Rose Tattoo on Broadway</p>
           </div>
           <div>
