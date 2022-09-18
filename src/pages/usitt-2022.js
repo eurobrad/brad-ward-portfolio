@@ -92,17 +92,20 @@ const USITT2022 = () => (
           USITT 2022 Conference featured a presentation on Spatial Sound led by
           longtime USITT member and Vice Commissioner for Sound, Brad Ward with
           participants Christopher Baine, Richard Bugg, Ianina Canalis, Duncan
-          Crundwell, and Ralf Zuleeg. The group quickly determined there was far
-          too much to much information to present in the time alloted, so they
-          decided to cover the history and theory of spatial sound in this
-          session. USITT 2023 in St. Louis, will have a special focus on spatial
-          sound and will pick up this session left off with more informational
-          sessions and live demos.
+          Crundwell, and Ralf Zuleeg.
+          <br />
+          The group quickly determined there was far too much to much
+          information to present in the time alloted, so they decided to cover
+          the history and theory of spatial sound in this session.
           <br />
           In this session, Brad gathered these heavy hitters in the field to
           cover this extremely pertinent topic which has been around since close
           to the beginning of time.
           <br />
+          USITT 2023 in St. Louis, will have a special focus on spatial sound
+          and will pick up this session left off with more informational
+          sessions and live demos. In the meantime, reach out to Brad or any of
+          these experts in spatial sound for help with your projects.
           <a
             href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
             target="_blank"
