@@ -106,6 +106,7 @@ const USITT2022 = () => (
           and will pick up this session left off with more informational
           sessions and live demos. In the meantime, reach out to Brad or any of
           these experts in spatial sound for help with your projects.
+          <br />
           <a
             href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
             target="_blank"
