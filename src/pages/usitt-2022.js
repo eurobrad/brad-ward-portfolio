@@ -139,10 +139,10 @@ const USITT2022 = () => (
           process.
           <br />
           <a
-            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
+            href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
             target="_blank"
           >
-            <ViewProjectButton>EQ List</ViewProjectButton>
+            <ViewProjectButton>Session Slides and Notes</ViewProjectButton>
           </a>
           <a
             href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf"
