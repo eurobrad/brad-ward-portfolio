@@ -81,17 +81,12 @@ const USITT2022 = () => (
       <ProjectSubtitle>The History and Theory of Spatial Sound</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
-          <div>
-            <img
-              src="https://www.dropbox.com/s/vabxaam6fsv8h9d/SpatialSoundGroup.JPG"
-              alt="Spatial Sound Group"
-            />
-            <p className="legend">Spatial Sound Presenters</p>
+        <p className="legend">Spatial Sound Presenters</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/usitt2022/SpatialSoundGroup.JPG" />
             <p className="legend">
-              Fitz Patton, Designer with Associates Sunny Kil & Brad Ward
+            Spatial Sound Presenters
             </p>
           </div>
           <div>
