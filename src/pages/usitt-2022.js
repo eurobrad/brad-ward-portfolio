@@ -81,13 +81,9 @@ const USITT2022 = () => (
       <ProjectSubtitle>The History and Theory of Spatial Sound</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
-        <p className="legend">Spatial Sound Presenters</p>
-          </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/usitt2022/SpatialSoundGroup.JPG" />
-            <p className="legend">
-            Spatial Sound Presenters
-            </p>
+            <p className="legend">Spatial Sound Presenters</p>
           </div>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/brad-techtable.jpg" />
