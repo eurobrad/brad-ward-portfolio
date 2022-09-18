@@ -78,7 +78,7 @@ const USITT2022 = () => (
     <SEO title="The History and Theory of Spatial Sound" />
     <ProjectContent>
       <ProjectContentTitle>USITT 2022 - Baltimore</ProjectContentTitle>
-      <ProjectSubtitle>USITT 2022 - Baltimore</ProjectSubtitle>
+      <ProjectSubtitle>The History and Theory of Spatial Sound</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
