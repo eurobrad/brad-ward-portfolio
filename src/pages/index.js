@@ -168,6 +168,8 @@ const IndexPage = () => (
         `theatrical systems designer`,
         `audio engineering`,
         `tony award`,
+        `spatial sound`,
+        `immersive audio`,
       ]}
     />
     <PageTitle>Sound Design and Consulting for Theatre</PageTitle>
@@ -224,6 +226,24 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
+        <Link to="/usitt-2022">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/usitt2022/SpatialSoundGroup.JPG')`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                The History and Theory of Spatial Sound
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                USITT Conference 2022 - Baltimore
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
         <Link to="/rose-tattoo">
           <PortfolioPiece>
             <PortfolioImage
