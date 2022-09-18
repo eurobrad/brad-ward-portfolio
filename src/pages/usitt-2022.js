@@ -73,12 +73,12 @@ const ProjectContent = styled.div`
   }
 `
 
-const RoseTattoo = () => (
+const USITT2022 = () => (
   <Layout>
-    <SEO title="The Rose Tattoo on Broadway" />
+    <SEO title="USITT 2022 - Baltimore" />
     <ProjectContent>
-      <ProjectContentTitle>The Rose Tattoo on Broadway</ProjectContentTitle>
-      <ProjectSubtitle>Associate Sound Designer</ProjectSubtitle>
+      <ProjectContentTitle>USITT 2022 - Baltimore</ProjectContentTitle>
+      <ProjectSubtitle>The History and Theory of Spatial Sound</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
@@ -162,4 +162,4 @@ const RoseTattoo = () => (
   </Layout>
 )
 
-export default RoseTattoo
+export default USITT2022
