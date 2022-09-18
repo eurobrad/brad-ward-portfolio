@@ -24,7 +24,7 @@ const ProjectSubtitle = styled.p`
 const ProjectMedia = styled.div`
   display: inline-block;
   width: 49%;
-   margin-right: 2%;
+  margin-right: 2%;
 `
 
 const ProjectDescription = styled.section`
@@ -131,27 +131,30 @@ const RoseTattoo = () => (
           Brad was fortunate to be a part of the design team for this excellent
           performance at the American Airlines Theatre directed by Trip Cullman
           and staring Marisa Tomei. This was Brad's first experience with TiMax
-          which proved to make the sound natural. Brad said "I don't know how we would have
-          achieved this given the challenges of the cast's movement through the
-          space."
-          <br />            <br/>
-          The design was designed largely via a Meyer PA and vocal reinforcement via Sennheiser and Lectrosonics wireless mics and DPA floor mics.  
-          <br/>             <br/>
-          Ftiz Patton and Jason Michael Webb were nominated for the 2020 Tony Award for Best Original Score for Theatre for The Rose Tattoo.
-          
-          
-<br/>            <br/>
-          Click below for a full equipment list an article discussing the process.
-  <br/>
-              <a 
-            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf" target="_blank">
-
+          which proved to make the sound natural. Brad said "I don't know how we
+          would have achieved this given the challenges of the cast's movement
+          through the space."
+          <br /> <br />
+          The design was largely a Meyer PA with vocal reinforcement via
+          Sennheiser and Lectrosonics wireless mics and DPA floor mics.
+          <br /> <br />
+          Ftiz Patton and Jason Michael Webb were nominated for the 2020 Tony
+          Award for Best Original Score for Theatre for The Rose Tattoo.
+          <br /> <br />
+          Click below for a full equipment list an article discussing the
+          process.
+          <br />
+          <a
+            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
+            target="_blank"
+          >
             <ViewProjectButton>EQ List</ViewProjectButton>
-            </a>
-            <a 
-href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf" target="_blank">
-
-          <ViewProjectButton>Article</ViewProjectButton>
+          </a>
+          <a
+            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf"
+            target="_blank"
+          >
+            <ViewProjectButton>Article</ViewProjectButton>
           </a>
         </p>
       </ProjectDescription>
