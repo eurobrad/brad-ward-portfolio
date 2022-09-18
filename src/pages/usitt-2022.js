@@ -121,22 +121,15 @@ const USITT2022 = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Once again working wtih designer Fitz Patton and Associate Sunny Kil,
-          Brad was fortunate to be a part of the design team for this excellent
-          performance at the American Airlines Theatre directed by Trip Cullman
-          and staring Marisa Tomei. This was Brad's first experience with TiMax
-          which proved to make the sound natural. Brad said "I don't know how we
-          would have achieved this given the challenges of the cast's movement
-          through the space."
-          <br /> <br />
-          The design was largely a Meyer PA with vocal reinforcement via
-          Sennheiser and Lectrosonics wireless mics and DPA floor mics.
-          <br /> <br />
-          Ftiz Patton and Jason Michael Webb were nominated for the 2020 Tony
-          Award for Best Original Score for Theatre for The Rose Tattoo.
-          <br /> <br />
-          Click below for a full equipment list an article discussing the
-          process.
+          USITT 2022 Conference featured a presentation on Spatial Sound led by
+          Brad Ward with participants Christopher Baine, Richard Bugg, Ianina
+          Canalis, Duncan Crundwell, and Ralf Zuleeg. We quickly determined that
+          we had much to much information to present in the time alloted, so we
+          decided to cover the history and theory of spatial sound in this
+          session. USITT 2023 in St. Louis, will have a special focus on spatial
+          sound and will pick up where we left off with more informational
+          sessions and live demos. In this session, Brad gathered these heavy
+          hitters in the field to cover this extremely pertinent topic.
           <br />
           <a
             href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
