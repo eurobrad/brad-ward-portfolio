@@ -105,7 +105,16 @@ const ArticlesPage = () => (
           Storming Elsinore
         </a>
       </p>
-
+      <p>USITT 2018 Health and Safety Panel: How Loud is Too Loud?</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/s/zbd2jhjf76mp6d4/USITT2018%20How%20Loud%20is%20Too%20Loud.pdf?dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Notes
+        </a>
+      </p>
       <p>
         USITT 2018 Creative Teaching Panel: Brad Presented one his Belmont
         University Intro to Sound Reinforcement Lab Project, and this project is
