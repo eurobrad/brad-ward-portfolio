@@ -96,6 +96,16 @@ const ArticlesPage = () => (
         Lighting & Sound America Article - Storming Elsinore - Design of
         Bernhardt Hamlet on Broadway 2018
       </p>
+       <p>USITT 2018 Health and Safety Panel: How Loud is Too Loud?</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/s/zbd2jhjf76mp6d4/USITT2018%20How%20Loud%20is%20Too%20Loud.pdf?dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Notes
+        </a>
+      </p>
       <p>
         <a
           href="https://eurobrad.s3.us-east-2.amazonaws.com/bernhardthamlet%202018/BernhardtHamlet%20L%26SA%20Article.pdf"
