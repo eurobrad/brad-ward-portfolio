@@ -21,7 +21,17 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
-
+          <p>2022</p>
+ <p>USITT 2022 Spatial Sound for Theatre & Live Events - Part 1 - History, Theory, & Resources</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session PDF
+        </a>
+      </p>
       <p>2020</p>
 
       <p>USITT Forum at Four Webinar: What is a Sound Associate?</p>
