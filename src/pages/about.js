@@ -22,7 +22,7 @@ const AboutPage = () => (
     <About>
       <PageTitle>About Brad</PageTitle>
       <p>
-        Brad is a Senior Associate at{' '}
+        Brad is a CTS-D certified Senior Associate for Audio-Video and Technology at{' '}
         <a
           href="http://www.auerbachconsultants.com"
           rel="noopener"
@@ -36,18 +36,17 @@ const AboutPage = () => (
       </p>
       <br />
       <p>
-        Brad was recently the sound designer for PENELOPE, OR HOW THE ODYSSEY
-        WAS REALLY WRITTEN at The York Theatre in NYC and assistant designer for
+        Brad was recently the sound designer for I NEED THAT on Broadway starring Danny DeVito and assistant designer for
         Audible.com Theater at Minetta Lane's HEART. He was the associate sound
         designer THE ROSE TATTOO on Broadway which was nominated for the 2020
         Tony Award for Best Original Score for Theatre and for CHOIR BOY on
         Broadway which won the 2019 Tony Award for Best Sound Design for a Play.
-        He was the curator for Sound Kitchen 2023 at OISTAT's World Stage Design
-        expo in Calgary.
+        He is the head of Sound for OISTAT and will be designing the system for TRANSCENDENT RENAISSANCE at World Stage Design in October, 2025 in Sharjah, UAE.
       </p>
       <br />
       <p>
-        Previously, Brad taught Audio Engineering at Belmont University in
+        Previously, Brad was a Senior Consultant at DLR Group in NYC, taught Audio Engineering 
+        at Belmont University in
         Nashville, Digital Production at Mountview Academy for the Arts in
         London, Sound Design for UNLV in Las Vegas, Project Manager for Blitz
         Communications in London, and Lead System Tech for Cirque du Soleil’s
