@@ -21,7 +21,17 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
-          <p>2022</p>
+          <p>2024</p>
+  <p>OISTAT Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
+      <p>
+        <a
+          href="https://youtu.be/E9crt2Aqlj0?si=GZcAipmUyDciIF4p"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Video
+        </a>
+      </p>
  <p>USITT 2022 Spatial Sound for Theatre & Live Events - Part 1 - History, Theory, & Resources</p>
       <p>
         <a
