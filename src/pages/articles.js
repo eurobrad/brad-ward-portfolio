@@ -22,6 +22,16 @@ const ArticlesPage = () => (
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
           <p>2024</p>
+   <p>OISTAT Sound Design Webinar- Production Intercoms & Intro to OISTAT Sound Design</p>
+      <p>
+        <a
+          href="https://www.youtube.com/watch?v=d2O7O1YAKuY"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Video
+        </a>
+      </p>
   <p>OISTAT Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
       <p>
         <a
