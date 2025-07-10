@@ -32,7 +32,7 @@ const AboutPage = () => (
         </a>{' '}
         where he designs sound and video systems for theatres, themed
         entertainment, and productions around the world. Brad is also a New York
-        City based Sound Designer and Broadway Associate.
+        City based Sound Designer.
       </p>
       <br />
       <p>
