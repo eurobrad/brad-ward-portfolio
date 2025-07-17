@@ -39,7 +39,7 @@ const ArticlesPage = () => (
           rel="noopener"
           target="_blank"
         >
-          Session Video
+          Podcast Video
         </a>
       </p>
   <p>OISTAT Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
