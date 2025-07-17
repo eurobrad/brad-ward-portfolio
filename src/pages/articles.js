@@ -29,7 +29,7 @@ const ArticlesPage = () => (
           rel="noopener"
           target="_blank"
         >
-          Session Video
+          Podcast Video
         </a>
       </p>
    <p>OISTAT Sound Design Webinar- Production Intercoms & Intro to OISTAT Sound Design</p>
@@ -39,7 +39,7 @@ const ArticlesPage = () => (
           rel="noopener"
           target="_blank"
         >
-          Podcast Video
+          Webinar Video
         </a>
       </p>
   <p>OISTAT Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
@@ -49,7 +49,7 @@ const ArticlesPage = () => (
           rel="noopener"
           target="_blank"
         >
-          Session Video
+          Webinar Video
         </a>
       </p>
  <p>USITT 2022 Spatial Sound for Theatre & Live Events - Part 1 - History, Theory, & Resources</p>
