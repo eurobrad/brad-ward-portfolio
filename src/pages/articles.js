@@ -22,6 +22,16 @@ const ArticlesPage = () => (
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
           <p>2024</p>
+  <p>StageLync Podcast Intetrview covering OISTAT Sound Design and Brad's work in Sound Design and Consulting</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/scl/fi/g9t9arnalzf78xk9yr0w1/Stagelync_-_Brad_Ward_FULL_EPa7sy3.mp4?rlkey=i467uf1vkrnfnv18xy9ktxjlp&dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session Video
+        </a>
+      </p>
    <p>OISTAT Sound Design Webinar- Production Intercoms & Intro to OISTAT Sound Design</p>
       <p>
         <a
