@@ -64,14 +64,15 @@ const ArticlesPage = () => (
         >
           Session PDF
         </a>
-                    <a
+        <a
           href="https://open.spotify.com/episode/0yAtCZHN5JxxMCFmru9Xkb?si=Xq6nI3veRFCNI1AL9EM8Iw"
           rel="noopener"
           target="_blank"
         >
           Spotify Podcast
         </a>
-                   href="https://podcasts.apple.com/us/podcast/sonic-days-podcast/id1762684259?i=1000670331023"
+<a
+            href="https://podcasts.apple.com/us/podcast/sonic-days-podcast/id1762684259?i=1000670331023"
           rel="noopener"
           target="_blank"
         >
