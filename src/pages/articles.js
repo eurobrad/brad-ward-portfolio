@@ -22,7 +22,7 @@ const ArticlesPage = () => (
     <Articles>
       <PageTitle>Articles & Resources</PageTitle>
           <p>2024</p>
-  <p>StageLync Podcast Intetrview covering OISTAT Sound Design and Brad's work in Sound Design and Consulting</p>
+  <p>StageLync Podcast 2024: Intetrview covering OISTAT Sound Design and Brad's work in Sound Design and Consulting</p>
       <p>
         <a
           href="https://www.dropbox.com/scl/fi/g9t9arnalzf78xk9yr0w1/Stagelync_-_Brad_Ward_FULL_EPa7sy3.mp4?rlkey=i467uf1vkrnfnv18xy9ktxjlp&dl=0"
@@ -90,7 +90,7 @@ const ArticlesPage = () => (
         </a>
       </p>
       <p>2021</p>
-             <p>USITT 2021 Panel: Designing Sound Systems and Acoustics for Flexible Theater Spaces</p>
+             <p>USITT AIA 2021 Panel: Designing Sound Systems and Acoustics for Flexible Theater Spaces</p>
       <p>
         <a
           href="https://www.dropbox.com/scl/fi/4agbbislhcsjp9oxmk1aj/USITT-21-Designing-Flexible-Sound-Systems-for-Theater-Spaces.pdf?rlkey=ubr3jxxxjwdgiqh8zxwscvqa0&dl=0"
