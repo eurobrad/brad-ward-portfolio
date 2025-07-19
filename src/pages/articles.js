@@ -20,7 +20,7 @@ const ArticlesPage = () => (
   <Layout>
     <SEO title="Articles" />
     <Articles>
-      <PageTitle>Articles & Resources</PageTitle>
+      <PageTitle>Articles, Presentations, & Resources</PageTitle>
           <p>2024</p>
   <p>StageLync Podcast 2024: Intetrview covering OISTAT Sound Design and Brad's work in Sound Design and Consulting</p>
       <p>
