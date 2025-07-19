@@ -58,7 +58,7 @@ const ArticlesPage = () => (
  <p>USITT 2023 Sonic Days Panel: Possibilities & Challenges in Theatrical Spatial Sound Design</p>
       <p>
         <a
-          href="https://www.dropbox.com/scl/fi/77wv8zk2377ek3u6mxcuh/Sonic-Days-2023-BMW-Slides.pdf?rlkey=ds2v550bpin9yu9x2ky6jhq42&dl=0"
+          href="https://www.dropbox.com/scl/fi/8xzg3hwcjwzkeykc4ayu4/Sonic-Days-2023-BMW-Slides.pdf?rlkey=olr7tnvcqeclzy4qxzylguqpq&dl=0"
           rel="noopener"
           target="_blank"
         >
