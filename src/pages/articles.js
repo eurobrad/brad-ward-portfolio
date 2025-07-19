@@ -32,7 +32,7 @@ const ArticlesPage = () => (
           Podcast Video
         </a>
       </p>
-   <p>OISTAT Sound Design Webinar- Production Intercoms & Intro to OISTAT Sound Design</p>
+   <p>OISTAT 2024 Sound Design Webinar- Production Intercoms & Intro to OISTAT Sound Design</p>
       <p>
         <a
           href="https://www.youtube.com/watch?v=d2O7O1YAKuY"
@@ -42,7 +42,7 @@ const ArticlesPage = () => (
           Webinar Video
         </a>
       </p>
-  <p>OISTAT Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
+  <p>OISTAT 2024 Sound Design Webinar- Exploring Theatre Miking Head to Heel</p>
       <p>
         <a
           href="https://youtu.be/E9crt2Aqlj0?si=GZcAipmUyDciIF4p"
@@ -51,7 +51,34 @@ const ArticlesPage = () => (
         >
           Webinar Video
         </a>
+
+            
       </p>
+                              <p>2023</p>
+ <p>USITT 2023 Sonic Days Panel: Possibilities & Challenges in Theatrical Spatial Sound Design</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/scl/fi/77wv8zk2377ek3u6mxcuh/Sonic-Days-2023-BMW-Slides.pdf?rlkey=ds2v550bpin9yu9x2ky6jhq42&dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session PDF
+        </a>
+                    <a
+          href="https://open.spotify.com/episode/0yAtCZHN5JxxMCFmru9Xkb?si=Xq6nI3veRFCNI1AL9EM8Iw"
+          rel="noopener"
+          target="_blank"
+        >
+          Spotify Podcast
+        </a>
+                   href="https://podcasts.apple.com/us/podcast/sonic-days-podcast/id1762684259?i=1000670331023"
+          rel="noopener"
+          target="_blank"
+        >
+          Apple Podcast
+        </a>   
+      </p>
+                  <p>2022</p>
  <p>USITT 2022 Spatial Sound for Theatre & Live Events - Part 1 - History, Theory, & Resources</p>
       <p>
         <a
