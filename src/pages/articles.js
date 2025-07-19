@@ -62,9 +62,20 @@ const ArticlesPage = () => (
           Session PDF
         </a>
       </p>
+      <p>2021</p>
+             <p>USITT 2021 Panel: Designing Sound Systems and Acoustics for Flexible Theater Spaces</p>
+      <p>
+        <a
+          href="https://www.dropbox.com/scl/fi/4agbbislhcsjp9oxmk1aj/USITT-21-Designing-Flexible-Sound-Systems-for-Theater-Spaces.pdf?rlkey=ubr3jxxxjwdgiqh8zxwscvqa0&dl=0"
+          rel="noopener"
+          target="_blank"
+        >
+          Session PDF
+        </a>
+      </p>
       <p>2020</p>
 
-      <p>USITT Forum at Four Webinar: What is a Sound Associate?</p>
+      <p>USITT 2020 Forum at Four Webinar: What is a Sound Associate?</p>
       <p>
         <a
           href="https://www.youtube.com/watch?v=AYlZ9r2sVts"
