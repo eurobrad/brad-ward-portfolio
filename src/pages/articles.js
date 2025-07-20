@@ -87,11 +87,11 @@ const ArticlesPage = () => (
  <p>USITT 2022 Spatial Sound for Theatre & Live Events - Part 1 - History, Theory, & Resources</p>
       <p>
         <a
-          href="https://www.dropbox.com/s/cyudb461jjk2mj4/Immersive%20Sound%20History%20USSIT%202022.pdf?dl=0"
+          href="https://bradward.net/usitt-2022"
           rel="noopener"
           target="_blank"
         >
-          Session PDF
+          Session Info & PDF
         </a>
       </p>
       <p>2021</p>
