@@ -231,15 +231,15 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg')`,
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg')`,
               }}
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                Queen Elizabeth's Diamond Jubilee
+                Immersive Experience - Weta Workshop, Hainan, China
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Sound Designer/Project Manager
+                Sound Syste Designer
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>

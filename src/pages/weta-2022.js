@@ -84,7 +84,7 @@ const DiamondJubilee = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Queen.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg" />
             <p className="legend">Queen Elizabeth and Prince Philip</p>
           </div>
           <div>
