@@ -231,7 +231,7 @@ const IndexPage = () => (
           <PortfolioPiece>
             <PortfolioImage
               style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg')`,
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg')`,
               }}
             />
             <PortfolioDescription>
