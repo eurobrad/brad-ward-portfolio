@@ -236,10 +236,10 @@ const IndexPage = () => (
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                Queen Elizabeth's Diamond Jubilee
+                Immersive Experience - Weta Workshop, Hainan, China
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Sound Designer/Project Manager
+                Sound Syste Designer
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
