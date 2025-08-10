@@ -181,13 +181,12 @@ const IndexPage = () => (
             Theatrical Sound Designer
           </h3>
           <p>
-            Brad is an award winning Sound Designer and Senior Theatrical
-            Audiovisual Consultant. Brad meticulously designs and aligns systems
-            that precisely deliver the sound design for a production night after
-            night. His striking and subtle sound designs work in concert with
-            other design elements to tell stories. He creates custom sound
-            effects, soundscapes, and music, and is an expert in show control,
-            MaxMSP, and spatial sound.
+            Brad is an award winning Sound Designer. Brad meticulously designs
+            and aligns systems that precisely deliver the sound design for a
+            production night after night. His striking and subtle sound designs
+            work in concert with other design elements to tell stories. He
+            creates custom sound effects, soundscapes, and music, and is an
+            expert in show control, MaxMSP, and spatial sound.
           </p>
         </ContentSection>
         <ContentSection>
