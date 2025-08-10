@@ -239,12 +239,12 @@ const IndexPage = () => (
                 Immersive Experience - Weta Workshop, Hainan, China
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
-                Sound Syste Designer
+                Sound System Designer
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/time-stands-still">
+        <Link to="/images/usitt2022/SpatialSoundGroup.JPG">
           <PortfolioPiece>
             <PortfolioImage
               style={{
