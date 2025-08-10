@@ -226,13 +226,32 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
-        <Link to="/usitt-2022">
+
+        <Link to="/weta-2022">
           <PortfolioPiece>
             <PortfolioImage
               style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/usitt2022/SpatialSoundGroup.JPG')`,
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/jubilee-flag-queen.jpg')`,
               }}
             />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Queen Elizabeth's Diamond Jubilee
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound Designer/Project Manager
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+        <Link to="/time-stands-still">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/time-stands-still.jpg')`,
+              }}
+            />
+
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 The History and Theory of Spatial Sound
