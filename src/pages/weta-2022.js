@@ -108,28 +108,29 @@ const DiamondJubilee = () => (
           Weta Workshop to turn a five-story atrium into a multi-sensory,
           immersive experience for storytelling based on the ecology of Hainan,
           the Chinese island on which it resides. The project received numerous
-          awards and has been well received by the public. 
-          <p>
-            Sustainability and naturality became important concepts as Bradlee met with the composer
-          and creators to design a system to believably deliver a story of a
-          magical orb taking two children on a fantastical journey. This
-          originated at a 29M tall LED waterfall flanked by concealed
-          L-Acoustics line-arrays and moved through the space to various
-          elements where they encounter a mother tree deer and faun,
+          awards and has been well received by the public.{' '}
+        </p>
+        <p>
+          Sustainability and naturality became important concepts as Bradlee met
+          with the composer and creators to design a system to believably
+          deliver a story of a magical orb taking two children on a fantastical
+          journey. This originated at a 29M tall LED waterfall flanked by
+          concealed L-Acoustics line-arrays and moved through the space to
+          various elements where they encounter a mother tree deer and faun,
           hummingbirds, a moon bridge, magical trees, and the source of the
-          land’s mystery, the Tree of Light. 
-          <p>
-            As visitors move through the space,
-          they are followed by interactive lights and sounds, making them an
-          active part of the evolving story. 
-          <p>
-            In addition to sound quality and
-          interactivity, Bradlee notes that movement and
-          localization/spatialization of each sound to its respective element
-          within the space and time was a key to success. His design works in
-          harmony with all other design elements, successfully allowing those
-          entering the space to become an active part of the story being told
-          and connecting them to the ecology of Hainan.
+          land’s mystery, the Tree of Light.{' '}
+        </p>
+        <p>
+          As visitors move through the space, they are followed by interactive
+          lights and sounds, making them an active part of the evolving story.{' '}
+        </p>
+        <p>
+          In addition to sound quality and interactivity, Bradlee notes that
+          movement and localization/spatialization of each sound to its
+          respective element within the space and time was a key to success. His
+          design works in harmony with all other design elements, successfully
+          allowing those entering the space to become an active part of the
+          story being told and connecting them to the ecology of Hainan.
         </p>
       </ProjectDescription>
     </ProjectContent>
