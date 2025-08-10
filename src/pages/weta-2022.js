@@ -84,20 +84,20 @@ const DiamondJubilee = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg" />
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Queen.jpg" />
             <p className="legend">Queen Elizabeth and Prince Philip</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/mwMch12que_0324.jpg" />
-            <p className="legend">The Setup, Manchester Central Hall</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_3.jpg" />
+            <p className="legend">Hummingbird</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Rig.JPG" />
-            <p className="legend">The d&b Rig</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_4.jpg" />
+            <p className="legend">Tree of Light</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/DiamondJubilee/Array%20Calc.jpg" />
-            <p className="legend">The Array Calc</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_5.jpg" />
+            <p className="legend">Escalator</p>
           </div>
         </Carousel>
       </ProjectMedia>
