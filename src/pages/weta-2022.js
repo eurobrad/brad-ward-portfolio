@@ -75,10 +75,10 @@ const ProjectContent = styled.div`
 
 const DiamondJubilee = () => (
   <Layout>
-    <SEO title="Haikou Shopping Complex - Immersive Experience, China" />
+    <SEO title="Haikou Shopping Complex - Immersive Experience, Hainan, China" />
     <ProjectContent>
       <ProjectContentTitle>
-        Haikou Shopping Complex - Immersive Experience, China
+        Haikou Shopping Complex - Immersive Experience, Hainan, China
       </ProjectContentTitle>
       <ProjectSubtitle>Sound System Designer</ProjectSubtitle>
       <ProjectMedia>
@@ -103,10 +103,33 @@ const DiamondJubilee = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          While living in the UK I had the honor of serving the Queen as Sound
-          Designer and Project Manager for her Jubilee Celebration in
-          Manchester. It was a very exciting day and it went off without a
-          hitch.
+          As the Sound System Designer for Aura: The Forest at the Edge of the
+          Sky, Apeiro Design’s Bradlee Ward worked closely with the producer,
+          Weta Workshop to turn a five-story atrium into a multi-sensory,
+          immersive experience for storytelling based on the ecology of Hainan,
+          the Chinese island on which it resides. The project received numerous
+          awards and has been well received by the public. 
+          <p>
+            Sustainability and naturality became important concepts as Bradlee met with the composer
+          and creators to design a system to believably deliver a story of a
+          magical orb taking two children on a fantastical journey. This
+          originated at a 29M tall LED waterfall flanked by concealed
+          L-Acoustics line-arrays and moved through the space to various
+          elements where they encounter a mother tree deer and faun,
+          hummingbirds, a moon bridge, magical trees, and the source of the
+          land’s mystery, the Tree of Light. 
+          <p>
+            As visitors move through the space,
+          they are followed by interactive lights and sounds, making them an
+          active part of the evolving story. 
+          <p>
+            In addition to sound quality and
+          interactivity, Bradlee notes that movement and
+          localization/spatialization of each sound to its respective element
+          within the space and time was a key to success. His design works in
+          harmony with all other design elements, successfully allowing those
+          entering the space to become an active part of the story being told
+          and connecting them to the ecology of Hainan.
         </p>
       </ProjectDescription>
     </ProjectContent>
