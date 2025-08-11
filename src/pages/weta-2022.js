@@ -82,7 +82,7 @@ const DiamondJubilee = () => (
       </ProjectContentTitle>
       <ProjectSubtitle>Sound System Designer</ProjectSubtitle>
       <ProjectMedia>
-        <Carousel autoPlay>
+        <Carousel autoPlay infiniteLoop>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg" />
             <p className="legend">Aura</p>
