@@ -244,7 +244,7 @@ const IndexPage = () => (
             </PortfolioDescription>
           </PortfolioPiece>
         </Link>
-        <Link to="/images/usitt2022/SpatialSoundGroup.JPG">
+        <Link to="/usitt-2022">
           <PortfolioPiece>
             <PortfolioImage
               style={{
