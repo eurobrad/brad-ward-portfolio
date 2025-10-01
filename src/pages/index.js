@@ -170,6 +170,7 @@ const IndexPage = () => (
         `tony award`,
         `spatial sound`,
         `immersive audio`,
+        `TiMax`,
       ]}
     />
     <PageTitle>Sound Design and Consulting for Theatre</PageTitle>
