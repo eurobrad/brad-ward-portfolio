@@ -200,8 +200,8 @@ const IndexPage = () => (
             speciallizing in immersive audio systems. He has successfully
             designed and managed projects around the world. Brad can objectively
             design and engineer a system right for your application or manage
-            your upcoming project. Please contact Brad to discuss how we can
-            collaborate.
+            your upcoming project. Please reach out to Brad to discuss how we
+            can collaborate.
           </p>
         </ContentSection>
         <ContentSection>
