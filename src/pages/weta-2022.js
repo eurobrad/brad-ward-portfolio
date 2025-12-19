@@ -107,7 +107,7 @@ const DiamondJubilee = () => (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/CoY5TxiUGxY?si=QSkdIJED8ddp_HNC"
+          src="https://www.youtube.com/embed/CoY5TxiUGxY?si=l37HEfycXnTZgDDp&amp;start=1857"
           title="Frame:Work 2025 Talk"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
