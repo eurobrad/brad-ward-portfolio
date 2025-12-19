@@ -173,7 +173,7 @@ const IndexPage = () => (
         `TiMax`,
       ]}
     />
-    <PageTitle>Sound Design and Consulting for Theatre</PageTitle>
+    <PageTitle>Sound Design and AV Consulting for Theatre</PageTitle>
     <main>
       <section>
         <ContentSection>
