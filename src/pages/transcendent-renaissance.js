@@ -104,23 +104,19 @@ const TR = () => (
       </ProjectMedia>
       <ProjectDescription>
         <p>
-          Once again working wtih designer Fitz Patton and Associate Sunny Kil,
-          Brad was fortunate to be a part of the design team for this excellent
-          performance at the American Airlines Theatre directed by Trip Cullman
-          and staring Marisa Tomei. This was Brad's first experience with TiMax
-          which proved to make the sound natural. Brad said "I don't know how we
-          would have achieved this given the challenges of the cast's movement
-          through the space."
+          Brad was the sound designer for Transcendent Renaissance by Calin
+          Topa, an immersive exploration of time and memory through sound,
+          performance, and design. Focusing on sound, it blended multi-track
+          choral recordings, music, and sounds with other elements and live
+          performers to create a unified multi-sensory experience for the
+          audience. Performed in the desert outside Dubai at a 4000 year old
+          burial site, this work aligned perfectly with Brad's vision to bing
+          the world together through sound. The sound team was comprised of
+          individuals from eight different countries from around the world.
           <br /> <br />
-          The design was largely a Meyer PA with vocal reinforcement via
-          Sennheiser and Lectrosonics wireless mics and DPA floor mics.
+          In these links, Brad walks through the design in a talk he delivered
+          at the Frame:Work NYC conference.
           <br /> <br />
-          Ftiz Patton and Jason Michael Webb were nominated for the 2020 Tony
-          Award for Best Original Score for Theatre for The Rose Tattoo.
-          <br /> <br />
-          Click below for a full equipment list an article discussing the
-          process.
-          <br />
           <a
             href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
             target="_blank"
