@@ -114,9 +114,9 @@ const TR = () => (
           the world together through sound. The sound team was comprised of
           individuals from eight different countries from around the world.
           <br /> <br />
-          In these links, Brad walks through the design in a talk he delivered
-          at the Frame:Work NYC conference.
-          <br /> <br />
+          In this video, Brad walks through the design in a talk he delivered at
+          the Frame:Work NYC conference and the link following is the powerpoint
+          from the presentation.
           <iframe
             width="560"
             height="315"
