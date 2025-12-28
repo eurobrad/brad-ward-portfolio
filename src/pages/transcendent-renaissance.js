@@ -128,16 +128,11 @@ const TR = () => (
             allowfullscreen
           />
           <a
-            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
+            href="https://www.dropbox.com/scl/fi/tpzogxc4wdi2w6ot2djs1/Sight-Sound-Story-framework-NYC25.pdf?rlkey=w28f43lk0nmkt0kaxl8tjwbql&dl=0"
             target="_blank"
           >
-            <ViewProjectButton>EQ List</ViewProjectButton>
-          </a>
-          <a
-            href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/RoseTattoo_TiMax_LSA.pdf"
-            target="_blank"
-          >
-            <ViewProjectButton>Article</ViewProjectButton>
+            <br /> <br />
+            <ViewProjectButton>PDF Notes</ViewProjectButton>
           </a>
         </p>
       </ProjectDescription>
