@@ -85,46 +85,20 @@ const TR = () => (
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/AmericanAirlines.jpg" />
-            <p className="legend">The Rose Tattoo on Broadway</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/TR ChamberTitle.png" />
+            <p className="legend">Burial Chamber</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/RedCarpet.jpg" />
-            <p className="legend">
-              Fitz Patton, Designer with Associates Sunny Kil & Brad Ward
-            </p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/tR SoundVision.png" />
+            <p className="legend">SoundVision Screen</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/brad-techtable.jpg" />
-            <p className="legend">Brad at Tech Tech Table</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/TR L-Isa.png" />
+            <p className="legend">L-Isa Screen</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/frontshot.jpg" />
-            <p className="legend">The Meyer Rig</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/speakers-sideshot.jpg" />
-            <p className="legend">Side Shot</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Racks.JPG" />
-            <p className="legend">Rack Room</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/Mic4022.jpg" />
-            <p className="legend">Floor Mic in the Sand</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/ff.jpg" />
-            <p className="legend">Front Fills</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/flamingo.jpg" />
-            <p className="legend">Upstage Speakers with the Flamingos!</p>
-          </div>
-          <div>
-            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/rosetattoo2019/TechBW3.jpg" />
-            <p className="legend">Brad at the Tech Table</p>
+            <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/TR Control.png" />
+            <p className="legend">External Control</p>
           </div>
         </Carousel>
       </ProjectMedia>
