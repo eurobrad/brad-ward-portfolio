@@ -229,30 +229,6 @@ const IndexPage = () => (
           <p data-tooltip="4">Events</p>/<p data-tooltip="3">Award</p>/
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
-        <Link to="/tr2025">
-          <PortfolioPiece>
-            <PortfolioImage
-              style={{
-                backgroundImage: `url('https://www.dropbox.com/scl/fi/bma3fwlm0983eb4b0a0p7/TR-Team.png?rlkey=smr23a3z4j78ap15a869fzggx&dl=0')`,
-              }}
-            />
-            <PortfolioDescription>
-              <PortfolioDescriptionTitle>
-                Transcendent Renaissance - Sharjah, UAE
-              </PortfolioDescriptionTitle>
-              <PortfolioDescriptionText>
-                Sound System Designer
-              </PortfolioDescriptionText>
-            </PortfolioDescription>
-          </PortfolioPiece>
-        </Link>
-        <Link to="/usitt-2022">
-          <PortfolioPiece>
-            <PortfolioImage
-              style={{
-                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/usitt2022/SpatialSoundGroup.JPG')`,
-              }}
-            />
 
         <Link to="/weta-2022">
           <PortfolioPiece>
