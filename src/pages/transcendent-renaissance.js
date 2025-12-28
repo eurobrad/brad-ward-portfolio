@@ -117,6 +117,16 @@ const TR = () => (
           In these links, Brad walks through the design in a talk he delivered
           at the Frame:Work NYC conference.
           <br /> <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/B0pV0Cozbg4?si=pGKrGkXKCTQRGLTZ&amp;start=601"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          />
           <a
             href="https://eurobrad.s3.us-east-2.amazonaws.com/articles/rosetattoo/Rose_Tattoo_on_Broadway_Audio_Equipment_List.pdf"
             target="_blank"
