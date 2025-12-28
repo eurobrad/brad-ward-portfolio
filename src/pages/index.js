@@ -248,7 +248,7 @@ const IndexPage = () => (
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
-        </Link>
+     </Link>
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Immersive Experience - Weta Workshop, Hainan, China
