@@ -230,7 +230,7 @@ const IndexPage = () => (
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
 
-        <Link to="/weta-2022">
+        <Link to="/transcendent-renaissance">
           <PortfolioPiece>
             <PortfolioImage
               style={{
