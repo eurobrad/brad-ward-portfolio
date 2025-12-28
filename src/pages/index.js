@@ -239,7 +239,7 @@ const IndexPage = () => (
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
-                Immersive Experience - Weta Workshop, Hainan, China
+                Transcendent Renaissance - WSD Sharjah, UAE
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
                 Sound System Designer
