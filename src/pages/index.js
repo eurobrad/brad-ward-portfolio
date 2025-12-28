@@ -230,6 +230,33 @@ const IndexPage = () => (
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
 
+<Link to="/weta-2022">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/TR Team.png')`,
+              }}
+            />
+                        <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Transcendent Renaissance - Sharjah, UAE
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound System Designer
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
+                Immersive Experience - Weta Workshop, Hainan, China
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound System Designer
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+
         <Link to="/weta-2022">
           <PortfolioPiece>
             <PortfolioImage
