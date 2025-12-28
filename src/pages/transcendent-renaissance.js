@@ -73,12 +73,15 @@ const ProjectContent = styled.div`
   }
 `
 
-const RoseTattoo = () => (
+const TR = () => (
   <Layout>
-    <SEO title="The Rose Tattoo on Broadway" />
+    <SEO title="Transcendent Renaissance" />
     <ProjectContent>
-      <ProjectContentTitle>The Rose Tattoo on Broadway</ProjectContentTitle>
-      <ProjectSubtitle>Associate Sound Designer</ProjectSubtitle>
+      <ProjectContentTitle>
+        Transcendent Renaissance at OISTAT's World Stage Design, Sharjah, UAE
+        2025
+      </ProjectContentTitle>
+      <ProjectSubtitle>Sound Designer</ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
           <div>
@@ -162,4 +165,4 @@ const RoseTattoo = () => (
   </Layout>
 )
 
-export default RoseTattoo
+export default TR
