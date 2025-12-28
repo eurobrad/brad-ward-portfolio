@@ -230,8 +230,6 @@ const IndexPage = () => (
           <p data-tooltip="0">Projection Mapping</p>
         </PortfolioCategories> */}
 
-
-
         <Link to="/weta-2022">
           <PortfolioPiece>
             <PortfolioImage
@@ -239,7 +237,7 @@ const IndexPage = () => (
                 backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg')`,
               }}
             />
-                        <PortfolioDescription>
+            <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Transcendent Renaissance - Sharjah, UAE
               </PortfolioDescriptionTitle>
@@ -248,7 +246,15 @@ const IndexPage = () => (
               </PortfolioDescriptionText>
             </PortfolioDescription>
           </PortfolioPiece>
-     </Link>
+        </Link>
+
+        <Link to="/weta-2022">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg')`,
+              }}
+            />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
                 Immersive Experience - Weta Workshop, Hainan, China
