@@ -30,7 +30,7 @@ const ProjectMedia = styled.div`
 const ProjectDescription = styled.section`
   display: inline-block;
   width: 49%;
-  height: 600px;
+  height: 630px;
   overflow: auto;
   vertical-align: top;
   text-align: left;
@@ -131,7 +131,6 @@ const TR = () => (
             href="https://www.dropbox.com/scl/fi/tpzogxc4wdi2w6ot2djs1/Sight-Sound-Story-framework-NYC25.pdf?rlkey=w28f43lk0nmkt0kaxl8tjwbql&dl=0"
             target="_blank"
           >
-            <br /> <br />
             <ViewProjectButton>PDF Notes</ViewProjectButton>
           </a>
         </p>
