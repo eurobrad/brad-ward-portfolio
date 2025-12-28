@@ -83,7 +83,7 @@ const TR = () => (
       </ProjectContentTitle>
       <ProjectSubtitle>Sound Designer</ProjectSubtitle>
       <ProjectMedia>
-        <Carousel autoPlay>
+        <Carousel autoPlay infiniteLoop={true}>
           <div>
             <img src="https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/TR/TR ChamberTitle.png" />
             <p className="legend">Burial Chamber</p>
