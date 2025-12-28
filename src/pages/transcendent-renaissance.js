@@ -30,7 +30,7 @@ const ProjectMedia = styled.div`
 const ProjectDescription = styled.section`
   display: inline-block;
   width: 49%;
-  height: 465px;
+  height: 600px;
   overflow: auto;
   vertical-align: top;
   text-align: left;
