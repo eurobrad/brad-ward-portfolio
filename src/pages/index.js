@@ -257,6 +257,24 @@ const IndexPage = () => (
             />
             <PortfolioDescription>
               <PortfolioDescriptionTitle>
+                Transcendent Renaissance - WSD Sharjah, UAE
+              </PortfolioDescriptionTitle>
+              <PortfolioDescriptionText>
+                Sound System Designer
+              </PortfolioDescriptionText>
+            </PortfolioDescription>
+          </PortfolioPiece>
+        </Link>
+
+        <Link to="/weta-2022">
+          <PortfolioPiece>
+            <PortfolioImage
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/eurobrad/brad-ward-portfolio/master/src/images/Weta/Ward_Aura_1.jpg')`,
+              }}
+            />
+            <PortfolioDescription>
+              <PortfolioDescriptionTitle>
                 Immersive Experience - Weta Workshop, Hainan, China
               </PortfolioDescriptionTitle>
               <PortfolioDescriptionText>
