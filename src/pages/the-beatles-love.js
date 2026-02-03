@@ -79,7 +79,7 @@ const TheBeatlesLOVE = () => (
     <ProjectContent>
       <ProjectContentTitle>The Beatles LOVE</ProjectContentTitle>
       <ProjectSubtitle>
-        Cirque du Soleil, The Mirage, Apple Records - 2006-2024
+        by Cirque du Soleil at The Mirage - 2006-2024
       </ProjectSubtitle>
       <ProjectMedia>
         <Carousel autoPlay>
@@ -114,32 +114,28 @@ const TheBeatlesLOVE = () => (
       <ProjectDescription>
         <h4>Award: Two time Grammy award winner</h4>
         <p>
-          The Beatles LOVE by Cirque du Soleil at the Mirage Casino in LasVegas
-          which ran from 2006 - 2024 and was heard by 11.8 million people during
-          the 18 year run. From 2006-2008, Brad was the Lead Audio System Tech
-          for this legendary production where during "creation" or tech and the
-          preview period, he had the privilege of sitting by Sir George Martin,
-          the musical director on what was his last project before retiring, his
-          son Giles, and Sound Designer Jonathan Deans. The show was all
-          playback and made use of original Beatles recordings that Sir George
-          and Apple Records owned. It was originally edited and mixed in Abbey
-          Road studios and completed in a studio built to the same spec within
-          the LOVE theatre. Brad and the 8-member audio team had the role of
-          making sure the sound system performed as it should for every show,
-          and during Brad's time as system tech, no performances were canceled
-          or delayed due to audio problems. This meant a daily system check of
-          all 6,432 loudspeakers, the playback and processing system,
-          microphones, the intercom/paging system, and the audio and video
-          monitor system to be sure they were functioning properly and being
-          ready to quickly correct any problem that came up. Through this
-          period, Cirque du Soleil was know for pushing the limits in everything
-          they did, and this was no exception. System designed by Jonathan
-          Deans, the consultant was Paul Garrity, and the installation was done
-          by Solotech. It was Aligned/calibrated/tuned by Bob McCarthy. The bulk
-          of the system was a Meyer/LCS system. For a full full equipment list
-          and description, please read the excellent article by John Huntington
-          linked below. "And in the end, the love you take is equal to the love
-          you make" The Beatles 1969
+          The Beatles LOVE was heard by 11.8 million people during the 18 year
+          run. From 2006-2008, Brad was the Lead Audio System Tech for this
+          legendary production where he had the privilege of sitting by Sir
+          George Martin, the musical director on what was his last project
+          before retiring, his son Giles, and Sound Designer Jonathan Deans. The
+          show used original Beatles recordings that Sir George owned.
+          <br /> Brad and the 8-member audio team made sure the sound system
+          performed as it should for every show, and during Brad's time as
+          system tech, no performances were canceled or delayed due to audio
+          problems. This meant a daily system check of all 6,432 loudspeakers,
+          the playback and processing system, microphones, the intercom/paging
+          system, and the audio and video monitor system to be sure they were
+          functioning properly and being ready to quickly correct any problem
+          that came up.
+          <br /> Through this period, Cirque du Soleil was know for pushing the
+          limits in everything they did, and this was no exception. System
+          designed by Jonathan Deans, the consultant was Paul Garrity, and the
+          installation was done by Solotech. It was Aligned/calibrated/tuned by
+          Bob McCarthy. The bulk of the system was a Meyer/LCS system. For a
+          full full equipment list and description, please read the excellent
+          article by John Huntington linked below. <br /> "And in the end, the
+          love you take is equal to the love you make" The Beatles 1969
         </p>
       </ProjectDescription>
     </ProjectContent>
