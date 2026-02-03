@@ -100,15 +100,15 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE SGT Pepper</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad FOH.JPG" />
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/images/Brad FOH.JPG" />
             <p className="legend">Brad at Front of House Mix</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad_Giles_AR.JPG" />
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/images/Brad_Giles_AR.JPG" />
             <p className="legend">Giles Martin and Brad at Abby Road Studio</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad_Giles_Abbey_RoadJPG" />
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/images/Brad_Giles_Abbey_RoadJPG" />
             <p className="legend">Giles Martin and Brad at Abbey Road Studio</p>
           </div>
         </Carousel>
