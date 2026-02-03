@@ -82,7 +82,7 @@ const TheBeatlesLOVE = () => (
         by Cirque du Soleil at The Mirage - 2006-2024
       </ProjectSubtitle>
       <ProjectMedia>
-        <Carousel autoPlay>
+        <Carousel autoPlay infiniteLoop={true}>
           <div>
             <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-cast.jpg" />
             <p className="legend">LOVE Cast</p>
