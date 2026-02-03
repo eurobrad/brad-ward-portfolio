@@ -99,6 +99,18 @@ const TheBeatlesLOVE = () => (
             <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-sgt-pepper.jpg" />
             <p className="legend">LOVE SGT Pepper</p>
           </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad FOH.JPG" />
+            <p className="legend">Brad at Front of House Mix</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad_Giles_AR.JPG" />
+            <p className="legend">Giles Martin and Brad at Abby Road Studio</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/src/images/Brad_Giles_Abbey_RoadJPG" />
+            <p className="legend">Giles Martin and Brad at Abbey Road Studio</p>
+          </div>
         </Carousel>
         <a
           href="https://www.dropbox.com/s/hfr0x5uabkt95qj/JohnHuntingtonL%26SA.pdf"
@@ -116,14 +128,13 @@ const TheBeatlesLOVE = () => (
         </a>
       </ProjectMedia>
       <ProjectDescription>
-        <h4>Award: Two time Grammy award winner</h4>
+        <h4>Award: Two time Grammy Award Winner</h4>
         <p>
           The Beatles LOVE was heard by 11.8 million people during the 18 year
           run. From 2006-2008, Brad was the Lead Audio System Tech for this
           legendary production where he had the privilege of sitting by Sir
           George Martin, the musical director on what was his last project
-          before retiring, his son Giles, and Sound Designer Jonathan Deans. The
-          show used original Beatles recordings that Sir George owned.
+          before retiring, his son Giles, and Sound Designer Jonathan Deans.
           <br /> <br /> Brad and the 8-member audio team made sure the sound
           system performed as it should for every show, and during Brad's time
           as system tech, no performances were canceled or delayed due to audio
@@ -135,12 +146,11 @@ const TheBeatlesLOVE = () => (
           <br /> <br /> Through this period, Cirque du Soleil was know for
           pushing the limits in everything they did, and this was no exception.
           System designed by Jonathan Deans, the consultant was Paul Garrity,
-          and the installation was done by Solotech. It was
-          Aligned/calibrated/tuned by Bob McCarthy. The bulk of the system was a
-          Meyer/LCS system. For a full full equipment list and description,
-          please read the excellent article by John Huntington linked below.{' '}
-          <br /> <br /> "And in the end, the love you take is equal to the love
-          you make" The Beatles 1969
+          and the installation by Solotech. It was calibrated/tuned by Bob
+          McCarthy. For a full full equipment list and description, see the
+          excellent article by John Huntington linked below. <br /> <br /> "And
+          in the end, the love you take is equal to the love you make" The
+          Beatles 1969
         </p>
       </ProjectDescription>
     </ProjectContent>
