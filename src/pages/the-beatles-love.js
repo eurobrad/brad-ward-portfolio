@@ -88,7 +88,7 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE Cast</p>
           </div>
           <div>
-            <img src="https://www.dropbox.com/scl/fi/i53k3kffq75onzxnaccbb/Love-Crew2006ChristmasEdit.png?rlkey=u8rzdrc4no1p10ulzx7d87ooz&dl=0" />
+            <img src="https://www.dropbox.com/scl/fi/i53k3kffq75onzxnaccbb/Love-Crew2006ChristmasEdit.png" />
             <p className="legend">LOVE Audio Team</p>
           </div>
           <div>
