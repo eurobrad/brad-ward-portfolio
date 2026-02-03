@@ -88,6 +88,10 @@ const TheBeatlesLOVE = () => (
             <p className="legend">LOVE Cast</p>
           </div>
           <div>
+            <img src="src/images/Love-Crew2006ChristmasEdit.png" />
+            <p className="legend">LOVE Cast</p>
+          </div>
+          <div>
             <img src="https://raw.githubusercontent.com/tysonwilliams/brad-ward-portfolio/master/src/images/love-drive-my-car.jpg" />
             <p className="legend">LOVE Drive My Car</p>
           </div>
@@ -120,22 +124,23 @@ const TheBeatlesLOVE = () => (
           George Martin, the musical director on what was his last project
           before retiring, his son Giles, and Sound Designer Jonathan Deans. The
           show used original Beatles recordings that Sir George owned.
-          <br /> Brad and the 8-member audio team made sure the sound system
-          performed as it should for every show, and during Brad's time as
-          system tech, no performances were canceled or delayed due to audio
+          <br /> <br /> Brad and the 8-member audio team made sure the sound
+          system performed as it should for every show, and during Brad's time
+          as system tech, no performances were canceled or delayed due to audio
           problems. This meant a daily system check of all 6,432 loudspeakers,
           the playback and processing system, microphones, the intercom/paging
           system, and the audio and video monitor system to be sure they were
           functioning properly and being ready to quickly correct any problem
           that came up.
-          <br /> Through this period, Cirque du Soleil was know for pushing the
-          limits in everything they did, and this was no exception. System
-          designed by Jonathan Deans, the consultant was Paul Garrity, and the
-          installation was done by Solotech. It was Aligned/calibrated/tuned by
-          Bob McCarthy. The bulk of the system was a Meyer/LCS system. For a
-          full full equipment list and description, please read the excellent
-          article by John Huntington linked below. <br /> "And in the end, the
-          love you take is equal to the love you make" The Beatles 1969
+          <br /> <br /> Through this period, Cirque du Soleil was know for
+          pushing the limits in everything they did, and this was no exception.
+          System designed by Jonathan Deans, the consultant was Paul Garrity,
+          and the installation was done by Solotech. It was
+          Aligned/calibrated/tuned by Bob McCarthy. The bulk of the system was a
+          Meyer/LCS system. For a full full equipment list and description,
+          please read the excellent article by John Huntington linked below.{' '}
+          <br /> <br /> "And in the end, the love you take is equal to the love
+          you make" The Beatles 1969
         </p>
       </ProjectDescription>
     </ProjectContent>
